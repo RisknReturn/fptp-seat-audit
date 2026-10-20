@@ -1,9 +1,9 @@
 # fptp-seat-audit
 
 **요인 기반 FPTP 의석 분포의 수치 감사: 2024 영국 총선 사례.**
-계산 노트 [`docs/SEATDIST_NOTE_v0_2_1.md`](docs/SEATDIST_NOTE_v0_2_1.md)(초안 v0.2.1, 동료 심사 전)의 코드, 자료, 저장된 출력입니다. 노트는 영어로 썼고, 이 문서는 영문 README 의 한국어판입니다.
+계산 노트 [`docs/SEATDIST_NOTE_v0_2_2.md`](docs/SEATDIST_NOTE_v0_2_2.md)(초안 v0.2.2, 동료 심사 전)의 코드, 자료, 저장된 출력입니다. 노트는 영어로 썼고, 이 문서는 영문 README 의 한국어판입니다.
 
-> **범위.** 여기 모형은 고정된 계산 사례입니다(v0.2.1, 2024 최종 여론조사). 예측 상품이 아니며, 2024 년 노동당의 의석 효율을 크게 잘못 봤습니다. 다루는 것은 주어진 요인 모형이 함의하는 의석 분포를 어떻게 계산하고 어떻게 점검하는가입니다.
+> **범위.** 여기 모형은 고정된 계산 사례입니다(모형 v0.2.1, 2024 최종 여론조사). 예측 상품이 아니며, 2024 년 노동당의 의석 효율을 크게 잘못 봤습니다. 다루는 것은 주어진 요인 모형이 함의하는 의석 분포를 어떻게 계산하고 어떻게 점검하는가입니다.
 
 ## 노트가 보이는 것
 
@@ -39,9 +39,12 @@ Windows 에서는 UTF-8 모드로 실행하세요(`python -X utf8 ...` 또는 `s
 **1. 저장된 출력에서 노트와 표를 다시 만들기 (몇 초).**
 
 ```
-python scripts/seatdist_note_tables_v0_2.py      # out/seatdist_note_tables_v0_2.md
-python scripts/build_seatdist_note_v0_2_1.py     # docs/SEATDIST_NOTE_v0_2_1.md
+python scripts/seatdist_note_tables_v0_2.py      # out/seatdist_note_tables_v0_2.md (표 M1, N1-N9)
+python scripts/seatdist_note_tables_v0_2_2.py    # out/seatdist_note_tables_v0_2_2.md (표 N7d)
+python scripts/build_seatdist_note_v0_2_2.py     # docs/SEATDIST_NOTE_v0_2_2.md
 ```
+
+`scripts/build_seatdist_note_v0_2_1.py` 는 이전 판 `docs/SEATDIST_NOTE_v0_2_1.md` 를 그대로 다시 만듭니다.
 
 **2. 저장된 감사 결과를 다시 집계하기 (몇 초).** 최종 비교(표 N7a–c)를 저장된 실행에서 다시 계산합니다.
 
@@ -52,6 +55,7 @@ python scripts/r1_note_tables_v02.py             # out/r1_note_tables_v02.json, 
 **3. 실험 다시 돌리기 (2코어에서 몇 시간).** 스크립트와 순서는 노트 부록 F 에 표별로 있습니다. 두 가지를 주의하세요.
 - 저장된 지역 편향 실행은 난수열 수정 이전 것입니다. 수정된 스크립트는 새 파일에 쓰고 저장본을 덮어쓰지 않습니다(부록 C).
 - 저장된 조건부 실행은 dense 재귀 커널(`UKSEAT_PB=dense`)로 돌렸습니다. 지금 기본 커널과는 1.4e-14 까지 같습니다.
+- `scripts/r1_followup_v02.py` 는 커널 성능 비교와 Green 축 감사를 함께 다시 돌리고 저장 파일을 덮어씁니다. 성능 비교만 다시 확인하려면 `scripts/pb_kernel_bench_v0_1.py` 를 쓰세요.
 
 CI 워크플로(`.github/workflows/tests.yml`)는 단위 시험을 돌리고, 1·2단계가 커밋된 노트와 표를 그대로 재현하는지 확인합니다.
 
@@ -65,19 +69,22 @@ python scripts/example_audited_v0_2.py 8 4       # 바깥 2^8 x 4 scrambled Sobo
 
 `Hung (no party>=326)` 으로 저장된 사건은 "어떤 모형 범주도 326석에 이르지 못함"이라는 뜻입니다. Oth(무소속과 군소 정당을 합친 것)를 하나의 범주로 셉니다. 노트는 이 이름으로 보고합니다. 정부 구성 예측이 아닙니다.
 
+같은 모형과 바깥 점에서의 선거구별 승리 확률은 `QEngine2(...).seat_marginals(...)` 로 구합니다. 인자는 `run(...)` 과 같습니다. 지역 규칙이 크면 `run()` 보다 훨씬 느립니다. (v0.2.1 에서는 이 메서드가 상속된 것이라 `QEngine2` 와 `FastEngine` 에서 틀린 값을 냈습니다. 노트 부록 F 참고.)
+
 ## 시험
 
 ```
 python tests/test_engine_v0_1.py
+python tests/test_engine2_v0_2.py
 ```
 
-작은 선거의 전수 열거와 재귀의 일치, 절단 상한, 구적 모멘트, 닫힌 형식 혼합과 Gumbel-max 표본의 일치를 확인합니다.
+첫 파일은 작은 선거의 전수 열거와 재귀의 일치, 절단 상한, 구적 모멘트, 닫힌 형식 혼합과 Gumbel-max 표본의 일치를 확인합니다. 둘째 파일은 선거구 유형 항을 포함한 v0.2 핵심 계산을 전수 열거와 비교하고, `QEngine2` 와 `FastEngine` 의 선거구별 확률 합이 같은 인자로 돌린 `run()` 의 기대 의석과 같은지 확인합니다.
 
 ## 구성
 
 | 경로 | 내용 |
 |---|---|
-| `docs/SEATDIST_NOTE_v0_2_1.md` | 노트(현재 판)와 템플릿. `v0_1`, `v0_2` 는 이전 판으로 보관 |
+| `docs/SEATDIST_NOTE_v0_2_2.md` | 노트(현재 판)와 템플릿. `v0_1`, `v0_2`, `v0_2_1` 은 이전 판으로 보관 |
 | `ukseat/` | 모형(`model.py`, `model2.py`), 엔진(`engine.py`, `engine2.py`, Numba 핵심 `core.py`), 구적, 2024 입력(`config_2024.py`), 사건(`report.py`) |
 | `scripts/` | 자료 준비, 실험, 표와 노트 생성 |
 | `data/` | 입력(출처와 라이선스는 `DATA_LICENSES.md`) |
@@ -88,7 +95,7 @@ python tests/test_engine_v0_1.py
 
 [`CITATION.cff`](CITATION.cff) 의 메타데이터로 인용해 주세요. Zenodo DOI 는 첫 보관 릴리스 때 추가합니다.
 
-> Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)*, version 0.2.1. Risk & Return Co., Ltd. https://github.com/RisknReturn/fptp-seat-audit
+> Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)*, version 0.2.2. Risk & Return Co., Ltd. https://github.com/RisknReturn/fptp-seat-audit
 
 ## 라이선스
 

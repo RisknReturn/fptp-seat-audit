@@ -78,3 +78,54 @@ class QEngine2(FastEngine):
         # R1 review 3.2: keep the truncation audit (max over nodes of the per-node TV bound reported by the core)
         return dict(dist=D.mean(0), dist_reps=D, seconds=time.time() - t0, nodes=M * reps, lam=lam, tv_max_node=max(tvs),
                     reg_ns=self.reg_ns, eps=self.eps, m_log2=m_log2, reps=reps, seed=seed)
+
+    def outer_points(self, r, lam=0.0, m_log2=11, seed=0, mu_mean=None, mu_sd=None, mu_df=None, mu_scale=1.0):
+        """Outer points of scrambling r as used by run() with the same arguments: national shifts Dn (M, KC) and
+        seat-type factor values Mu (M, J). The point construction repeats run() line by line; run() itself is left
+        unchanged so that stored results reproduce. tests/test_engine2_v0_2.py checks that the two agree."""
+        m = self.m
+        J = m.L.shape[2]
+        mm = m.mu_mean if mu_mean is None else np.asarray(mu_mean, float)
+        ss = m.mu_sd if mu_sd is None else np.asarray(mu_sd, float)
+        Dl = m.scenario_shift(lam)
+        dz = m.A.shape[1] if self.nat_on else 0
+        dm = J if (self.mu_on and self.mu_fixed is None) else 0
+        dt = dm if (dm and mu_df is not None) else 0
+        d = dz + dm + dt
+        if d > 0:
+            U = qmc.Sobol(d, scramble=True, seed=seed + 7919 * r).random_base2(m_log2)
+            Z = norm.ppf(np.clip(U, 1e-12, 1 - 1e-12))
+        else:
+            Z = np.zeros((1, 0))
+        M = Z.shape[0]
+        Zn = Z[:, :dz] if dz else np.zeros((M, m.A.shape[1]))
+        if self.mu_fixed is not None:
+            Mu = np.tile(np.asarray(self.mu_fixed, float), (M, 1))
+        elif dm:
+            Mu = mm + ss * Z[:, dz:dz + dm]
+            if dt:
+                W = chi2.ppf(np.clip(U[:, dz + dm:dz + dm + dt], 1e-12, 1 - 1e-12), mu_df) / mu_df
+                T = np.clip(Z[:, dz:dz + dm] / np.sqrt(W), -T_CLIP, T_CLIP)
+                Mu = mm + mu_scale * ss * T
+        else:
+            Mu = np.tile(mm, (M, 1))
+        Dn = (Dl[None, :] + Zn @ m.A.T)[:, :KC].copy()
+        return Dn, Mu
+
+    def seat_marginals(self, lam=0.0, m_log2=11, reps=4, seed=0, mu_mean=None, mu_sd=None, mu_df=None, mu_scale=1.0,
+                       return_reps=False):
+        """Seat-level win probabilities E[p_ik] under the SAME model and outer points as run() with the same arguments
+        (national factors, seat-type factors mu with mu_fixed / mu_on / mu_df, regional rule reg_ns). The regional
+        integral uses the Gauss-Hermite rule of run(); seat probabilities are the mixture softmax of the model.
+        seat_marginals(...).sum(0) equals the mean of run(...)['dist'] up to floating point (truncation eps aside).
+        Returns (N, KC) averaged over scramblings, or (reps, N, KC) if return_reps. Cost: about
+        reps x 2^m_log2 x (regional nodes) x N x KC softmax evaluations in NumPy, far slower than run() for large rules.
+        Replaces the inherited ExactEngine/FastEngine method, which omitted L @ mu and the outer RQMC points
+        (review of 2026-10-21, issue 1)."""
+        out = []
+        for r in range(reps):
+            Dn, Mu = self.outer_points(r, lam=lam, m_log2=m_log2, seed=seed, mu_mean=mu_mean, mu_sd=mu_sd,
+                                       mu_df=mu_df, mu_scale=mu_scale)
+            out.append(self._marginals_at(Dn, np.full(len(Dn), 1.0 / len(Dn)), Mu))
+        out = np.array(out)
+        return out if return_reps else out.mean(0)

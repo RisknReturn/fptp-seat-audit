@@ -1,0 +1,83 @@
+{
+ "pb_benchmark": [
+  {
+   "kernel": "dense",
+   "function": "pb_dense",
+   "lambdas": [
+    0.0
+   ],
+   "N": 1024,
+   "seconds": [
+    2.4563763559999643,
+    2.4279640889999428,
+    2.476501750999887
+   ],
+   "median": 2.4563763559999643
+  },
+  {
+   "kernel": "dense",
+   "function": "pb_dense",
+   "lambdas": [
+    0.0,
+    0.5
+   ],
+   "N": 1024,
+   "seconds": [
+    5.175707212999896,
+    4.92576095000004,
+    4.788989141000002
+   ],
+   "median": 4.92576095000004
+  },
+  {
+   "kernel": "active_eps1e-12",
+   "function": "pb_active",
+   "lambdas": [
+    0.0
+   ],
+   "N": 1024,
+   "seconds": [
+    1.1338810170000215,
+    0.9719101759997102,
+    1.0476577579997866
+   ],
+   "median": 1.0476577579997866
+  },
+  {
+   "kernel": "active_eps1e-12",
+   "function": "pb_active",
+   "lambdas": [
+    0.0,
+    0.5
+   ],
+   "N": 1024,
+   "seconds": [
+    1.894298759999856,
+    1.9249764659998618,
+    1.8422921790001965
+   ],
+   "median": 1.894298759999856
+  }
+ ],
+ "pb_max_pmf_diff": 1.366441682026931e-14,
+ "pb_tv_bound_per_party": 6.31e-10,
+ "speed_ratio_dense_over_active": {
+  "(0.0,)": 2.34463624904543,
+  "(0.0, 0.5)": 2.6003083853575526
+ },
+ "environment": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "numba": "0.68.0",
+  "numba_threads": 2,
+  "machine": "x86_64",
+  "system": "Linux"
+ },
+ "stored_r1_followup_v02": {
+  "pb_max_pmf_diff": 1.366441682026931e-14,
+  "speed_ratio_dense_over_active": {
+   "(0.0,)": 2.373354827156271,
+   "(0.0, 0.5)": 2.390559301138733
+  }
+ }
+}

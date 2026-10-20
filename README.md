@@ -1,10 +1,10 @@
 # fptp-seat-audit
 
 **A numerical audit of factor-based FPTP seat distributions: a Great Britain 2024 case study.**
-Code, data and stored outputs for the computation note [`docs/SEATDIST_NOTE_v0_2_1.md`](docs/SEATDIST_NOTE_v0_2_1.md)
-(draft v0.2.1, not peer reviewed).
+Code, data and stored outputs for the computation note [`docs/SEATDIST_NOTE_v0_2_2.md`](docs/SEATDIST_NOTE_v0_2_2.md)
+(draft v0.2.2, not peer reviewed).
 
-> **Scope.** The model here is a fixed computational case (v0.2.1, final 2024 polls). It is not a forecasting product,
+> **Scope.** The model here is a fixed computational case (model v0.2.1, final 2024 polls). It is not a forecasting product,
 > and it misjudged Labour's 2024 seat efficiency badly. The subject is how to compute, and how to check, the seat
 > distribution implied by a given factor model.
 
@@ -56,9 +56,12 @@ from the stored files only in line endings (CRLF), and generated JSON in the las
 **1. Regenerate the note and its tables from stored outputs (seconds).**
 
 ```
-python scripts/seatdist_note_tables_v0_2.py      # out/seatdist_note_tables_v0_2.md
-python scripts/build_seatdist_note_v0_2_1.py     # docs/SEATDIST_NOTE_v0_2_1.md
+python scripts/seatdist_note_tables_v0_2.py      # out/seatdist_note_tables_v0_2.md (Tables M1, N1-N9)
+python scripts/seatdist_note_tables_v0_2_2.py    # out/seatdist_note_tables_v0_2_2.md (Table N7d)
+python scripts/build_seatdist_note_v0_2_2.py     # docs/SEATDIST_NOTE_v0_2_2.md
 ```
+
+`scripts/build_seatdist_note_v0_2_1.py` still rebuilds the previous version, `docs/SEATDIST_NOTE_v0_2_1.md`.
 
 **2. Re-aggregate the stored audit (seconds).** This recomputes the final comparison (Tables N7a–c) from the stored
 runs.
@@ -73,6 +76,8 @@ Appendix F of the note. Two caveats:
   overwrite the stored one (Appendix C).
 - The stored conditional runs used the dense recursion kernel (`UKSEAT_PB=dense`). The current default kernel agrees
   to 1.4e-14.
+- `scripts/r1_followup_v02.py` re-runs the kernel benchmark and the Green axis audit together and overwrites its stored
+  file. To re-check the kernel benchmark alone, run `scripts/pb_kernel_bench_v0_1.py`.
 
 The continuous-integration workflow (`.github/workflows/tests.yml`) runs the unit tests and checks that levels 1 and 2
 reproduce the committed note and tables.
@@ -91,20 +96,27 @@ The event stored as `Hung (no party>=326)` means that no model category reaches 
 minor parties together) counted as one category. The note reports it under that name. It is not a forecast of
 government formation.
 
+Seat-level win probabilities for the same model and outer points: `QEngine2(...).seat_marginals(...)` takes the
+arguments of `run(...)`. It is far slower than `run()` for large regional rules. (In v0.2.1 this method was inherited
+and wrong for `QEngine2` and `FastEngine`; see Appendix F of the note.)
+
 ## Tests
 
 ```
 python tests/test_engine_v0_1.py
+python tests/test_engine2_v0_2.py
 ```
 
-The tests check the recursion against enumeration of small elections, the truncation bound, the quadrature moments,
-and the closed-form mixture against Gumbel-max sampling.
+The first file checks the recursion against enumeration of small elections, the truncation bound, the quadrature
+moments, and the closed-form mixture against Gumbel-max sampling. The second checks the v0.2 core (with the seat-type
+term) against enumeration, and that the seat-level probabilities of `QEngine2` and `FastEngine` add up to the expected
+seats of `run()` with the same arguments.
 
 ## Repository layout
 
 | path | content |
 |---|---|
-| `docs/SEATDIST_NOTE_v0_2_1.md` | the note (current version) and its template. `v0_1` and `v0_2` are earlier versions, kept as history |
+| `docs/SEATDIST_NOTE_v0_2_2.md` | the note (current version) and its template. `v0_1`, `v0_2` and `v0_2_1` are earlier versions, kept as history |
 | `ukseat/` | model (`model.py`, `model2.py`), engines (`engine.py`, `engine2.py`, Numba core `core.py`), quadrature, 2024 inputs (`config_2024.py`), events (`report.py`) |
 | `scripts/` | data preparation, experiments, table and note generation |
 | `data/` | inputs (sources and licences in `DATA_LICENSES.md`) |
@@ -117,7 +129,7 @@ Please cite with the metadata in [`CITATION.cff`](CITATION.cff). A Zenodo DOI wi
 release.
 
 > Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024
-> case study)*, version 0.2.1. Risk & Return Co., Ltd. https://github.com/RisknReturn/fptp-seat-audit
+> case study)*, version 0.2.2. Risk & Return Co., Ltd. https://github.com/RisknReturn/fptp-seat-audit
 
 ## Licences
 

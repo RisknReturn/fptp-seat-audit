@@ -2,7 +2,12 @@
 vs the dense kernel, same factor points / model / full PMFs, one lambda and two lambdas (CRN), warm runs, median of 3;
 (2) Green: which of regional axes 4-6 drives the +6.89e-4 change of (3,3,3,5,5,5) vs (3,3,3,3,3,3): one axis at a time,
 same outer points (2^11 x 4, seed 0), paired with the stored (3,3,3,3,3,3) replicates.
-Writes out/r1_followup_v02.json."""
+Writes out/r1_followup_v02.json.
+Review of 2026-10-21: the dense side of (1) was `pb_all`, which follows UKSEAT_PB and has defaulted to pb_active since
+v0.2.1, so a default re-run compared active with active. It is now pb_dense explicitly and each entry records the
+function name. The stored out/r1_followup_v02.json was produced while the default was still dense (its max PMF
+difference 1.4e-14 is between two different kernels). To re-check (1) alone, run scripts/pb_kernel_bench_v0_1.py;
+re-running this file also re-runs (2) and overwrites the stored json."""
 import os as _os
 _ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 import sys, json, time, numpy as np
@@ -44,7 +49,7 @@ def pb_active(P):
 Z = norm.ppf(np.clip(qmc.Sobol(D, scramble=True, seed=np.random.default_rng([20261030, 0, 1])).random_base2(10), 1e-12, 1 - 1e-12))
 all_shift = dict(shift)
 bench, results = [], {}
-dense = pb_all
+dense = pb_dense   # explicit: pb_all follows UKSEAT_PB (default pb_active since v0.2.1)
 for name, kern in (("dense", dense), ("active_eps1e-12", pb_active)):
     globals()["pb_all"] = kern
     for ls in ((0.0,), (0.0, 0.5)):
@@ -54,7 +59,7 @@ for name, kern in (("dense", dense), ("active_eps1e-12", pb_active)):
         for _ in range(3):
             t0 = time.perf_counter(); r_ = one_rep(Z); ts.append(time.perf_counter() - t0)
         results[(name, ls)] = r_
-        bench.append(dict(kernel=name, lambdas=list(ls), N=len(Z), seconds=ts, median=float(np.median(ts))))
+        bench.append(dict(kernel=name, function=kern.__name__, lambdas=list(ls), N=len(Z), seconds=ts, median=float(np.median(ts))))
         print("bench", bench[-1], flush=True)
 globals()["pb_all"] = dense
 shift = all_shift

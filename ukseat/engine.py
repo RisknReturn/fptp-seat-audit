@@ -324,3 +324,35 @@ class FastEngine(ExactEngine):
         if keep_conditional:
             res.update(cond_mean=cm, Z=Z, W=W)
         return res
+
+    def _marginals_at(self, Dn, wn, Mu=None, max_block=2_000_000):
+        """sum_a wn[a] * E_w[p_ik | outer point a] for outer points given as national shifts Dn (A, KC), with optional
+        seat-type factor values Mu (A, J) entering as L[i, k, :] @ Mu[a] (as in core.exact_chunk_L). The regional
+        rule, rotations and seat probabilities are those of run(). Returns (N, KC) in the model's seat order."""
+        m = self.m
+        out = np.zeros((self.N, KC))
+        for j, C in enumerate(m.C):
+            idx = self.rid[j]
+            X, W = tensor_gh(self.reg_ns_for(j))
+            sh = (X @ self.Qr[j].T) @ C[:KC].T                      # (b, KC), same nodes as _reg_arrays()
+            base = self.base[idx]                                   # (n_r, KC), -inf for absent parties
+            pres = self.present[idx][None, None]
+            Lr = None if Mu is None else m.L[idx][:, :KC, :]        # (n_r, KC, J); zero for absent parties
+            step = max(1, int(max_block // (len(W) * len(idx) * KC)))
+            for s in range(0, len(wn), step):
+                sl = slice(s, s + step)
+                eta = base[None, None] + Dn[sl][:, None, None, :] + sh[None, :, None, :]       # (a, b, n_r, KC)
+                if Lr is not None:
+                    eta = eta + np.einsum("ikj,aj->aik", Lr, Mu[sl])[:, None]
+                P = m.win_probs(eta, pres)
+                out[idx] += np.tensordot(wn[sl], np.tensordot(P, W, axes=([1], [0])), 1)
+        return out
+
+    def seat_marginals(self, lam=0.0):
+        """E[p_ik] over factors with the outer rule nat_spec and the regional rule of run(), so that
+        seat_marginals(lam).sum(0) equals the mean of run(lam)['dist'] (tests/test_engine2_v0_2.py).
+        Replaces the inherited ExactEngine method, which would use this class's placeholder nat_ns (all 1)."""
+        Dl = self.m.scenario_shift(lam)
+        Z, W = outer_rule(self.nat_spec)
+        Dn = (Dl[None, :] + (Z @ self.Qn.T) @ self.m.A.T)[:, :KC]
+        return self._marginals_at(Dn, W)

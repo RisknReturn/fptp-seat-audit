@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or the note, please cite it as below."
 title: "fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)"
-version: 0.2.1
+version: 0.2.2
 license: MIT
 type: software
 repository-code: "https://github.com/RisknReturn/fptp-seat-audit"
@@ -13,7 +13,7 @@ authors:
     affiliation: "Risk & Return Co., Ltd."
 abstract: >-
   Code, data and stored outputs for the computation note "A numerical audit of factor-based FPTP seat
-  distributions: a Great Britain 2024 case study" (draft v0.2.1, not peer reviewed). Given common factors, seat
+  distributions: a Great Britain 2024 case study" (draft v0.2.2, not peer reviewed). Given common factors, seat
   totals are computed with the Poisson-binomial recursion and convolution across regions; the factor integral is
   done by a hybrid of scrambled Sobol points and regional Gauss-Hermite rules. The note reports how the usual
   scramble error bar missed a regional-rule bias (Green) and an under-resolved rare outer contribution (Other),

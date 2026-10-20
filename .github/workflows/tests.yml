@@ -20,11 +20,15 @@ jobs:
       - name: Install pinned dependencies
         run: python -m pip install -r requirements.txt
       - name: Unit tests
-        run: python tests/test_engine_v0_1.py
+        run: |
+          python tests/test_engine_v0_1.py
+          python tests/test_engine2_v0_2.py
       - name: Reproduce the note from stored outputs (levels 1 and 2 of the README)
         run: |
           python scripts/r1_note_tables_v02.py
           python scripts/seatdist_note_tables_v0_2.py
           python scripts/build_seatdist_note_v0_2_1.py
+          python scripts/seatdist_note_tables_v0_2_2.py
+          python scripts/build_seatdist_note_v0_2_2.py
       - name: Generated Markdown must match the committed files
-        run: git diff --exit-code -- docs/SEATDIST_NOTE_v0_2_1.md out/seatdist_note_tables_v0_2.md out/r1_note_tables_v02.md
+        run: git diff --exit-code -- docs/SEATDIST_NOTE_v0_2_1.md docs/SEATDIST_NOTE_v0_2_2.md out/seatdist_note_tables_v0_2.md out/seatdist_note_tables_v0_2_2.md out/r1_note_tables_v02.md

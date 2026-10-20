@@ -1,7 +1,7 @@
 {
   "title": "fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)",
   "upload_type": "software",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "creators": [
     {
@@ -10,7 +10,7 @@
       "affiliation": "Risk & Return Co., Ltd."
     }
   ],
-  "description": "<p>Code, data and stored outputs for the computation note \"A numerical audit of factor-based FPTP seat distributions: a Great Britain 2024 case study\" (draft v0.2.1, not peer reviewed). Given common factors, each party's seat distribution is computed with the Poisson-binomial recursion and a convolution across regions; the factor integral uses scrambled Sobol points with regional Gauss-Hermite rules. The note reports how the usual scramble error bar missed a regional-rule bias (Green) and an under-resolved rare outer contribution (Other), and how each was located by a different computation path. The model is a fixed computational case, not a forecasting product.</p><p>Licences: code MIT; the note and the stored outputs CC BY 4.0; data under their sources' terms (Open Parliament Licence; BES 2024 constituency results file CC BY 4.0), see DATA_LICENSES.md.</p><p>AI use: Developed with extensive assistance from Claude Opus 5.5 (Anthropic) and reviewed with GPT 6.1 Sol (OpenAI); the author directed and reviewed the work and is responsible for the content.</p>",
+  "description": "<p>Code, data and stored outputs for the computation note \"A numerical audit of factor-based FPTP seat distributions: a Great Britain 2024 case study\" (draft v0.2.2, not peer reviewed). Given common factors, each party's seat distribution is computed with the Poisson-binomial recursion and a convolution across regions; the factor integral uses scrambled Sobol points with regional Gauss-Hermite rules. The note reports how the usual scramble error bar missed a regional-rule bias (Green) and an under-resolved rare outer contribution (Other), and how each was located by a different computation path. The model is a fixed computational case, not a forecasting product.</p><p>Licences: code MIT; the note and the stored outputs CC BY 4.0; data under their sources' terms (Open Parliament Licence; BES 2024 constituency results file CC BY 4.0), see DATA_LICENSES.md.</p><p>AI use: Developed with extensive assistance from Claude Opus 5.5 (Anthropic) and reviewed with GPT 6.1 Sol (OpenAI); the author directed and reviewed the work and is responsible for the content.</p>",
   "keywords": [
     "first-past-the-post",
     "seat distribution",
