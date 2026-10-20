@@ -1,0 +1,26 @@
+ex-ante mu mean [-0.015 -0.12   0.048  0.017] sd [0.06  0.393 0.069 0.047] | realised [ 0.184  0.336  0.058 -0.154]
+oracle, mu=0 (nominations only)            Lab 345(328-362) Con 190(162-216) LD 50(36-66) Ref 17(6-31) SNP 19(14-25) Oth 2(1-3)  PIT Lab 1.00 Con 0.00 LD 0.99  (0s)
+oracle, mu=realised 2024 (ex post)         Lab 368(349-387) Con 156(129-182) LD 60(45-74) Ref 17(7-31) SNP 19(13-25) Oth 4(2-6)  PIT Lab 1.00 Con 0.02 LD 0.93  (0s)
+oracle, mu ~ N(2010-19)                    Lab 342(320-363) Con 190(157-221) LD 49(34-66) Ref 21(8-39) SNP 19(14-25) Oth 2(1-3)  PIT Lab 1.00 Con 0.00 LD 0.99  (17s)
+oracle, mu ~ N(2010-19, 3x sd)             Lab 339(303-380) Con 185(129-235) LD 50(31-73) Ref 25(5-58) SNP 19(13-25) Oth 4(1-16)  PIT Lab 1.00 Con 0.03 LD 0.95  (18s)
+oracle, only mu_T realised                 Lab 362(344-380) Con 163(137-190) LD 60(46-75) Ref 16(6-29) SNP 19(14-25) Oth 2(1-3)  PIT Lab 1.00 Con 0.00 LD 0.91  (0s)
+oracle, only mu_C realised                 Lab 342(325-359) Con 194(167-219) LD 50(36-66) Ref 16(6-30) SNP 19(13-25) Oth 2(1-3)  PIT Lab 1.00 Con 0.00 LD 0.99  (0s)
+oracle, only mu_R realised                 Lab 343(326-360) Con 189(161-215) LD 50(36-66) Ref 20(9-35) SNP 19(14-25) Oth 2(1-3)  PIT Lab 1.00 Con 0.00 LD 0.99  (0s)
+oracle, only mu_L realised                 Lab 356(337-375) Con 179(151-206) LD 50(36-65) Ref 16(6-30) SNP 19(14-25) Oth 3(2-5)  PIT Lab 1.00 Con 0.00 LD 0.99  (0s)
+final polls, lam=0, mu ~ N(2010-19)        Lab 392(321-464) Con 120(47-202) LD 47(18-82) Ref 42(8-99) SNP 21(7-36) Oth 1(0-3)  PIT Lab 0.67 Con 0.53 LD 0.89  (75s)
+final polls, lam=0, mu=realised            Lab 416(345-477) Con 96(36-171) LD 57(28-86) Ref 33(6-80) SNP 20(7-36) Oth 2(0-4)  PIT Lab 0.43 Con 0.74 LD 0.79  (76s)
+grid lam=0.0 muT=-0.015: Lab 392 Con 120 LD 47
+grid lam=0.0 muT=+0.100: Lab 401 Con 109 LD 54
+grid lam=0.0 muT=+0.184: Lab 407 Con 100 LD 58
+grid lam=0.5 muT=-0.015: Lab 367 Con 157 LD 39
+grid lam=0.5 muT=+0.100: Lab 376 Con 144 LD 45
+grid lam=0.5 muT=+0.184: Lab 383 Con 135 LD 50
+grid lam=1.0 muT=-0.015: Lab 342 Con 193 LD 32
+grid lam=1.0 muT=+0.100: Lab 351 Con 180 LD 37
+grid lam=1.0 muT=+0.184: Lab 358 Con 170 LD 41
+calib oracle_mu0 {'brier': 0.27275189923204274, 'hit': 503, 'exp_hit': 545.6496354808269, 'logscore': 0.5351731355891662}
+calib oracle_mu_real {'brier': 0.20077773227647452, 'hit': 537, 'exp_hit': 543.4159886738421, 'logscore': 0.37361059496183724}
+calib oracle_mu_exante {'brier': 0.28344801107443507, 'hit': 498, 'exp_hit': 541.3693623618012, 'logscore': 0.5191310785934101}
+calib poll_mu_exante {'brier': 0.2248797211022339, 'hit': 541, 'exp_hit': 510.9823843693265, 'logscore': 0.46526889140832295}
+calib poll_mu_real {'brier': 0.20589336797274554, 'hit': 540, 'exp_hit': 526.367444420759, 'logscore': 0.39369361711174333}
+done

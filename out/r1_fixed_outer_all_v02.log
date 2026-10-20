@@ -1,0 +1,52 @@
+dims: national 5 + mu 4 + regional 57 = 66; seats 631; regions 11
+point 0: hybrid 0.141051  regional RQMC 0.140951 +- 9.2e-05  diff +1.00e-04  (0.4s / 52s)
+point 1: hybrid 0.845354  regional RQMC 0.845393 +- 6.8e-05  diff -3.94e-05  (0.2s / 48s)
+point 2: hybrid 0.479494  regional RQMC 0.479166 +- 2.2e-04  diff +3.29e-04  (0.2s / 50s)
+point 3: hybrid 0.365560  regional RQMC 0.366069 +- 7.6e-05  diff -5.09e-04  (0.2s / 48s)
+point 4: hybrid 0.614434  regional RQMC 0.614320 +- 1.4e-04  diff +1.14e-04  (0.1s / 50s)
+point 5: hybrid 0.122549  regional RQMC 0.122633 +- 4.1e-05  diff -8.37e-05  (0.2s / 50s)
+point 6: hybrid 0.963201  regional RQMC 0.963166 +- 9.5e-05  diff +3.55e-05  (0.2s / 49s)
+point 7: hybrid 0.310244  regional RQMC 0.310018 +- 8.2e-05  diff +2.26e-04  (0.2s / 51s)
+point 8: hybrid 0.555847  regional RQMC 0.555601 +- 1.1e-04  diff +2.46e-04  (0.2s / 51s)
+point 9: hybrid 0.580780  regional RQMC 0.580933 +- 6.5e-05  diff -1.53e-04  (0.2s / 50s)
+point 10: hybrid 0.219219  regional RQMC 0.218928 +- 6.0e-05  diff +2.91e-04  (0.2s / 52s)
+point 11: hybrid 0.299901  regional RQMC 0.300113 +- 4.2e-05  diff -2.12e-04  (0.2s / 50s)
+point 12: hybrid 0.637708  regional RQMC 0.637382 +- 1.3e-04  diff +3.26e-04  (0.2s / 51s)
+point 13: hybrid 0.154935  regional RQMC 0.154760 +- 1.5e-04  diff +1.75e-04  (0.2s / 50s)
+point 14: hybrid 0.758279  regional RQMC 0.758167 +- 7.2e-05  diff +1.13e-04  (0.2s / 51s)
+point 15: hybrid 0.447663  regional RQMC 0.447707 +- 8.2e-05  diff -4.45e-05  (0.2s / 51s)
+point 16: hybrid 0.332300  regional RQMC 0.332184 +- 1.1e-04  diff +1.17e-04  (0.2s / 50s)
+point 17: hybrid 0.593207  regional RQMC 0.592493 +- 8.3e-05  diff +7.14e-04  (0.2s / 49s)
+point 18: hybrid 0.849359  regional RQMC 0.849421 +- 5.5e-05  diff -6.20e-05  (0.1s / 49s)
+point 19: hybrid 0.057449  regional RQMC 0.057520 +- 1.3e-04  diff -7.09e-05  (0.2s / 51s)
+point 20: hybrid 0.202044  regional RQMC 0.202055 +- 1.7e-04  diff -1.10e-05  (0.2s / 50s)
+point 21: hybrid 0.927779  regional RQMC 0.927976 +- 6.3e-05  diff -1.97e-04  (0.1s / 49s)
+point 22: hybrid 0.669542  regional RQMC 0.668442 +- 1.7e-04  diff +1.10e-03  (0.2s / 49s)
+point 23: hybrid 0.045842  regional RQMC 0.045929 +- 4.1e-05  diff -8.68e-05  (0.2s / 49s)
+point 24: hybrid 0.748755  regional RQMC 0.748647 +- 1.4e-04  diff +1.08e-04  (0.2s / 51s)
+point 25: hybrid 0.145809  regional RQMC 0.146033 +- 7.7e-05  diff -2.24e-04  (0.2s / 50s)
+point 26: hybrid 0.748399  regional RQMC 0.747970 +- 4.0e-05  diff +4.29e-04  (0.1s / 51s)
+point 27: hybrid 0.500981  regional RQMC 0.500770 +- 1.6e-04  diff +2.11e-04  (0.2s / 49s)
+point 28: hybrid 0.709049  regional RQMC 0.709026 +- 9.3e-05  diff +2.33e-05  (0.1s / 51s)
+point 29: hybrid 0.300099  regional RQMC 0.300463 +- 4.9e-05  diff -3.65e-04  (0.2s / 50s)
+point 30: hybrid 0.086748  regional RQMC 0.086857 +- 1.5e-04  diff -1.09e-04  (0.2s / 49s)
+point 31: hybrid 0.894136  regional RQMC 0.894030 +- 8.8e-05  diff +1.06e-04  (0.2s / 51s)
+  Lab>=326 (majority)            mean diff +1.83e-05 +- 7.7e-05
+  Lab>=400                       mean diff +3.89e-05 +- 1.7e-04
+  Lab>=450                       mean diff +7.92e-05 +- 1.0e-04
+  Lab<=411 (actual or fewer)     mean diff +3.07e-05 +- 1.6e-04
+  Lab<=250                       mean diff -3.16e-10 +- 3.2e-10
+  Con>=121 (actual or more)      mean diff -5.76e-05 +- 2.4e-04
+  Con<100                        mean diff +2.76e-04 +- 3.5e-04
+  Con<=50                        mean diff +1.09e-04 +- 3.8e-04
+  Con>=250                       mean diff -2.88e-06 +- 2.7e-06
+  LD>=72 (actual or more)        mean diff +1.10e-04 +- 2.2e-04
+  LD>=50                         mean diff -5.48e-04 +- 5.5e-04
+  Ref>=5 (actual or more)        mean diff -1.53e-04 +- 6.3e-05
+  Ref>=50                        mean diff +2.35e-04 +- 8.0e-04
+  Grn>=4 (actual or more)        mean diff +8.12e-05 +- 5.4e-05
+  SNP<=9 (actual or fewer)       mean diff -3.07e-04 +- 4.7e-04
+  PC>=4 (actual or more)         mean diff -5.76e-05 +- 5.6e-05
+  Oth>=5 (actual or more)        mean diff +1.23e-07 +- 1.5e-07
+  Hung (no party>=326)           mean diff -1.83e-05 +- 7.7e-05
+mean diff 8.116266095976941e-05 +- (MC) 1.9161248951204352e-05 +- (points) 5.3530460857889174e-05 | points with |diff| > 2 SE: 15

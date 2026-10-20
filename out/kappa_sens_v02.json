@@ -1,0 +1,332 @@
+{
+ "0.0": {
+  "Lab": 367.91523569333424,
+  "Oth": 1.7999150005911984,
+  "Oth_q": [
+   1,
+   3
+  ],
+  "cal": {
+   "brier": 0.20216768971094867,
+   "hit": 539,
+   "exp_hit": 544.2843012597459,
+   "logscore": 0.4201907296147343
+  },
+  "top_oth": [
+   [
+    "Ashfield",
+    0.88,
+    false
+   ],
+   [
+    "Solihull West and Shirley",
+    0.44,
+    false
+   ],
+   [
+    "North West Leicestershire",
+    0.33,
+    false
+   ],
+   [
+    "Leicester East",
+    0.13,
+    false
+   ],
+   [
+    "Islington North",
+    0.04,
+    true
+   ],
+   [
+    "Clwyd East",
+    0.0,
+    false
+   ],
+   [
+    "Na h-Eileanan an Iar",
+    0.0,
+    false
+   ],
+   [
+    "Exmouth and Exeter East",
+    0.0,
+    false
+   ],
+   [
+    "South West Hertfordshire",
+    0.0,
+    false
+   ],
+   [
+    "Birmingham Hall Green and Moseley",
+    0.0,
+    false
+   ]
+  ]
+ },
+ "2.0": {
+  "Lab": 369.43632906639823,
+  "Oth": 0.8441711536436982,
+  "Oth_q": [
+   0,
+   2
+  ],
+  "cal": {
+   "brier": 0.19962353918772893,
+   "hit": 541,
+   "exp_hit": 544.6374520672503,
+   "logscore": 0.3893174205521611
+  },
+  "top_oth": [
+   [
+    "Ashfield",
+    0.6,
+    false
+   ],
+   [
+    "Solihull West and Shirley",
+    0.11,
+    false
+   ],
+   [
+    "North West Leicestershire",
+    0.07,
+    false
+   ],
+   [
+    "Leicester East",
+    0.03,
+    false
+   ],
+   [
+    "Islington North",
+    0.01,
+    true
+   ],
+   [
+    "Bradford West",
+    0.01,
+    false
+   ],
+   [
+    "Birmingham Hall Green and Moseley",
+    0.01,
+    false
+   ],
+   [
+    "Blackburn",
+    0.0,
+    true
+   ],
+   [
+    "Clwyd East",
+    0.0,
+    false
+   ],
+   [
+    "Dewsbury and Batley",
+    0.0,
+    true
+   ]
+  ]
+ },
+ "3.0": {
+  "Lab": 369.5961171998167,
+  "Oth": 1.2901648634725886,
+  "Oth_q": [
+   0,
+   3
+  ],
+  "cal": {
+   "brier": 0.19922571602712186,
+   "hit": 540,
+   "exp_hit": 543.8097937367143,
+   "logscore": 0.3765036998428369
+  },
+  "top_oth": [
+   [
+    "Bradford West",
+    0.51,
+    false
+   ],
+   [
+    "Ashfield",
+    0.32,
+    false
+   ],
+   [
+    "Birmingham Hall Green and Moseley",
+    0.28,
+    false
+   ],
+   [
+    "Solihull West and Shirley",
+    0.04,
+    false
+   ],
+   [
+    "North West Leicestershire",
+    0.02,
+    false
+   ],
+   [
+    "Blackburn",
+    0.02,
+    true
+   ],
+   [
+    "Dewsbury and Batley",
+    0.01,
+    true
+   ],
+   [
+    "Birmingham Ladywood",
+    0.01,
+    false
+   ],
+   [
+    "Bradford East",
+    0.01,
+    false
+   ],
+   [
+    "Leicester East",
+    0.01,
+    false
+   ]
+  ]
+ },
+ "4.0": {
+  "Lab": 367.97079929572425,
+  "Oth": 3.7127161812654403,
+  "Oth_q": [
+   2,
+   6
+  ],
+  "cal": {
+   "brier": 0.200769098232825,
+   "hit": 539,
+   "exp_hit": 543.2959692044874,
+   "logscore": 0.3736351786443876
+  },
+  "top_oth": [
+   [
+    "Bradford West",
+    0.99,
+    false
+   ],
+   [
+    "Birmingham Hall Green and Moseley",
+    0.97,
+    false
+   ],
+   [
+    "Blackburn",
+    0.37,
+    true
+   ],
+   [
+    "Birmingham Ladywood",
+    0.26,
+    false
+   ],
+   [
+    "Bethnal Green and Stepney",
+    0.19,
+    false
+   ],
+   [
+    "Dewsbury and Batley",
+    0.19,
+    true
+   ],
+   [
+    "East Ham",
+    0.17,
+    false
+   ],
+   [
+    "Bradford East",
+    0.17,
+    false
+   ],
+   [
+    "Birmingham Yardley",
+    0.12,
+    false
+   ],
+   [
+    "Ashfield",
+    0.1,
+    false
+   ]
+  ]
+ },
+ "6.0": {
+  "Lab": 361.78458200990485,
+  "Oth": 11.636541249107665,
+  "Oth_q": [
+   10,
+   13
+  ],
+  "cal": {
+   "brier": 0.2111900998226266,
+   "hit": 538,
+   "exp_hit": 544.1591722811424,
+   "logscore": 0.41822862125550053
+  },
+  "top_oth": [
+   [
+    "Bradford West",
+    1.0,
+    false
+   ],
+   [
+    "Birmingham Hall Green and Moseley",
+    1.0,
+    false
+   ],
+   [
+    "Birmingham Ladywood",
+    1.0,
+    false
+   ],
+   [
+    "Blackburn",
+    0.99,
+    true
+   ],
+   [
+    "Bethnal Green and Stepney",
+    0.99,
+    false
+   ],
+   [
+    "East Ham",
+    0.99,
+    false
+   ],
+   [
+    "Bradford East",
+    0.99,
+    false
+   ],
+   [
+    "Dewsbury and Batley",
+    0.99,
+    true
+   ],
+   [
+    "Birmingham Yardley",
+    0.97,
+    false
+   ],
+   [
+    "Birmingham Perry Barr",
+    0.95,
+    true
+   ]
+  ]
+ }
+}

@@ -1,0 +1,2 @@
+oracle, mu ~ t2 predictive                 Lab 340(310-372) Con 187(142-228) LD 50(33-70) Ref 23(7-49) SNP 19(14-25) Oth 3(1-4)  PIT Lab 1.00 Con 0.02 LD 0.97  (36s)
+final polls, lam=0, mu ~ t2 predictive     Lab 391(316-466) Con 118(43-204) LD 48(17-84) Ref 44(8-105) SNP 21(7-36) Oth 2(0-4)  PIT Lab 0.67 Con 0.55 LD 0.88  (73s)

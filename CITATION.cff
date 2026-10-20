@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this code or the note, please cite it as below."
+title: "fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)"
+version: 0.2.1
+license: MIT
+type: software
+repository-code: "https://github.com/RisknReturn/fptp-seat-audit"
+url: "https://github.com/RisknReturn/fptp-seat-audit"
+authors:
+  - family-names: "Han"
+    given-names: "Nari"
+    orcid: "https://orcid.org/0009-0008-7228-8740"
+    affiliation: "Risk & Return Co., Ltd."
+abstract: >-
+  Code, data and stored outputs for the computation note "A numerical audit of factor-based FPTP seat
+  distributions: a Great Britain 2024 case study" (draft v0.2.1, not peer reviewed). Given common factors, seat
+  totals are computed with the Poisson-binomial recursion and convolution across regions; the factor integral is
+  done by a hybrid of scrambled Sobol points and regional Gauss-Hermite rules. The note reports how the usual
+  scramble error bar missed a regional-rule bias (Green) and an under-resolved rare outer contribution (Other),
+  and how each was located by a different computation path. The model is a fixed computational case, not a
+  forecasting product. Code under MIT; the note and stored outputs under CC BY 4.0; data under their sources'
+  terms (DATA_LICENSES.md). Developed with extensive assistance from Claude Opus 5.5 (Anthropic) and reviewed
+  with GPT 6.1 Sol (OpenAI); the author directed and reviewed the work and is responsible for the content.
+keywords:
+  - first-past-the-post
+  - seat distribution
+  - Poisson-binomial
+  - randomized quasi-Monte Carlo
+  - numerical audit
+  - UK general election 2024
+references:
+  - type: article
+    authors:
+      - family-names: Owen
+        given-names: Art B.
+    title: "Monte Carlo Variance of Scrambled Net Quadrature"
+    journal: "SIAM Journal on Numerical Analysis"
+    volume: 34
+    issue: 5
+    start: 1884
+    end: 1910
+    year: 1997
+    doi: 10.1137/S0036142994277468
+  - type: data
+    authors:
+      - family-names: Perrett
+        given-names: Stuart
+      - family-names: Scott
+        given-names: Ralph
+      - family-names: Griffiths
+        given-names: James
+      - family-names: Prosser
+        given-names: Chris
+      - family-names: Bailey
+        given-names: Jack
+      - family-names: Evans
+        given-names: Geoffrey
+      - family-names: Fieldhouse
+        given-names: Edward
+      - family-names: Green
+        given-names: Jane
+      - family-names: Mellon
+        given-names: Jon
+    title: "2024 BES Constituency Results with Census and Candidate Data"
+    year: 2025
+    doi: 10.48420/28430672
+    license: CC-BY-4.0

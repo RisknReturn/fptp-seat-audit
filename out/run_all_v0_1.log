@@ -1,0 +1,6 @@
++ python3 scripts/converge_v0_1.py
++ python3 scripts/mc_compare_v0_1.py
++ python3 scripts/backtest_v0_1.py 3,3,2,2,2,2
++ python3 scripts/ref_exact_v0_1.py
++ echo ALLDONE
+ALLDONE

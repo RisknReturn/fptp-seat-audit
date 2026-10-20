@@ -1,0 +1,26 @@
+translator                Lab det  Lab exp    Con     LD    Ref    SNP    hit  voteMSE
+UNS_GB                        299    299.4  234.1   37.0    3.6   50.1  0.705  0.02507
+UNS_country                   320    321.3  240.9   40.7    4.6   15.6  0.754  0.02051
+UNS_region                    324    332.9  218.7   51.7    4.3   15.6  0.789  0.01701
+PS_country                    317    316.7  203.3   50.8   28.5   20.5  0.758  0.02013
+PS_region                     345    338.8  182.8   57.0   22.0   20.5  0.813  0.01662
+model_mu0                     nan    344.8  189.7   50.0   16.7   19.4    nan      nan
+model_h_obs                   nan    367.5  156.4   59.3   17.2   18.9    nan      nan
+model_mustar                  nan    365.7  150.9   60.9   17.3   18.7    nan      nan
+ECO_country                   379    378.1  176.6   45.5    5.3   16.9  0.840  0.01331
+ECO_country_x_context         399    394.9  142.3   65.0    3.9   15.7  0.889  0.00982
+actual {'Lab': 411, 'Con': 121, 'LD': 72, 'SNP': 9, 'Ref': 5, 'Oth': 5, 'Grn': 4, 'PC': 4, 'Spk': 1}
+UNS_country {'England': {'Lab': 267, 'Con': 239, 'LD': 30, 'SNP': 0, 'Ref': 3}, 'Scotland': {'Lab': 29, 'Con': 6, 'LD': 5, 'SNP': 17, 'Ref': 0}, 'Wales': {'Lab': 24, 'Con': 3, 'LD': 1, 'SNP': 0, 'Ref': 0}}
+PS_country {'England': {'Lab': 263, 'Con': 207, 'LD': 44, 'SNP': 0, 'Ref': 22}, 'Scotland': {'Lab': 30, 'Con': 0, 'LD': 5, 'SNP': 22, 'Ref': 0}, 'Wales': {'Lab': 24, 'Con': 1, 'LD': 1, 'SNP': 0, 'Ref': 2}}
+ECO_country {'England': {'Lab': 319, 'Con': 185, 'LD': 35, 'SNP': 0, 'Ref': 0}, 'Scotland': {'Lab': 33, 'Con': 0, 'LD': 5, 'SNP': 19, 'Ref': 0}, 'Wales': {'Lab': 27, 'Con': 0, 'LD': 1, 'SNP': 0, 'Ref': 0}}
+ECO_country_x_context {'England': {'Lab': 338, 'Con': 139, 'LD': 62, 'SNP': 0, 'Ref': 0}, 'Scotland': {'Lab': 34, 'Con': 2, 'LD': 5, 'SNP': 16, 'Ref': 0}, 'Wales': {'Lab': 27, 'Con': 0, 'LD': 1, 'SNP': 0, 'Ref': 0}}
+actual by country {'England': {'Lab': 347, 'Con': 116, 'LD': 65, 'SNP': 0, 'Ref': 5}, 'Scotland': {'Lab': 37, 'Con': 5, 'LD': 6, 'SNP': 9, 'Ref': 0}, 'Wales': {'Lab': 27, 'Con': 0, 'LD': 1, 'SNP': 0, 'Ref': 0}}
+ECO_country_CV5            Lab det 376 exp 378.9 Con 177.2 LD 45.0 SNP 16.9 hit 0.830 voteMSE 0.01374 | {'England': {'Lab': 317, 'Con': 187, 'LD': 35, 'SNP': 0, 'Ref': 0}, 'Scotland': {'Lab': 31, 'Con': 0, 'LD': 5, 'SNP': 21, 'Ref': 0}, 'Wales': {'Lab': 28, 'Con': 1, 'LD': 0, 'SNP': 0, 'Ref': 0}}
+ECO_country_x_context_CV5  Lab det 398 exp 393.8 Con 141.4 LD 64.6 SNP 16.0 hit 0.876 voteMSE 0.01080 | {'England': {'Lab': 339, 'Con': 136, 'LD': 61, 'SNP': 0, 'Ref': 3}, 'Scotland': {'Lab': 33, 'Con': 1, 'LD': 5, 'SNP': 18, 'Ref': 0}, 'Wales': {'Lab': 26, 'Con': 2, 'LD': 0, 'SNP': 0, 'Ref': 0}}
+contexts {'England:Con>Lab': 270, 'England:Lab>Con': 172, 'England:Con>LD': 84, 'Wales': 32, 'Scotland:other': 30, 'Scotland:SNP>Lab': 27, 'England:other': 16}
+ECO_country_x_winner_CV5       Lab det 383 exp 381.2 Con 178.1 LD 46.5 SNP 12.4 hit 0.846 | Eng Lab 320 Sco Lab 36
+ECO_context_shrunk_a0.003_CV5  Lab det 398 exp 394.0 Con 145.7 LD 60.8 SNP 16.1 hit 0.875 | Eng Lab 339 Sco Lab 33
+ECO_context_shrunk_a0.03_CV5   Lab det 396 exp 393.0 Con 147.8 LD 59.6 SNP 16.2 hit 0.873 | Eng Lab 339 Sco Lab 31
+ECO_context_shrunk_a0.3_CV5    Lab det 392 exp 386.6 Con 160.4 LD 53.0 SNP 16.7 hit 0.853 | Eng Lab 335 Sco Lab 31
+ECO_mixed_context_CV5 Lab det 404 exp 396.4 Con 143.2 LD 64.5 SNP 11.8 hit 0.884 | {'England': {'Lab': 339, 'Con': 136, 'LD': 61, 'SNP': 0, 'Ref': 3}, 'Scotland': {'Lab': 38, 'Con': 6, 'LD': 5, 'SNP': 8, 'Ref': 0}, 'Wales': {'Lab': 27, 'Con': 1, 'LD': 0, 'SNP': 0, 'Ref': 0}}
+fold seeds {"mixed_seed1": {"Lab_det": 406, "Lab_exp": 397.1688174210431, "Con_exp": 143.3091959901218, "LD_exp": 65.03914492031876, "SNP_exp": 12.114669709216116, "hit": 0.8874801901743264}, "context_seed1": {"Lab_det": 400, "Lab_exp": 394.7900321145263, "Con_exp": 141.4649871269865, "LD_exp": 65.21526712666127, "SNP_exp": 15.971051947735447, "hit": 0.8795562599049128}, "country_seed1": {"Lab_det": 377, "Lab_exp": 377.9474220705074, "Con_exp": 177.4435421980017, "LD_exp": 45.11022092913673, "SNP_exp": 17.205382740398804, "hit": 0.8351822503961965}, "mixed_seed2": {"Lab_det": 400, "Lab_exp": 395.42844955702907, "Con_exp": 144.4714483459852, "LD_exp": 64.0878025254718, "SNP_exp": 12.325131111509966, "hit": 0.8874801901743264}, "context_seed2": {"Lab_det": 398, "Lab_exp": 393.2285569232327, "Con_exp": 142.30437194637474, "LD_exp": 64.15335760083241, "SNP_exp": 16.645141773432883, "hit": 0.8811410459587956}, "country_seed2": {"Lab_det": 377, "Lab_exp": 378.18284631682116, "Con_exp": 177.37462766267146, "LD_exp": 45.0106688389882, "SNP_exp": 17.054853557232565, "hit": 0.8351822503961965}, "mixed_seed3": {"Lab_det": 402, "Lab_exp": 397.05165084901023, "Con_exp": 144.09273985927237, "LD_exp": 64.47605064721847, "SNP_exp": 12.170905607900789, "hit": 0.884310618066561}, "context_seed3": {"Lab_det": 399, "Lab_exp": 395.69554558580586, "Con_exp": 141.8103947701664, "LD_exp": 64.63854008220432, "SNP_exp": 16.083701076896823, "hit": 0.8716323296354992}, "country_seed3": {"Lab_det": 378, "Lab_exp": 377.4089965765628, "Con_exp": 177.47977906104933, "LD_exp": 44.86093164430814, "SNP_exp": 17.2890516020132, "hit": 0.8351822503961965}}

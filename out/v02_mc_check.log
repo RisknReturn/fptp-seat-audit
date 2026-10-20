@@ -1,0 +1,21 @@
+event                         QMC+exact     (se)    MC 2e5      z
+Lab>=326 (majority)              0.9380   0.0005    0.9374    0.9
+Lab>=400                         0.4356   0.0002    0.4356    0.0
+Lab>=450                         0.0957   0.0002    0.0957    0.1
+Lab<=411 (actual or fewer)       0.6679   0.0003    0.6669    0.8
+Lab<=250                         0.0004   0.0000    0.0005   -0.6
+Con>=121 (actual or more)        0.4742   0.0003    0.4739    0.3
+Con<100                          0.3582   0.0001    0.3581    0.1
+Con<=50                          0.0613   0.0001    0.0612    0.1
+Con>=250                         0.0045   0.0001    0.0045    0.1
+LD>=72 (actual or more)          0.1173   0.0002    0.1175   -0.2
+LD>=50                           0.4209   0.0002    0.4212   -0.2
+Ref>=5 (actual or more)          0.9862   0.0000    0.9863   -0.4
+Ref>=50                          0.3262   0.0005    0.3242    1.8
+Grn>=4 (actual or more)          0.4720   0.0000    0.4685    3.1
+SNP<=9 (actual or fewer)         0.0877   0.0005    0.0872    0.7
+PC>=4 (actual or more)           0.4688   0.0001    0.4676    1.1
+Oth>=5 (actual or more)          0.0003   0.0000    0.0005   -3.0
+Hung (no party>=326)             0.0620   0.0005    0.0626   -0.9
+means QMC {'Con': np.float64(119.96), 'Lab': np.float64(392.33), 'LD': np.float64(47.18), 'Ref': np.float64(42.43), 'Grn': np.float64(3.8), 'SNP': np.float64(20.9), 'PC': np.float64(3.24), 'Oth': np.float64(1.16)}
+means MC  {'Con': np.float64(119.95), 'Lab': np.float64(392.27), 'LD': np.float64(47.2), 'Ref': np.float64(42.41), 'Grn': np.float64(3.86), 'SNP': np.float64(20.91), 'PC': np.float64(3.23), 'Oth': np.float64(1.16)}

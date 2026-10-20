@@ -1,0 +1,12 @@
+nat N1 R0 nodes=48 sec=0.2
+nat N2 R0 nodes=744 sec=3.3
+nat N3 R0 nodes=1720 sec=6.9
+nat N4 R0 nodes=3612 sec=14.9
+nat N5 R0 nodes=24705 sec=102.8
+nat N6 R0 nodes=42273 sec=178.6
+reg N2 R0 nodes=744 sec=3.0
+reg N2 R1 nodes=744 sec=4.3
+reg N2 R2 nodes=744 sec=10.3
+reg N2 R3 nodes=744 sec=22.2
+reg N2 R4 nodes=744 sec=38.5
+reg N2 R5 nodes=744 sec=51.9

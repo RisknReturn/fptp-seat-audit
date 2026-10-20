@@ -1,0 +1,5 @@
+rule (3, 3, 2, 2, 2, 2): 47s  Grn 0.471976 PC 0.468849 Oth 0.000339  |diff|>4e-4: {}
+rule (3, 3, 3, 3, 3, 3): 133s  Grn 0.468555 PC 0.468316 Oth 0.000339  |diff|>4e-4: {'Grn>=4 (actual or more)': -0.00342, 'PC>=4 (actual or more)': -0.000533}
+rule (5, 5, 2, 2, 2, 2): 100s  Grn 0.471915 PC 0.468846 Oth 0.000339  |diff|>4e-4: {}
+rule (5, 5, 3, 3, 3, 3): 362s  Grn 0.468473 PC 0.468313 Oth 0.000339  |diff|>4e-4: {'Grn>=4 (actual or more)': -0.003502, 'PC>=4 (actual or more)': -0.000536}
+rule (5, 5, 5, 3, 3, 3): 585s  Grn 0.468486 PC 0.468313 Oth 0.000339  |diff|>4e-4: {'Grn>=4 (actual or more)': -0.003489, 'PC>=4 (actual or more)': -0.000536}

@@ -1,0 +1,36 @@
+dims: national 5 + mu 4 + regional 57 = 66; seats 631; regions 11
+replicate 0: Grn mean diff +2.43e-04  (185s)
+replicate 1: Grn mean diff +4.70e-05  (295s)
+replicate 2: Grn mean diff +1.27e-04  (735s)
+replicate 3: Grn mean diff +3.19e-04  (841s)
+replicate 4: Grn mean diff +1.14e-04  (945s)
+replicate 5: Grn mean diff +1.77e-04  (1049s)
+replicate 6: Grn mean diff +9.78e-05  (1153s)
+replicate 7: Grn mean diff +5.20e-05  (1256s)
+replicate 8: Grn mean diff +7.34e-05  (1361s)
+replicate 9: Grn mean diff +1.24e-04  (1468s)
+replicate 10: Grn mean diff -5.89e-09  (1570s)
+replicate 11: Grn mean diff +5.33e-05  (1670s)
+replicate 12: Grn mean diff +6.06e-05  (1771s)
+replicate 13: Grn mean diff +8.90e-05  (1875s)
+replicate 14: Grn mean diff -7.44e-05  (1977s)
+replicate 15: Grn mean diff +1.90e-04  (2080s)
+  Lab>=326 (majority)            -2.43e-05 +- 3.1e-05  95% [-9.0e-05, +4.1e-05]
+  Lab>=400                       +4.26e-05 +- 9.1e-05  95% [-1.5e-04, +2.4e-04]
+  Lab>=450                       -3.00e-05 +- 4.0e-05  95% [-1.2e-04, +5.6e-05]
+  Lab<=411 (actual or fewer)     -6.60e-05 +- 1.0e-04  95% [-2.8e-04, +1.5e-04]
+  Lab<=250                       +2.06e-06 +- 2.1e-06  95% [-2.3e-06, +6.5e-06]
+  Con>=121 (actual or more)      -2.23e-05 +- 1.8e-04  95% [-4.0e-04, +3.6e-04]
+  Con<100                        -3.25e-04 +- 2.0e-04  95% [-7.5e-04, +1.0e-04]
+  Con<=50                        -1.39e-04 +- 1.5e-04  95% [-4.5e-04, +1.7e-04]
+  Con>=250                       -1.86e-05 +- 1.4e-05  95% [-4.8e-05, +1.1e-05]
+  LD>=72 (actual or more)        +2.79e-04 +- 1.3e-04  95% [-4.3e-06, +5.6e-04]
+  LD>=50                         -2.81e-04 +- 3.0e-04  95% [-9.3e-04, +3.6e-04]
+  Ref>=5 (actual or more)        -7.07e-05 +- 6.9e-05  95% [-2.2e-04, +7.6e-05]
+  Ref>=50                        -2.31e-04 +- 3.5e-04  95% [-9.7e-04, +5.1e-04]
+  Grn>=4 (actual or more)        +1.06e-04 +- 2.4e-05  95% [+5.5e-05, +1.6e-04]
+  SNP<=9 (actual or fewer)       +9.87e-05 +- 2.2e-04  95% [-3.8e-04, +5.7e-04]
+  PC>=4 (actual or more)         +5.92e-06 +- 2.4e-05  95% [-4.6e-05, +5.7e-05]
+  Oth>=5 (actual or more)        -2.79e-08 +- 5.3e-08  95% [-1.4e-07, +8.5e-08]
+  Hung (no party>=326)           +2.43e-05 +- 3.1e-05  95% [-4.1e-05, +9.0e-05]
+done

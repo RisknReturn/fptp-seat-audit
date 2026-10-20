@@ -1,0 +1,8 @@
+rule (3, 3, 2, 2, 2, 2): 42s  Grn 0.471976
+rule (3, 3, 3, 3, 3, 3): 141s  Grn 0.468555
+rule (3, 3, 3, 5, 5, 5): 484s  Grn 0.469244
+dims 4-6 sensitivity, |diff|>1e-4: {'Grn>=4 (actual or more)': 0.000689}
+outer {'m_log2': 12, 'reps': 8, 'seed': 0}: 235s  Oth 0.000410 (se 0.000051) Grn 0.471960
+outer {'m_log2': 12, 'reps': 16, 'seed': 100}: 440s  Oth 0.000503 (se 0.000029) Grn 0.471867
+outer {'m_log2': 13, 'reps': 16, 'seed': 200}: 734s  Oth 0.000455 (se 0.000016) Grn 0.471891
+done

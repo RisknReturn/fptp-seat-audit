@@ -1,0 +1,1601 @@
+{
+ "note": "v0.2 experiments: oracle with mu (0 / realised / ex-ante), poll-based ex-ante, lambda x mu_T grid, seat calibration.",
+ "actual": {
+  "Lab": 411,
+  "Con": 121,
+  "LD": 72,
+  "SNP": 9,
+  "Ref": 5,
+  "Oth": 5,
+  "Grn": 4,
+  "PC": 4,
+  "Spk": 1
+ },
+ "n_seats": 631,
+ "translators": {
+  "UNS_GB": {
+   "deterministic": {
+    "Con": 240,
+    "Lab": 299,
+    "LD": 32,
+    "Ref": 1,
+    "Grn": 1,
+    "SNP": 53,
+    "PC": 3,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 271,
+     "Con": 239,
+     "LD": 28,
+     "SNP": 0,
+     "Ref": 1
+    },
+    "Scotland": {
+     "Lab": 1,
+     "Con": 0,
+     "LD": 3,
+     "SNP": 53,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 27,
+     "Con": 1,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 234.1263293366177,
+    "Lab": 299.36611603003246,
+    "LD": 37.040409518055725,
+    "Ref": 3.6295247778386166,
+    "Grn": 1.0967038025368663,
+    "SNP": 50.08801796673954,
+    "PC": 2.937487284424808,
+    "Oth": 2.7154112837542423
+   },
+   "hit_rate": 0.705229793977813,
+   "vote_mse": 0.025066977559674044
+  },
+  "UNS_country": {
+   "deterministic": {
+    "Con": 248,
+    "Lab": 320,
+    "LD": 36,
+    "Ref": 3,
+    "Grn": 1,
+    "SNP": 17,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 267,
+     "Con": 239,
+     "LD": 30,
+     "SNP": 0,
+     "Ref": 3
+    },
+    "Scotland": {
+     "Lab": 29,
+     "Con": 6,
+     "LD": 5,
+     "SNP": 17,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 24,
+     "Con": 3,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 240.90660179810146,
+    "Lab": 321.3267342746959,
+    "LD": 40.70459723628755,
+    "Ref": 4.640511329173735,
+    "Grn": 1.1167651184232223,
+    "SNP": 15.62236048531967,
+    "PC": 3.9128729489758625,
+    "Oth": 2.7695568090225153
+   },
+   "hit_rate": 0.7543581616481775,
+   "vote_mse": 0.02050560777891348
+  },
+  "UNS_region": {
+   "deterministic": {
+    "Con": 230,
+    "Lab": 324,
+    "LD": 53,
+    "Ref": 0,
+    "Grn": 1,
+    "SNP": 17,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 271,
+     "Con": 221,
+     "LD": 47,
+     "SNP": 0,
+     "Ref": 0
+    },
+    "Scotland": {
+     "Lab": 29,
+     "Con": 6,
+     "LD": 5,
+     "SNP": 17,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 24,
+     "Con": 3,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 218.65607709502018,
+    "Lab": 332.86331793185883,
+    "LD": 51.66793067640259,
+    "Ref": 4.264164109680435,
+    "Grn": 1.1142329710083998,
+    "SNP": 15.62236048531967,
+    "PC": 3.9128729489758625,
+    "Oth": 2.8990437817340178
+   },
+   "hit_rate": 0.7892234548335975,
+   "vote_mse": 0.01700973006265638
+  },
+  "PS_country": {
+   "deterministic": {
+    "Con": 208,
+    "Lab": 317,
+    "LD": 50,
+    "Ref": 24,
+    "Grn": 4,
+    "SNP": 22,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 263,
+     "Con": 207,
+     "LD": 44,
+     "SNP": 0,
+     "Ref": 22
+    },
+    "Scotland": {
+     "Lab": 30,
+     "Con": 0,
+     "LD": 5,
+     "SNP": 22,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 24,
+     "Con": 1,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 2
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 203.32741382344486,
+    "Lab": 316.7411789666136,
+    "LD": 50.842928395669155,
+    "Ref": 28.501892867632815,
+    "Grn": 3.7021427439805947,
+    "SNP": 20.535513050935144,
+    "PC": 4.262730773426733,
+    "Oth": 3.0861993782971036
+   },
+   "hit_rate": 0.757527733755943,
+   "vote_mse": 0.020131952247635497
+  },
+  "PS_region": {
+   "deterministic": {
+    "Con": 189,
+    "Lab": 345,
+    "LD": 56,
+    "Ref": 12,
+    "Grn": 1,
+    "SNP": 22,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 291,
+     "Con": 188,
+     "LD": 50,
+     "SNP": 0,
+     "Ref": 10
+    },
+    "Scotland": {
+     "Lab": 30,
+     "Con": 0,
+     "LD": 5,
+     "SNP": 22,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 24,
+     "Con": 1,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 2
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 182.7505671607627,
+    "Lab": 338.7658834314179,
+    "LD": 57.04145637025797,
+    "Ref": 22.020865476689043,
+    "Grn": 2.384619502081649,
+    "SNP": 20.535513050935144,
+    "PC": 4.262730773426733,
+    "Oth": 3.23836423442885
+   },
+   "hit_rate": 0.8129952456418383,
+   "vote_mse": 0.016618703899402548
+  },
+  "model_mu0": {
+   "expected_with_seat_noise": {
+    "Con": 189.725,
+    "Lab": 344.827,
+    "LD": 49.99,
+    "Ref": 16.686,
+    "Grn": 3.837,
+    "SNP": 19.388,
+    "PC": 4.561,
+    "Oth": 1.987
+   },
+   "note": "engine expected seats incl. regional factors; deterministic counts not computed"
+  },
+  "model_h_obs": {
+   "expected_with_seat_noise": {
+    "Con": 156.412,
+    "Lab": 367.475,
+    "LD": 59.325,
+    "Ref": 17.175,
+    "Grn": 3.571,
+    "SNP": 18.885,
+    "PC": 4.483,
+    "Oth": 3.673
+   },
+   "note": "engine expected seats incl. regional factors; deterministic counts not computed"
+  },
+  "model_mustar": {
+   "expected_with_seat_noise": {
+    "Con": 150.939,
+    "Lab": 365.728,
+    "LD": 60.888,
+    "Ref": 17.327,
+    "Grn": 3.515,
+    "SNP": 18.749,
+    "PC": 4.468,
+    "Oth": 9.386
+   },
+   "note": "engine expected seats incl. regional factors; deterministic counts not computed"
+  },
+  "ECO_country": {
+   "deterministic": {
+    "Con": 185,
+    "Lab": 379,
+    "LD": 41,
+    "Ref": 0,
+    "Grn": 1,
+    "SNP": 19,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 319,
+     "Con": 185,
+     "LD": 35,
+     "SNP": 0,
+     "Ref": 0
+    },
+    "Scotland": {
+     "Lab": 33,
+     "Con": 0,
+     "LD": 5,
+     "SNP": 19,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 27,
+     "Con": 0,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 176.6452695691412,
+    "Lab": 378.0883321506017,
+    "LD": 45.54892610971088,
+    "Ref": 5.303253338653072,
+    "Grn": 1.1586185991669093,
+    "SNP": 16.947990428023353,
+    "PC": 3.482056378002645,
+    "Oth": 3.825553426700238
+   },
+   "hit_rate": 0.8399366085578447,
+   "vote_mse": 0.013305365699459065,
+   "matrices": {
+    "England": {
+     "n": 542,
+     "loss": 0.015238611255789241,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5583,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0009,
+       "Grn": 0.0001,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0272
+      },
+      "Lab": {
+       "Con": 0.1546,
+       "Lab": 0.8643,
+       "LD": 0.0,
+       "Ref": 0.0126,
+       "Grn": 0.0002,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0484
+      },
+      "LD": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 1.0,
+       "Ref": 0.001,
+       "Grn": 0.0001,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.636
+      },
+      "Ref": {
+       "Con": 0.2868,
+       "Lab": 0.0007,
+       "LD": 0.0,
+       "Ref": 0.9805,
+       "Grn": 0.0001,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.2585
+      },
+      "Grn": {
+       "Con": 0.0003,
+       "Lab": 0.1349,
+       "LD": 0.0,
+       "Ref": 0.005,
+       "Grn": 0.9995,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0298
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "Scotland": {
+     "n": 57,
+     "loss": 0.013108531555035649,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5714,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "Lab": {
+       "Con": 0.1012,
+       "Lab": 1.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.3222,
+       "PC": NaN,
+       "OthAll": 0.0002
+      },
+      "LD": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 1.0,
+       "Ref": 0.9999,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.9974
+      },
+      "Ref": {
+       "Con": 0.1709,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0491,
+       "PC": NaN,
+       "OthAll": 0.0013
+      },
+      "Grn": {
+       "Con": 0.0183,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0001,
+       "Grn": 1.0,
+       "SNP": 0.0392,
+       "PC": NaN,
+       "OthAll": 0.0009
+      },
+      "SNP": {
+       "Con": 0.1382,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.5895,
+       "PC": NaN,
+       "OthAll": 0.0002
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "Wales": {
+     "n": 32,
+     "loss": 0.009089604828492394,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5219,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.08,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0011
+      },
+      "Lab": {
+       "Con": 0.2123,
+       "Lab": 0.6639,
+       "LD": 0.0,
+       "Ref": 0.5004,
+       "Grn": 0.4456,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.4043
+      },
+      "LD": {
+       "Con": 0.0,
+       "Lab": 0.0001,
+       "LD": 0.9998,
+       "Ref": 0.0009,
+       "Grn": 0.0559,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0135
+      },
+      "Ref": {
+       "Con": 0.2229,
+       "Lab": 0.1496,
+       "LD": 0.0,
+       "Ref": 0.4965,
+       "Grn": 0.0171,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.5644
+      },
+      "Grn": {
+       "Con": 0.0017,
+       "Lab": 0.1132,
+       "LD": 0.0001,
+       "Ref": 0.0006,
+       "Grn": 0.0913,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0055
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0412,
+       "Lab": 0.0732,
+       "LD": 0.0001,
+       "Ref": 0.0015,
+       "Grn": 0.3102,
+       "SNP": NaN,
+       "PC": 1.0,
+       "OthAll": 0.0112
+      }
+     }
+    }
+   }
+  },
+  "ECO_country_x_context": {
+   "deterministic": {
+    "Con": 141,
+    "Lab": 399,
+    "LD": 68,
+    "Ref": 0,
+    "Grn": 1,
+    "SNP": 16,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 338,
+     "Con": 139,
+     "LD": 62,
+     "SNP": 0,
+     "Ref": 0
+    },
+    "Scotland": {
+     "Lab": 34,
+     "Con": 2,
+     "LD": 5,
+     "SNP": 16,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 27,
+     "Con": 0,
+     "LD": 1,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 142.30472861681938,
+    "Lab": 394.90750678736276,
+    "LD": 65.04715095649192,
+    "Ref": 3.9482569086647636,
+    "Grn": 1.2229165631244485,
+    "SNP": 15.697419989503189,
+    "PC": 3.482056378002645,
+    "Oth": 4.389963800030906
+   },
+   "hit_rate": 0.8890649762282092,
+   "vote_mse": 0.009818790022393251,
+   "matrices": {
+    "England:Con>LD": {
+     "n": 84,
+     "loss": 0.013383901609964857,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5674,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.2762,
+       "Grn": 0.2512,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0001
+      },
+      "Lab": {
+       "Con": 0.0,
+       "Lab": 1.0,
+       "LD": 0.0,
+       "Ref": 0.0813,
+       "Grn": 0.1893,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "LD": {
+       "Con": 0.1561,
+       "Lab": 0.0,
+       "LD": 1.0,
+       "Ref": 0.0404,
+       "Grn": 0.005,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.9997
+      },
+      "Ref": {
+       "Con": 0.214,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.5073,
+       "Grn": 0.1547,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0001
+      },
+      "Grn": {
+       "Con": 0.0625,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0948,
+       "Grn": 0.3998,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0001
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "England:Con>Lab": {
+     "n": 270,
+     "loss": 0.010758632568330147,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5074,
+       "Lab": 0.0031,
+       "LD": 0.2658,
+       "Ref": 0.0064,
+       "Grn": 0.0066,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0301
+      },
+      "Lab": {
+       "Con": 0.1282,
+       "Lab": 0.9284,
+       "LD": 0.1803,
+       "Ref": 0.0142,
+       "Grn": 0.0045,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.1203
+      },
+      "LD": {
+       "Con": 0.0347,
+       "Lab": 0.0004,
+       "LD": 0.5524,
+       "Ref": 0.0041,
+       "Grn": 0.029,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.6227
+      },
+      "Ref": {
+       "Con": 0.3048,
+       "Lab": 0.0009,
+       "LD": 0.0,
+       "Ref": 0.9614,
+       "Grn": 0.0018,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.2166
+      },
+      "Grn": {
+       "Con": 0.0249,
+       "Lab": 0.0672,
+       "LD": 0.0015,
+       "Ref": 0.0138,
+       "Grn": 0.9581,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0103
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "England:Lab>Con": {
+     "n": 172,
+     "loss": 0.01022329305934312,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.4642,
+       "Lab": 0.0197,
+       "LD": 0.1814,
+       "Ref": 0.0001,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.1409
+      },
+      "Lab": {
+       "Con": 0.2231,
+       "Lab": 0.7409,
+       "LD": 0.3884,
+       "Ref": 0.2836,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.2752
+      },
+      "LD": {
+       "Con": 0.0008,
+       "Lab": 0.0637,
+       "LD": 0.4287,
+       "Ref": 0.0003,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0859
+      },
+      "Ref": {
+       "Con": 0.3119,
+       "Lab": 0.0243,
+       "LD": 0.0002,
+       "Ref": 0.716,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.4794
+      },
+      "Grn": {
+       "Con": 0.0,
+       "Lab": 0.1515,
+       "LD": 0.0013,
+       "Ref": 0.0001,
+       "Grn": 0.9999,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0186
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "England:other": {
+     "n": 16,
+     "loss": 0.008821124321125003,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5343,
+       "Lab": 0.0,
+       "LD": 0.0007,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0039
+      },
+      "Lab": {
+       "Con": 0.1456,
+       "Lab": 0.9017,
+       "LD": 0.0004,
+       "Ref": 0.677,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.9937
+      },
+      "LD": {
+       "Con": 0.261,
+       "Lab": 0.0,
+       "LD": 0.7514,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "Ref": {
+       "Con": 0.0591,
+       "Lab": 0.0,
+       "LD": 0.1203,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0017
+      },
+      "Grn": {
+       "Con": 0.0,
+       "Lab": 0.0983,
+       "LD": 0.1273,
+       "Ref": 0.323,
+       "Grn": 1.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0008
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "Scotland:SNP>Lab": {
+     "n": 27,
+     "loss": 0.0024119369232270963,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.3421,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0034
+      },
+      "Lab": {
+       "Con": 0.6579,
+       "Lab": 0.719,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.3218,
+       "PC": NaN,
+       "OthAll": 0.9122
+      },
+      "LD": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.6451,
+       "Ref": 0.0004,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0166
+      },
+      "Ref": {
+       "Con": 0.0,
+       "Lab": 0.092,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.09,
+       "PC": NaN,
+       "OthAll": 0.0087
+      },
+      "Grn": {
+       "Con": 0.0,
+       "Lab": 0.0556,
+       "LD": 0.3549,
+       "Ref": 0.0,
+       "Grn": 1.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.003
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.1334,
+       "LD": 0.0,
+       "Ref": 0.9995,
+       "Grn": 0.0,
+       "SNP": 0.5881,
+       "PC": NaN,
+       "OthAll": 0.0562
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "Scotland:other": {
+     "n": 30,
+     "loss": 0.01654361568630698,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.6284,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0001
+      },
+      "Lab": {
+       "Con": 0.0,
+       "Lab": 1.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.3844,
+       "PC": NaN,
+       "OthAll": 0.0166
+      },
+      "LD": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 1.0,
+       "Ref": 0.9997,
+       "Grn": 0.0,
+       "SNP": 0.0007,
+       "PC": NaN,
+       "OthAll": 0.8788
+      },
+      "Ref": {
+       "Con": 0.1255,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0742,
+       "PC": NaN,
+       "OthAll": 0.0292
+      },
+      "Grn": {
+       "Con": 0.0592,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0003,
+       "Grn": 1.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0563
+      },
+      "SNP": {
+       "Con": 0.1869,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.5406,
+       "PC": NaN,
+       "OthAll": 0.019
+      },
+      "PC": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": 0.0,
+       "PC": NaN,
+       "OthAll": 0.0
+      }
+     }
+    },
+    "Wales": {
+     "n": 32,
+     "loss": 0.009089604828492394,
+     "success": true,
+     "T": {
+      "Con": {
+       "Con": 0.5219,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.08,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0011
+      },
+      "Lab": {
+       "Con": 0.2123,
+       "Lab": 0.6639,
+       "LD": 0.0,
+       "Ref": 0.5004,
+       "Grn": 0.4456,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.4043
+      },
+      "LD": {
+       "Con": 0.0,
+       "Lab": 0.0001,
+       "LD": 0.9998,
+       "Ref": 0.0009,
+       "Grn": 0.0559,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0135
+      },
+      "Ref": {
+       "Con": 0.2229,
+       "Lab": 0.1496,
+       "LD": 0.0,
+       "Ref": 0.4965,
+       "Grn": 0.0171,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.5644
+      },
+      "Grn": {
+       "Con": 0.0017,
+       "Lab": 0.1132,
+       "LD": 0.0001,
+       "Ref": 0.0006,
+       "Grn": 0.0913,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0055
+      },
+      "SNP": {
+       "Con": 0.0,
+       "Lab": 0.0,
+       "LD": 0.0,
+       "Ref": 0.0,
+       "Grn": 0.0,
+       "SNP": NaN,
+       "PC": 0.0,
+       "OthAll": 0.0
+      },
+      "PC": {
+       "Con": 0.0412,
+       "Lab": 0.0732,
+       "LD": 0.0001,
+       "Ref": 0.0015,
+       "Grn": 0.3102,
+       "SNP": NaN,
+       "PC": 1.0,
+       "OthAll": 0.0112
+      }
+     }
+    }
+   }
+  },
+  "ECO_country_CV5": {
+   "deterministic": {
+    "Con": 188,
+    "Lab": 376,
+    "LD": 40,
+    "Ref": 0,
+    "Grn": 1,
+    "SNP": 21,
+    "PC": 3,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 317,
+     "Con": 187,
+     "LD": 35,
+     "SNP": 0,
+     "Ref": 0
+    },
+    "Scotland": {
+     "Lab": 31,
+     "Con": 0,
+     "LD": 5,
+     "SNP": 21,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 28,
+     "Con": 1,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 177.2157593139806,
+    "Lab": 378.8782517491161,
+    "LD": 45.02443623814759,
+    "Ref": 4.630611585968936,
+    "Grn": 1.1590875900689788,
+    "SNP": 16.900498685646344,
+    "PC": 3.3475275272535265,
+    "Oth": 3.8438273098179163
+   },
+   "hit_rate": 0.8304278922345484,
+   "vote_mse": 0.013744185700867752,
+   "note": "5-fold out-of-sample by seat, stratified by group, seed 20261020"
+  },
+  "ECO_country_x_context_CV5": {
+   "deterministic": {
+    "Con": 139,
+    "Lab": 398,
+    "LD": 66,
+    "Ref": 3,
+    "Grn": 1,
+    "SNP": 18,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 339,
+     "Con": 136,
+     "LD": 61,
+     "SNP": 0,
+     "Ref": 3
+    },
+    "Scotland": {
+     "Lab": 33,
+     "Con": 1,
+     "LD": 5,
+     "SNP": 18,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 26,
+     "Con": 2,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 141.40749135623457,
+    "Lab": 393.7551696742772,
+    "LD": 64.6454089654138,
+    "Ref": 6.142176781893643,
+    "Grn": 1.2055964041580114,
+    "SNP": 16.014784544463858,
+    "PC": 3.4665469106321107,
+    "Oth": 4.3628253629267455
+   },
+   "hit_rate": 0.8763866877971473,
+   "vote_mse": 0.010802424389454623,
+   "note": "5-fold out-of-sample by seat, stratified by group, seed 20261020"
+  },
+  "ECO_country_x_winner_CV5": {
+   "deterministic": {
+    "Con": 188,
+    "Lab": 383,
+    "LD": 43,
+    "Ref": 0,
+    "Grn": 1,
+    "SNP": 10,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 320,
+     "Con": 181,
+     "LD": 38,
+     "SNP": 0,
+     "Ref": 0
+    },
+    "Scotland": {
+     "Lab": 36,
+     "Con": 6,
+     "LD": 5,
+     "SNP": 10,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 27,
+     "Con": 1,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 178.14973273432764,
+    "Lab": 381.1772772204324,
+    "LD": 46.473781433996706,
+    "Ref": 3.86123642467762,
+    "Grn": 1.169777872130296,
+    "SNP": 12.439340627275124,
+    "PC": 3.375173058334952,
+    "Oth": 4.353680628825227
+   },
+   "hit_rate": 0.8462757527733756,
+   "vote_mse": 0.012777506150561117,
+   "note": "5-fold out-of-sample by seat, stratified by group, seed 20261020"
+  },
+  "ECO_context_shrunk_a0.003_CV5": {
+   "deterministic": {
+    "Con": 144,
+    "Lab": 398,
+    "LD": 61,
+    "Ref": 3,
+    "Grn": 1,
+    "SNP": 18,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 339,
+     "Con": 141,
+     "LD": 56,
+     "SNP": 0,
+     "Ref": 3
+    },
+    "Scotland": {
+     "Lab": 33,
+     "Con": 1,
+     "LD": 5,
+     "SNP": 18,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 26,
+     "Con": 2,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 145.71311391414514,
+    "Lab": 394.0043338887842,
+    "LD": 60.818607437476416,
+    "Ref": 5.653594039546665,
+    "Grn": 1.1737097119212376,
+    "SNP": 16.109819266092153,
+    "PC": 3.466525886831669,
+    "Oth": 4.060295855202486
+   },
+   "hit_rate": 0.8748019017432647,
+   "vote_mse": 0.011714747332951816,
+   "note": "5-fold out-of-sample, context matrices shrunk toward the country matrix, alpha=0.003"
+  },
+  "ECO_context_shrunk_a0.03_CV5": {
+   "deterministic": {
+    "Con": 145,
+    "Lab": 396,
+    "LD": 61,
+    "Ref": 3,
+    "Grn": 1,
+    "SNP": 19,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 339,
+     "Con": 141,
+     "LD": 56,
+     "SNP": 0,
+     "Ref": 3
+    },
+    "Scotland": {
+     "Lab": 31,
+     "Con": 2,
+     "LD": 5,
+     "SNP": 19,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 26,
+     "Con": 2,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 147.82747668992965,
+    "Lab": 393.02931757604665,
+    "LD": 59.57600622478792,
+    "Ref": 5.731966042953724,
+    "Grn": 1.1710022553460226,
+    "SNP": 16.185949866889498,
+    "PC": 3.466525886831669,
+    "Oth": 4.01175545721487
+   },
+   "hit_rate": 0.873217115689382,
+   "vote_mse": 0.011820766800977954,
+   "note": "5-fold out-of-sample, context matrices shrunk toward the country matrix, alpha=0.03"
+  },
+  "ECO_context_shrunk_a0.3_CV5": {
+   "deterministic": {
+    "Con": 156,
+    "Lab": 392,
+    "LD": 52,
+    "Ref": 3,
+    "Grn": 1,
+    "SNP": 21,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 335,
+     "Con": 154,
+     "LD": 47,
+     "SNP": 0,
+     "Ref": 3
+    },
+    "Scotland": {
+     "Lab": 31,
+     "Con": 0,
+     "LD": 5,
+     "SNP": 21,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 26,
+     "Con": 2,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 160.37868454000994,
+    "Lab": 386.5871821459247,
+    "LD": 53.02779738956606,
+    "Ref": 5.693868798843508,
+    "Grn": 1.168123009726087,
+    "SNP": 16.748786613876113,
+    "PC": 3.466525886831669,
+    "Oth": 3.92903161522184
+   },
+   "hit_rate": 0.8526148969889065,
+   "vote_mse": 0.012342041012334997,
+   "note": "5-fold out-of-sample, context matrices shrunk toward the country matrix, alpha=0.3"
+  },
+  "ECO_mixed_context_CV5": {
+   "deterministic": {
+    "Con": 143,
+    "Lab": 404,
+    "LD": 66,
+    "Ref": 3,
+    "Grn": 1,
+    "SNP": 8,
+    "PC": 4,
+    "Oth": 2
+   },
+   "deterministic_by_country": {
+    "England": {
+     "Lab": 339,
+     "Con": 136,
+     "LD": 61,
+     "SNP": 0,
+     "Ref": 3
+    },
+    "Scotland": {
+     "Lab": 38,
+     "Con": 6,
+     "LD": 5,
+     "SNP": 8,
+     "Ref": 0
+    },
+    "Wales": {
+     "Lab": 27,
+     "Con": 1,
+     "LD": 0,
+     "SNP": 0,
+     "Ref": 0
+    }
+   },
+   "expected_with_seat_noise": {
+    "Con": 143.224435505908,
+    "Lab": 396.4409176692693,
+    "LD": 64.48157856943178,
+    "Ref": 6.107476382329024,
+    "Grn": 1.2052270049005425,
+    "SNP": 11.802300383712161,
+    "PC": 3.375173058334952,
+    "Oth": 4.3628914261142615
+   },
+   "hit_rate": 0.884310618066561,
+   "vote_mse": 0.010913887008201615,
+   "note": "5-fold out-of-sample by seat, stratified by group, seed 20261020"
+  }
+ },
+ "context_sizes": {
+  "England:Con>Lab": 270,
+  "England:Lab>Con": 172,
+  "England:Con>LD": 84,
+  "Wales": 32,
+  "Scotland:other": 30,
+  "Scotland:SNP>Lab": 27,
+  "England:other": 16
+ },
+ "actual_by_country": {
+  "England": {
+   "Lab": 347,
+   "Con": 116,
+   "LD": 65,
+   "SNP": 0,
+   "Ref": 5
+  },
+  "Scotland": {
+   "Lab": 37,
+   "Con": 5,
+   "LD": 6,
+   "SNP": 9,
+   "Ref": 0
+  },
+  "Wales": {
+   "Lab": 27,
+   "Con": 0,
+   "LD": 1,
+   "SNP": 0,
+   "Ref": 0
+  }
+ },
+ "fold_seed_sensitivity": {
+  "mixed_seed1": {
+   "Lab_det": 406,
+   "Lab_exp": 397.1688174210431,
+   "Con_exp": 143.3091959901218,
+   "LD_exp": 65.03914492031876,
+   "SNP_exp": 12.114669709216116,
+   "hit": 0.8874801901743264
+  },
+  "context_seed1": {
+   "Lab_det": 400,
+   "Lab_exp": 394.7900321145263,
+   "Con_exp": 141.4649871269865,
+   "LD_exp": 65.21526712666127,
+   "SNP_exp": 15.971051947735447,
+   "hit": 0.8795562599049128
+  },
+  "country_seed1": {
+   "Lab_det": 377,
+   "Lab_exp": 377.9474220705074,
+   "Con_exp": 177.4435421980017,
+   "LD_exp": 45.11022092913673,
+   "SNP_exp": 17.205382740398804,
+   "hit": 0.8351822503961965
+  },
+  "mixed_seed2": {
+   "Lab_det": 400,
+   "Lab_exp": 395.42844955702907,
+   "Con_exp": 144.4714483459852,
+   "LD_exp": 64.0878025254718,
+   "SNP_exp": 12.325131111509966,
+   "hit": 0.8874801901743264
+  },
+  "context_seed2": {
+   "Lab_det": 398,
+   "Lab_exp": 393.2285569232327,
+   "Con_exp": 142.30437194637474,
+   "LD_exp": 64.15335760083241,
+   "SNP_exp": 16.645141773432883,
+   "hit": 0.8811410459587956
+  },
+  "country_seed2": {
+   "Lab_det": 377,
+   "Lab_exp": 378.18284631682116,
+   "Con_exp": 177.37462766267146,
+   "LD_exp": 45.0106688389882,
+   "SNP_exp": 17.054853557232565,
+   "hit": 0.8351822503961965
+  },
+  "mixed_seed3": {
+   "Lab_det": 402,
+   "Lab_exp": 397.05165084901023,
+   "Con_exp": 144.09273985927237,
+   "LD_exp": 64.47605064721847,
+   "SNP_exp": 12.170905607900789,
+   "hit": 0.884310618066561
+  },
+  "context_seed3": {
+   "Lab_det": 399,
+   "Lab_exp": 395.69554558580586,
+   "Con_exp": 141.8103947701664,
+   "LD_exp": 64.63854008220432,
+   "SNP_exp": 16.083701076896823,
+   "hit": 0.8716323296354992
+  },
+  "country_seed3": {
+   "Lab_det": 378,
+   "Lab_exp": 377.4089965765628,
+   "Con_exp": 177.47977906104933,
+   "LD_exp": 44.86093164430814,
+   "SNP_exp": 17.2890516020132,
+   "hit": 0.8351822503961965
+  }
+ }
+}

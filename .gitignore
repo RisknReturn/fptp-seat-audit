@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# large source files that are not redistributed here (see DATA_LICENSES.md)
+data/bes/

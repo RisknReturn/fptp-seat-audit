@@ -1,0 +1,9 @@
+h_obs [ 0.1789  0.3365  0.0578 -0.1536] | h(0) [ 0.005   0.2409  0.0232 -0.0201] | h(h_obs) [ 0.1522  0.269   0.0533 -0.121 ]
+newton 0: mu [ 0.1789  0.3365  0.0578 -0.1536] |h-h_obs| 6.74e-02
+newton 1: mu [ 0.2107  0.4361  0.0665 -0.1865] |h-h_obs| 7.44e-03
+newton 2: mu [ 0.2111  0.4301  0.066  -0.1841] |h-h_obs| 3.77e-05
+newton 3: mu [ 0.2111  0.4301  0.066  -0.1841] |h-h_obs| 9.41e-10
+mu=0                         Lab 344.8 Con 189.7 LD 50.0 Ref 16.7 SNP 19.4 | Brier 0.2734 log 0.5366
+mu=h_obs (v0.2 practice)     Lab 367.5 Con 156.4 LD 59.3 Ref 17.2 SNP 18.9 | Brier 0.2022 log 0.3755
+mu=mu_star (inverted)        Lab 365.7 Con 150.9 LD 60.9 Ref 17.3 SNP 18.7 | Brier 0.2012 log 0.3830
+done

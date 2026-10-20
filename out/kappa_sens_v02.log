@@ -1,0 +1,10 @@
+kappa 0.0: Lab 367.9 Oth 1.8 (1-3) brier 0.2022
+   top P(Oth): [('Ashfield', 0.88, False), ('Solihull West and Shir', 0.44, False), ('North West Leicestersh', 0.33, False), ('Leicester East', 0.13, False), ('Islington North', 0.04, True), ('Clwyd East', 0.0, False), ('Na h-Eileanan an Iar', 0.0, False), ('Exmouth and Exeter Eas', 0.0, False)]
+kappa 2.0: Lab 369.4 Oth 0.8 (0-2) brier 0.1996
+   top P(Oth): [('Ashfield', 0.6, False), ('Solihull West and Shir', 0.11, False), ('North West Leicestersh', 0.07, False), ('Leicester East', 0.03, False), ('Islington North', 0.01, True), ('Bradford West', 0.01, False), ('Birmingham Hall Green ', 0.01, False), ('Blackburn', 0.0, True)]
+kappa 3.0: Lab 369.6 Oth 1.3 (0-3) brier 0.1992
+   top P(Oth): [('Bradford West', 0.51, False), ('Ashfield', 0.32, False), ('Birmingham Hall Green ', 0.28, False), ('Solihull West and Shir', 0.04, False), ('North West Leicestersh', 0.02, False), ('Blackburn', 0.02, True), ('Dewsbury and Batley', 0.01, True), ('Birmingham Ladywood', 0.01, False)]
+kappa 4.0: Lab 368.0 Oth 3.7 (2-6) brier 0.2008
+   top P(Oth): [('Bradford West', 0.99, False), ('Birmingham Hall Green ', 0.97, False), ('Blackburn', 0.37, True), ('Birmingham Ladywood', 0.26, False), ('Bethnal Green and Step', 0.19, False), ('Dewsbury and Batley', 0.19, True), ('East Ham', 0.17, False), ('Bradford East', 0.17, False)]
+kappa 6.0: Lab 361.8 Oth 11.6 (10-13) brier 0.2112
+   top P(Oth): [('Bradford West', 1.0, False), ('Birmingham Hall Green ', 1.0, False), ('Birmingham Ladywood', 1.0, False), ('Blackburn', 0.99, True), ('Bethnal Green and Step', 0.99, False), ('East Ham', 0.99, False), ('Bradford East', 0.99, False), ('Dewsbury and Batley', 0.99, True)]

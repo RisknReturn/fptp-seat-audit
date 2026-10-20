@@ -1,0 +1,633 @@
+area_id,name,ons,country,region,stand24_Con,stand24_Lab,stand24_LD,stand24_Ref,stand24_Grn,stand24_SNP,stand24_PC,stand24_Oth,ind_sitting_mp,wpb24,oth_returning_share,leave,muslim,degree,white_british,age20_29,age65p
+661,Amber Valley,E14001066,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,65.2708724,0.2,24.3,95.4,11.1,21.999999999999996
+666,Ashfield,E14001068,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.275582,70.808832,0.6,20.8,92.0,11.4,20.0
+679,Bassetlaw,E14001079,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,68.8511112,0.6,24.9,91.5,11.100000000000001,21.5
+716,Bolsover,E14001109,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,70.5338188,0.3,22.2,93.8,11.7,20.6
+721,Boston and Skegness,E14001114,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,76.1919692,1.0,18.1,82.3,10.3,24.3
+749,Broxtowe,E14001140,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,54.3678659,2.2,34.6,84.3,12.5,21.7
+783,Chesterfield,E14001165,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,59.1886142,1.0,27.4,92.9,11.3,21.8
+800,Corby and East Northamptonshire,E14001179,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,59.3918727,0.6,26.9,81.0,11.1,17.1
+815,Daventry,E14001192,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,58.12909200000001,0.8,33.8,88.3,10.2,20.8
+816,Derby North,E14001193,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,55.627298,6.0,32.6,73.4,15.7,16.999999999999996
+817,Derby South,E14001194,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,59.8897972,19.1,25.4,51.8,13.899999999999999,13.6
+818,Derbyshire Dales,E14001195,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,51.3333473,0.4,39.0,94.9,8.6,26.2
+865,Erewash,E14001228,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,63.16756529999999,0.5,24.5,92.0,11.899999999999999,19.599999999999998
+883,Gainsborough,E14001243,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,61.8176173,0.4,29.3,94.5,9.3,25.199999999999996
+885,Gedling,E14001245,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,56.6672986,2.4,31.5,84.4,10.6,20.799999999999997
+902,Grantham and Bourne,E14001253,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,62.2513811,0.6,28.3,89.6,9.8,23.0
+916,"Harborough, Oadby and Wigston",E14001266,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,52.2053801,6.8,35.3,71.6,10.0,21.7
+937,High Peak,E14001287,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,50.5480277,0.3,35.6,94.8,9.899999999999999,21.8
+938,Hinckley and Bosworth,E14001288,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,60.4579871,0.6,29.4,91.4,10.4,21.9
+963,Kettering,E14001311,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,60.729604,1.4,28.3,82.3,11.3,18.1
+980,Leicester East,E14001326,England,East Midlands,True,True,True,True,True,False,False,True,True,False,0.0,52.375415,25.6,23.1,17.1,13.1,13.499999999999998
+981,Leicester South,E14001327,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,42.4074217,34.8,30.8,32.1,22.3,10.5
+982,Leicester West,E14001328,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,51.5621997,10.5,26.5,50.3,16.4,11.3
+990,Lincoln,E14001336,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,57.618406099999994,1.7,26.9,84.1,19.7,15.2
+999,Loughborough,E14001342,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,50.2700426,4.3,33.0,77.1,18.2,17.200000000000003
+1000,Louth and Horncastle,E14001343,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,67.89895270000001,0.3,23.8,96.2,8.7,30.6
+1012,Mansfield,E14001355,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,70.8126177,1.1,21.9,87.4,11.2,19.500000000000004
+1014,Melton and Syston,E14001357,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,59.5210451,0.9,30.1,86.1,9.9,22.200000000000003
+1021,Mid Derbyshire,E14001362,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,52.2734031,0.6,35.9,92.6,9.7,24.000000000000004
+1024,Mid Leicestershire,E14001364,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,57.270887,1.8,32.9,77.9,10.2,20.999999999999996
+1043,Newark,E14001375,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,56.0088654,0.6,32.7,90.6,9.899999999999999,23.500000000000004
+1065,North East Derbyshire,E14001391,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,62.0069603,0.4,27.6,95.6,10.0,24.7
+1079,North West Leicestershire,E14001404,England,East Midlands,True,True,True,True,True,False,False,True,True,False,0.0,60.82085000000001,0.4,29.8,91.9,11.7,20.2
+1081,Northampton North,E14001406,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,59.0836037,7.2,27.6,59.3,15.100000000000001,14.1
+1082,Northampton South,E14001407,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,57.6470011,3.7,31.5,69.3,11.9,15.4
+1085,Nottingham East,E14001410,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,40.1917223,16.9,33.8,49.2,24.7,9.299999999999999
+1086,Nottingham North and Kimberley,E14001411,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,58.5094141,7.6,24.2,66.1,12.1,15.200000000000001
+1087,Nottingham South,E14001412,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,54.2061764,10.2,27.4,61.9,24.0,12.5
+1138,Rushcliffe,E14001457,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,41.8118188,2.6,46.2,84.8,10.8,21.5
+1140,Rutland and Stamford,E14001458,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,51.961090600000006,1.0,37.2,89.2,9.2,24.599999999999998
+1153,Sherwood Forest,E14001471,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,62.4437692,0.6,26.5,92.6,11.1,20.8
+1158,Sleaford and North Hykeham,E14001476,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,62.5437764,0.5,29.8,94.1,10.2,23.2
+1166,South Derbyshire,E14001483,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,61.718273,0.7,31.2,90.0,11.2,19.3
+1171,South Holland and The Deepings,E14001487,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,71.35334639999999,0.5,21.3,85.6,10.100000000000001,23.9
+1172,South Leicestershire,E14001488,England,East Midlands,True,True,True,True,True,False,False,False,False,False,0.0,56.8786735,0.5,31.5,91.3,10.4,20.9
+1174,South Northamptonshire,E14001490,England,East Midlands,True,True,True,True,True,False,False,True,False,True,0.0,54.674088600000005,0.6,35.1,90.7,9.7,20.2
+1261,Wellingborough and Rushden,E14001571,England,East Midlands,True,True,True,True,True,False,False,True,False,False,0.0,64.8444246,1.8,24.0,76.1,11.6,18.0
+677,Basildon and Billericay,E14001077,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,66.3295526,1.9,25.6,81.5,11.5,16.3
+685,Bedford,E14001084,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,52.1569967,10.2,32.0,54.2,13.0,15.799999999999999
+728,Braintree,E14001121,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,60.406548699999995,0.7,25.8,90.3,10.4,20.5
+733,Brentwood and Ongar,E14001125,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,61.0421819,1.5,33.1,84.2,10.600000000000001,20.7
+745,Broadland and Fakenham,E14001136,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,54.132442999999995,0.3,27.4,95.0,8.8,26.599999999999998
+748,Broxbourne,E14001139,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,65.3239571,4.0,27.8,70.2,11.3,17.6
+755,Bury St Edmunds and Stowmarket,E14001146,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,54.6467747,0.5,31.2,89.4,11.399999999999999,23.099999999999998
+761,Cambridge,E14001149,England,East of England,True,True,True,False,True,False,False,True,False,True,0.0,25.2821444,5.0,55.7,52.8,26.0,11.0
+770,Castle Point,E14001154,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,72.7895478,0.8,18.5,92.5,10.5,25.3
+773,Central Suffolk and North Ipswich,E14001156,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,56.2290076,1.3,29.9,89.4,9.899999999999999,23.500000000000004
+777,Chelmsford,E14001159,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,49.8946344,2.8,36.2,78.3,12.600000000000001,16.799999999999997
+792,Clacton,E14001174,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,71.8070563,0.5,18.2,93.4,9.100000000000001,32.0
+797,Colchester,E14001176,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,51.0718719,2.7,33.3,75.7,15.5,14.299999999999999
+833,Dunstable and Leighton Buzzard,E14001206,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,57.6785561,2.1,30.8,77.4,11.4,16.6
+861,Ely and East Cambridgeshire,E14001224,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,49.1572147,0.7,37.0,85.1,9.6,20.5
+863,Epping Forest,E14001226,England,East of England,True,True,True,False,True,False,False,True,False,False,0.0,61.287594,4.2,34.3,71.5,10.8,18.400000000000002
+905,Great Yarmouth,E14001256,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,71.5049473,0.7,18.2,88.9,10.7,24.0
+917,Harlow,E14001267,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,66.3717266,3.5,25.5,75.2,11.8,15.899999999999999
+918,Harpenden and Berkhamsted,E14001268,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,39.6261021,1.1,51.8,85.0,7.4,20.000000000000004
+923,Harwich and North Essex,E14001273,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,59.069242200000005,0.9,27.8,90.3,10.9,24.100000000000005
+928,Hemel Hempstead,E14001278,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,55.844247,4.4,33.0,74.2,11.8,15.8
+933,Hertford and Stortford,E14001283,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,48.740865,1.5,40.1,82.0,11.100000000000001,17.1
+934,Hertsmere,E14001284,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,51.086633299999995,3.6,39.2,64.0,10.6,18.5
+939,Hitchin,E14001289,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,46.9788519,1.5,40.5,82.6,10.0,17.299999999999997
+948,Huntingdon,E14001298,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,51.64821080000001,1.9,35.0,83.0,10.7,20.099999999999998
+954,Ipswich,E14001302,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,56.73647819999999,4.0,27.4,73.1,13.0,15.900000000000002
+1001,Lowestoft,E14001344,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,64.4270008,0.4,20.9,94.5,10.100000000000001,26.1
+1002,Luton North,E14001345,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,59.255974300000005,32.5,30.0,34.7,12.2,14.099999999999998
+1003,Luton South and South Bedfordshire,E14001346,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,54.1368305,29.7,29.9,35.3,15.5,11.3
+1008,Maldon,E14001351,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,61.0239919,0.6,26.4,93.2,9.9,24.3
+1018,Mid Bedfordshire,E14001359,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,54.356997799999995,1.5,36.9,83.8,11.0,17.700000000000003
+1025,Mid Norfolk,E14001365,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,63.2085805,0.4,24.5,92.0,10.2,25.9
+1057,North Bedfordshire,E14001384,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,53.136833800000005,1.5,35.8,83.9,10.399999999999999,19.0
+1064,North East Cambridgeshire,E14001390,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,71.3924676,0.7,19.0,85.9,11.0,22.9
+1068,North East Hertfordshire,E14001393,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,50.7452674,0.8,37.4,85.7,9.8,20.5
+1071,North Norfolk,E14001396,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,58.348666400000006,0.2,26.7,95.7,7.7,34.400000000000006
+1076,North West Cambridgeshire,E14001401,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,59.5360088,2.9,30.0,75.3,11.4,15.799999999999999
+1077,North West Essex,E14001402,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,51.1959489,0.9,36.3,87.8,9.5,19.900000000000002
+1080,North West Norfolk,E14001405,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,64.94739419999999,0.6,23.5,87.3,10.1,26.3
+1083,Norwich North,E14001408,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,56.757091599999995,1.7,26.6,86.5,12.3,20.1
+1084,Norwich South,E14001409,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,40.666369200000005,2.9,36.3,77.3,21.1,16.299999999999997
+1104,Peterborough,E14001425,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,61.9294903,17.8,23.3,52.3,12.9,14.5
+1117,Rayleigh and Wickford,E14001437,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,68.48799460000001,0.6,22.9,92.7,10.2,22.9
+1163,South Basildon and East Thurrock,E14001480,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,74.0549946,2.0,22.3,81.4,11.9,17.8
+1164,South Cambridgeshire,E14001481,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,39.6232185,2.0,49.1,76.9,10.7,20.799999999999997
+1173,South Norfolk,E14001489,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,47.794966,0.7,35.2,91.0,9.600000000000001,22.4
+1178,South Suffolk,E14001494,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,54.1852214,0.5,29.5,93.6,8.899999999999999,26.499999999999996
+1180,South West Hertfordshire,E14001496,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,51.0603867,3.6,42.6,68.8,9.8,18.4
+1181,South West Norfolk,E14001497,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,66.49718,0.4,22.3,87.4,10.7,24.3
+1185,Southend East and Rochford,E14001501,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,59.9540156,3.0,25.1,81.5,12.4,18.299999999999997
+1186,Southend West and Leigh,E14001502,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,58.141941200000005,2.6,28.0,84.0,10.4,20.099999999999998
+1191,St Albans,E14001507,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,37.1100263,6.2,51.7,69.3,10.0,16.2
+1196,St Neots and Mid Cambridgeshire,E14001512,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,45.5812198,1.8,42.2,80.5,10.1,17.400000000000002
+1200,Stevenage,E14001516,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,57.1469091,2.9,31.1,76.7,12.0,16.099999999999998
+1216,Suffolk Coastal,E14001530,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,53.63028680000001,0.5,30.8,92.0,8.9,29.8
+1233,Thurrock,E14001546,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,69.6708574,6.3,28.8,57.9,12.4,11.100000000000001
+1258,Watford,E14001568,England,East of England,True,True,True,True,True,False,False,True,False,True,0.0,50.4618741,12.4,41.2,46.7,12.7,12.8
+1259,Waveney Valley,E14001569,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,55.634429,0.3,28.2,94.6,8.5,29.099999999999998
+1263,Welwyn Hatfield,E14001573,England,East of England,True,True,True,True,True,False,False,False,False,False,0.0,52.7524016,3.3,37.3,66.9,15.6,15.200000000000001
+1270,West Suffolk,E14001578,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,63.0382121,1.3,26.6,79.7,13.5,19.099999999999998
+1283,Witham,E14001590,England,East of England,True,True,True,True,True,False,False,True,False,False,0.0,60.355394100000005,0.6,27.6,90.9,10.399999999999999,22.0
+673,Barking,E14001073,England,London,True,True,True,True,True,False,False,True,False,True,0.0,59.7285138,27.6,34.1,27.7,13.2,7.7
+682,Battersea,E14001081,England,London,True,True,True,True,True,False,False,True,False,True,0.0,22.5185517,8.6,65.2,46.1,24.8,8.600000000000001
+684,Beckenham and Penge,E14001083,England,London,True,True,True,True,True,False,False,False,False,False,0.0,41.6526542,4.2,48.6,60.3,10.3,15.8
+690,Bermondsey and Old Southwark,E14001085,England,London,True,True,True,True,True,False,False,True,False,False,0.0,27.7336873,9.7,56.9,34.3,25.3,7.2
+692,Bethnal Green and Stepney,E14001086,England,London,True,True,True,True,True,False,False,True,False,False,0.0,33.067504,46.6,46.2,20.8,25.5,5.9
+695,Bexleyheath and Crayford,E14001089,England,London,True,True,True,True,True,False,False,False,False,False,0.0,65.4431259,3.7,30.5,66.3,11.2,16.9
+730,Brent East,E14001122,England,London,True,True,True,True,True,False,False,True,False,True,0.0,42.0091165,27.2,38.6,16.6,15.4,11.4
+731,Brent West,E14001123,England,London,True,True,True,True,True,False,False,True,False,True,0.0,41.6332775,17.9,38.7,9.4,16.7,12.399999999999999
+732,Brentford and Isleworth,E14001124,England,London,True,True,True,True,True,False,False,True,False,True,0.0,45.0486285,17.3,44.9,28.5,12.7,11.9
+746,Bromley and Biggin Hill,E14001137,England,London,True,True,True,True,True,False,False,True,False,False,0.0,49.9683486,3.0,42.4,68.5,10.1,17.7
+769,Carshalton and Wallington,E14001153,England,London,True,True,True,True,True,False,False,True,False,True,0.0,55.557761000000006,6.3,37.4,59.2,10.7,14.200000000000001
+778,Chelsea and Fulham,E14001160,England,London,True,True,True,True,True,False,False,True,False,True,0.0,28.592948,8.7,60.6,42.0,21.5,12.5
+785,Chingford and Woodford Green,E14001167,England,London,True,True,True,True,True,False,False,True,False,False,0.0,50.483547900000005,13.3,39.4,48.9,11.4,15.5
+787,Chipping Barnet,E14001169,England,London,True,True,True,True,True,False,False,True,False,False,0.0,42.2736373,8.8,48.6,45.4,10.9,17.0
+790,Cities of London and Westminster,E14001172,England,London,True,True,True,True,True,False,False,True,False,True,0.0,29.7461942,14.4,62.2,31.4,21.9,13.2
+793,Clapham and Brixton Hill,E14001175,England,London,True,True,True,True,True,False,False,True,False,False,0.0,16.565110699999998,6.9,60.3,41.5,27.9,7.6000000000000005
+808,Croydon East,E14001186,England,London,True,True,True,True,True,False,False,False,False,False,0.0,50.751757600000005,7.9,36.6,46.1,12.2,15.1
+809,Croydon South,E14001187,England,London,True,True,True,True,True,False,False,True,False,True,0.0,43.009448,6.6,46.1,53.7,10.5,17.6
+810,Croydon West,E14001188,England,London,True,True,True,True,True,False,False,True,False,True,0.0,44.9277086,14.3,39.7,20.8,14.7,9.299999999999999
+812,Dagenham and Rainham,E14001189,England,London,True,True,True,True,True,False,False,True,False,False,0.0,70.4479635,14.6,29.9,46.6,12.600000000000001,12.700000000000001
+828,Dulwich and West Norwood,E14001205,England,London,True,True,True,True,True,False,False,True,False,False,0.0,23.5329257,7.6,56.3,40.9,16.1,9.7
+835,Ealing Central and Acton,E14001207,England,London,True,True,True,True,True,False,False,True,False,True,0.0,31.5014495,16.6,54.9,31.6,17.2,11.4
+836,Ealing North,E14001208,England,London,True,True,True,True,True,False,False,True,False,True,0.0,49.2095202,20.3,39.0,23.1,12.8,12.299999999999999
+837,Ealing Southall,E14001209,England,London,True,True,True,True,True,False,False,True,False,True,0.0,39.4403286,19.3,38.5,18.7,13.100000000000001,12.1
+842,East Ham,E14001213,England,London,True,True,True,True,True,False,False,True,False,False,0.0,43.8882591,47.1,33.7,8.9,15.3,7.7
+858,Edmonton and Winchmore Hill,E14001221,England,London,True,True,True,True,True,False,False,True,False,True,0.0,45.6254889,22.8,33.4,25.3,12.5,13.700000000000001
+860,Eltham and Chislehurst,E14001223,England,London,True,True,True,True,True,False,False,True,False,True,0.0,48.2168863,5.5,40.0,59.1,11.600000000000001,15.399999999999999
+862,Enfield North,E14001225,England,London,True,True,True,True,True,False,False,True,False,True,0.0,46.852599299999994,17.7,33.8,35.8,12.3,12.299999999999997
+866,Erith and Thamesmead,E14001229,England,London,True,True,True,True,True,False,False,True,False,True,0.0,49.529865699999995,8.8,37.0,35.1,13.3,10.2
+874,Feltham and Heston,E14001236,England,London,True,True,True,True,True,False,False,True,False,True,0.0,60.3802852,17.8,32.7,25.4,13.2,11.200000000000001
+877,Finchley and Golders Green,E14001238,England,London,True,True,True,True,True,False,False,True,False,False,0.0,31.2707953,10.9,53.0,36.7,12.7,15.2
+906,Greenwich and Woolwich,E14001257,England,London,True,True,True,True,True,False,False,True,False,True,0.0,23.8911609,9.1,55.4,38.1,17.7,8.1
+908,Hackney North and Stoke Newington,E14001259,England,London,True,True,True,True,True,False,False,True,False,False,0.0,20.8956302,13.5,48.8,37.3,17.1,8.5
+909,Hackney South and Shoreditch,E14001260,England,London,True,True,True,True,True,False,False,True,False,True,0.0,21.7803087,13.3,54.5,30.8,21.5,7.6
+914,Hammersmith and Chiswick,E14001264,England,London,True,True,True,True,True,False,False,True,False,True,0.0,29.9429624,11.6,58.4,38.8,18.0,11.8
+915,Hampstead and Highgate,E14001265,England,London,True,True,True,True,True,False,False,True,False,False,0.0,21.4373349,11.5,64.7,38.7,16.1,13.2
+920,Harrow East,E14001270,England,London,True,True,True,True,True,False,False,True,False,True,0.0,49.0232396,15.1,40.7,17.9,13.7,16.7
+921,Harrow West,E14001271,England,London,True,True,True,True,True,False,False,True,False,False,0.0,43.3114597,17.8,45.2,18.2,13.5,12.4
+926,Hayes and Harlington,E14001276,England,London,True,True,True,True,True,False,False,True,False,True,0.0,57.856987800000006,20.0,32.1,22.5,13.6,10.200000000000001
+929,Hendon,E14001279,England,London,True,True,True,True,True,False,False,True,False,True,0.0,41.5844736,16.5,45.7,27.6,15.3,11.7
+940,Holborn and St Pancras,E14001290,England,London,True,True,True,True,True,False,False,True,False,False,0.0,27.689384299999997,19.7,51.0,33.6,23.8,10.8
+942,Hornchurch and Upminster,E14001292,England,London,True,True,True,True,True,False,False,True,False,False,0.0,69.1002997,4.0,29.3,72.1,11.3,19.0
+943,Hornsey and Friern Barnet,E14001293,England,London,True,True,True,True,True,False,False,True,False,True,0.0,17.4469427,7.6,60.2,45.6,13.100000000000001,12.4
+950,Ilford North,E14001300,England,London,True,True,True,True,True,False,False,True,False,False,0.0,51.593239,30.6,41.8,20.9,13.5,12.8
+951,Ilford South,E14001301,England,London,True,True,True,True,True,False,False,True,False,True,0.0,46.3032279,41.4,37.6,12.2,14.0,9.600000000000001
+957,Islington North,E14001305,England,London,True,True,True,True,True,False,False,True,True,False,0.0,23.0289778,12.4,57.6,39.9,20.4,9.3
+958,Islington South and Finsbury,E14001306,England,London,True,True,True,True,True,False,False,True,False,False,0.0,25.610624,11.4,56.2,39.4,22.8,9.299999999999999
+962,Kensington and Bayswater,E14001310,England,London,True,True,True,True,True,False,False,True,False,False,0.0,28.9260235,12.6,60.6,30.3,19.0,13.0
+965,Kingston and Surbiton,E14001312,England,London,True,True,True,True,True,False,False,True,False,True,0.0,39.252094799999995,6.9,49.4,55.9,14.3,13.8
+985,Lewisham East,E14001331,England,London,True,True,True,True,True,False,False,True,False,True,0.0,37.6034911,7.5,42.6,35.6,12.9,10.8
+986,Lewisham North,E14001332,England,London,True,True,True,True,True,False,False,True,False,True,0.0,24.4960255,8.3,54.3,33.9,19.700000000000003,7.6
+987,Lewisham West and East Dulwich,E14001333,England,London,True,True,True,True,True,False,False,True,False,True,0.0,23.6980457,5.3,57.6,48.7,13.399999999999999,10.100000000000001
+988,Leyton and Wanstead,E14001334,England,London,True,True,True,True,True,False,False,True,False,True,0.0,35.6286787,22.2,47.2,32.0,14.1,10.9
+1033,Mitcham and Morden,E14001371,England,London,True,True,True,True,True,False,False,True,False,True,0.0,48.6700998,12.7,40.1,34.4,13.8,11.899999999999999
+1089,Old Bexley and Sidcup,E14001414,England,London,True,True,True,True,True,False,False,True,False,False,0.0,62.9495842,3.2,30.9,73.4,11.399999999999999,18.799999999999997
+1093,Orpington,E14001417,England,London,True,True,True,True,True,False,False,True,False,False,0.0,56.1399461,2.5,37.2,71.0,9.8,19.4
+1099,Peckham,E14001421,England,London,True,True,True,True,True,False,False,True,False,False,0.0,32.068484600000005,11.3,49.7,29.2,20.5,8.0
+1110,Poplar and Limehouse,E14001430,England,London,True,True,True,True,True,False,False,True,False,True,0.0,32.0828839,35.9,54.0,21.4,24.700000000000003,4.8999999999999995
+1114,Putney,E14001434,England,London,True,True,True,True,True,False,False,True,False,True,0.0,26.7887316,10.7,60.9,47.6,18.5,10.600000000000001
+1115,Queen's Park and Maida Vale,E14001435,England,London,True,True,True,True,True,False,False,True,False,True,0.0,35.396527,24.7,47.8,25.3,17.1,10.7
+1126,Richmond Park,E14001445,England,London,True,True,True,True,True,False,False,True,False,False,0.0,27.7600857,5.7,64.1,56.8,9.3,15.499999999999998
+1129,Romford,E14001448,England,London,True,True,True,True,True,False,False,True,False,True,0.0,68.0411275,7.5,30.9,62.3,12.2,16.599999999999998
+1135,"Ruislip, Northwood and Pinner",E14001454,England,London,True,True,True,True,True,False,False,False,False,False,0.0,47.7965004,9.3,48.9,44.1,10.1,20.400000000000002
+1187,Southgate and Wood Green,E14001503,England,London,True,True,True,True,True,False,False,True,False,True,0.0,36.4898698,14.4,42.8,29.8,13.4,13.5
+1211,Stratford and Bow,E14001525,England,London,True,True,True,True,True,False,False,True,False,True,0.0,39.3747732,32.2,48.4,23.0,22.4,6.6
+1213,Streatham and Croydon North,E14001527,England,London,True,True,True,True,True,False,False,True,False,True,0.0,34.1050608,11.8,48.7,32.3,14.8,11.2
+1220,Sutton and Cheam,E14001534,England,London,True,True,True,True,True,False,False,True,False,False,0.0,51.9004867,7.8,42.1,55.2,10.7,16.0
+1237,Tooting,E14001550,England,London,True,True,True,True,True,False,False,True,False,True,0.0,25.4706165,10.6,61.8,50.1,22.2,9.500000000000002
+1241,Tottenham,E14001553,England,London,True,True,True,True,True,False,False,True,False,True,0.0,33.9724881,15.9,41.2,23.2,17.0,8.8
+1244,Twickenham,E14001556,England,London,True,True,True,True,True,False,False,True,False,True,0.0,32.305919100000004,4.2,58.2,65.9,9.7,15.9
+1247,Uxbridge and South Ruislip,E14001558,England,London,True,True,True,True,True,False,False,True,False,False,0.0,57.8450977,12.2,38.8,44.9,14.5,13.3
+1249,Vauxhall and Camberwell Green,E14001559,England,London,True,True,True,True,True,False,False,True,False,False,0.0,24.1887464,9.5,53.3,31.3,23.7,9.0
+1253,Walthamstow,E14001563,England,London,True,True,True,True,True,False,False,True,False,True,0.0,35.945674,23.3,46.8,31.0,13.8,8.0
+1268,West Ham and Beckton,E14001576,England,London,True,True,True,True,True,False,False,True,False,False,0.0,52.0016386,25.1,41.9,18.8,18.700000000000003,6.8
+1279,Wimbledon,E14001586,England,London,True,True,True,True,True,False,False,True,False,True,0.0,29.324355,7.5,60.5,49.7,12.1,14.6
+707,Bishop Auckland,E14001101,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,59.500281300000005,0.3,25.8,96.3,9.7,23.8
+713,Blaydon and Consett,E14001106,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,53.6847937,0.4,29.2,95.8,10.5,21.799999999999997
+714,Blyth and Ashington,E14001107,England,North East,True,True,True,True,True,False,False,False,False,False,0.0,62.93456750000001,0.7,22.6,96.3,11.3,21.1
+791,City of Durham,E14001173,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,45.7915779,1.3,32.8,88.3,17.1,19.2
+805,Cramlington and Killingworth,E14001183,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,60.3279409,0.7,29.0,95.0,10.5,21.400000000000002
+813,Darlington,E14001190,England,North East,True,True,True,True,True,False,False,False,False,False,0.0,57.1613269,1.9,28.0,89.8,11.3,19.900000000000002
+839,Easington,E14001211,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,66.208614,0.3,21.2,96.8,11.2,20.3
+884,Gateshead Central and Whickham,E14001244,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,54.565704999999994,2.9,29.9,86.8,12.9,18.599999999999998
+922,Hartlepool,E14001272,England,North East,True,True,True,True,True,False,False,True,False,True,0.0,69.56832969999999,1.3,24.8,95.0,11.5,19.799999999999997
+935,Hexham,E14001285,England,North East,True,True,True,False,True,False,False,True,False,False,0.0,46.2293992,0.6,39.2,94.8,8.0,27.1
+945,Houghton and Sunderland South,E14001295,England,North East,True,True,True,True,True,False,False,False,False,False,0.0,63.6795812,0.4,23.1,96.2,11.3,20.900000000000002
+959,Jarrow and Gateshead East,E14001307,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,64.9499177,1.4,23.6,94.0,11.2,19.900000000000002
+1029,Middlesbrough South and East Cleveland,E14001368,England,North East,True,True,True,False,True,False,False,True,False,False,0.0,66.0399908,1.2,27.6,95.3,10.6,23.0
+1028,Middlesbrough and Thornaby East,E14001367,England,North East,True,True,True,True,True,False,False,True,False,True,0.0,65.52115950000001,13.1,24.6,74.6,15.399999999999999,14.8
+1045,Newcastle upon Tyne Central and West,E14001377,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,53.9177613,14.6,27.8,66.5,17.7,13.8
+1046,Newcastle upon Tyne East and Wallsend,E14001378,England,North East,True,True,True,True,True,False,False,True,False,True,0.0,55.8279824,3.4,30.0,84.0,18.700000000000003,15.600000000000001
+1047,Newcastle upon Tyne North,E14001379,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,42.4350864,4.2,44.0,82.4,20.2,16.9
+1053,Newton Aycliffe and Spennymoor,E14001382,England,North East,True,True,True,True,True,False,False,True,False,True,0.0,60.5029233,0.4,26.0,96.0,11.0,21.400000000000002
+1063,North Durham,E14001389,England,North East,True,True,True,True,True,False,False,True,False,True,0.0,58.1714126,0.5,26.3,96.2,10.8,22.2
+1072,North Northumberland,E14001397,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,52.5535392,0.4,32.7,96.3,8.2,28.900000000000002
+1120,Redcar,E14001440,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,66.801356,1.0,24.2,96.0,10.4,22.6
+1176,South Shields,E14001492,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,60.2792369,3.6,27.2,91.4,10.5,21.8
+1203,Stockton North,E14001518,England,North East,True,True,True,True,True,False,False,False,False,False,0.0,65.8145641,3.7,25.2,89.9,12.0,17.8
+1204,Stockton West,E14001519,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,54.78785619999999,2.4,36.8,91.7,9.3,21.099999999999998
+1217,Sunderland Central,E14001531,England,North East,True,True,True,True,True,False,False,False,False,False,0.0,58.489515,4.2,28.1,87.0,12.8,20.0
+1245,Tynemouth,E14001557,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,46.690054399999994,1.3,37.5,92.7,9.2,22.400000000000002
+1257,Washington and Gateshead South,E14001567,England,North East,True,True,True,True,True,False,False,True,False,False,0.0,63.2502046,0.7,22.3,95.3,10.8,21.1
+659,Altrincham and Sale West,E14001065,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,38.376966,6.4,48.7,75.2,8.5,19.099999999999998
+668,Ashton-under-Lyne,E14001070,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,62.570273099999994,10.6,23.5,75.6,12.2,16.3
+676,Barrow and Furness,E14001076,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,58.5424158,0.4,27.7,95.8,11.1,23.0
+697,Birkenhead,E14001091,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,51.412052200000005,1.8,28.0,90.0,11.8,18.4
+708,Blackburn,E14001102,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,55.5500748,46.8,25.4,44.0,13.0,13.1
+709,Blackley and Middleton South,E14001103,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,56.805852,16.3,27.1,56.8,11.9,13.3
+710,Blackpool North and Fleetwood,E14001104,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,67.7646174,0.5,24.2,95.2,9.6,26.5
+711,Blackpool South,E14001105,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,66.9171691,1.7,22.1,89.2,11.9,18.900000000000002
+717,Bolton North East,E14001110,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,58.189117499999995,17.0,26.5,72.1,11.5,18.1
+718,Bolton South and Walkden,E14001111,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,62.8430532,25.1,23.5,60.2,13.0,13.299999999999999
+719,Bolton West,E14001112,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,55.4183074,9.8,33.1,80.6,10.5,19.900000000000002
+720,Bootle,E14001113,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,54.8743611,0.9,24.0,91.5,12.3,17.3
+751,Burnley,E14001142,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,66.1137526,18.8,24.6,73.2,11.9,17.9
+753,Bury North,E14001144,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,54.106946099999995,12.3,30.7,78.8,10.600000000000001,19.4
+754,Bury South,E14001145,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,53.1255062,7.4,33.4,75.7,11.5,16.200000000000003
+768,Carlisle,E14001152,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,60.480369499999995,0.8,27.3,92.4,11.8,21.3
+776,Cheadle,E14001158,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,42.6166544,8.7,44.1,79.0,8.6,22.499999999999996
+781,Chester North and Neston,E14001163,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,45.1279288,1.8,39.3,87.6,14.5,21.7
+782,Chester South and Eddisbury,E14001164,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,46.0855697,0.6,42.9,92.7,8.399999999999999,24.2
+788,Chorley,E14001170,England,North West,False,False,False,False,True,False,False,True,False,False,0.0,57.13750829999999,1.5,33.6,92.6,10.399999999999999,19.700000000000003
+799,Congleton,E14001178,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,51.7685172,0.4,37.5,94.5,9.2,24.4
+807,Crewe and Nantwich,E14001185,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,60.6792987,1.3,29.2,84.0,12.2,18.900000000000002
+859,Ellesmere Port and Bromborough,E14001222,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,61.7914592,0.9,27.1,92.4,12.0,18.9
+882,Fylde,E14001242,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,56.4414454,0.7,34.6,93.4,8.7,27.9
+899,Gorton and Denton,E14001251,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,53.411232,28.4,27.5,51.1,12.8,12.500000000000002
+927,Hazel Grove,E14001277,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,52.3196383,1.4,33.4,91.8,9.6,23.3
+936,Heywood and Middleton North,E14001286,England,North West,True,True,True,True,False,False,False,True,False,False,0.0,61.6644964,10.4,26.4,77.6,11.4,17.599999999999998
+949,Hyndburn,E14001299,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,65.78573970000001,14.8,25.5,79.4,12.0,18.2
+970,Knowsley,E14001317,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,51.894293000000005,0.6,22.6,92.7,12.7,16.7
+972,Lancaster and Wyre,E14001318,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,51.5673005,2.4,34.3,86.1,16.5,19.7
+983,Leigh and Atherton,E14001329,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,64.4871028,1.5,25.2,90.5,11.899999999999999,18.5
+991,Liverpool Garston,E14001337,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,38.1926917,1.9,34.4,86.5,10.8,20.1
+992,Liverpool Riverside,E14001338,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,43.4650385,10.1,31.5,64.7,28.0,10.6
+993,Liverpool Walton,E14001339,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,52.369875,1.4,22.9,87.1,12.7,15.899999999999999
+994,Liverpool Wavertree,E14001340,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,32.253191,8.3,37.0,70.2,21.7,14.299999999999999
+995,Liverpool West Derby,E14001341,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,47.2971891,2.4,26.3,85.4,12.8,17.4
+1004,Macclesfield,E14001347,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,46.4916817,0.7,40.7,91.7,9.2,23.7
+1007,Makerfield,E14001350,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,65.8621069,0.8,24.7,94.5,11.0,20.7
+1009,Manchester Central,E14001352,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,44.955031899999994,16.0,40.7,52.7,25.3,8.9
+1010,Manchester Rusholme,E14001353,England,North West,True,True,False,True,True,False,False,True,False,True,0.0,32.0854808,33.7,37.0,32.5,28.400000000000002,5.9
+1011,Manchester Withington,E14001354,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,22.3164186,14.1,54.5,62.4,25.200000000000003,11.200000000000001
+1020,Mid Cheshire,E14001361,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,56.4776038,0.6,30.4,92.4,11.5,18.0
+1037,Morecambe and Lunesdale,E14001372,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,52.54936730000001,0.4,31.8,94.0,9.1,26.6
+1090,Oldham East and Saddleworth,E14001415,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,58.1719545,20.8,26.8,69.5,11.4,16.700000000000003
+1091,"Oldham West, Chadderton and Royton",E14001416,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,61.632642800000006,32.1,22.8,56.7,12.5,14.5
+1100,Pendle and Clitheroe,E14001422,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,61.374430700000005,16.4,29.0,76.3,10.7,19.299999999999997
+1102,Penrith and Solway,E14001424,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,54.7703063,0.3,31.6,95.4,9.3,26.0
+1113,Preston,E14001433,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,55.8434683,18.2,28.8,62.5,17.7,13.0
+1124,Ribble Valley,E14001443,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,55.330862,3.7,37.5,88.6,9.8,22.2
+1127,Rochdale,E14001446,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,57.13937129999999,30.2,26.0,59.6,12.2,14.8
+1131,Rossendale and Darwen,E14001450,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,59.1904025,3.1,30.8,92.2,10.8,18.8
+1136,Runcorn and Helsby,E14001455,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,53.7444888,0.6,28.8,93.7,10.7,21.0
+1141,Salford,E14001459,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,53.7639465,6.2,37.6,66.3,24.9,10.299999999999999
+1145,Sefton Central,E14001463,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,41.8166981,0.4,35.4,94.8,8.7,27.799999999999997
+1175,South Ribble,E14001491,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,56.5577006,0.9,33.1,93.4,9.899999999999999,22.4
+1188,Southport,E14001504,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,48.8775109,1.1,31.2,89.5,9.5,25.2
+1193,St Helens North,E14001509,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,58.2716,0.7,27.0,94.2,11.100000000000001,20.9
+1194,St Helens South and Whiston,E14001510,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,56.8448088,0.7,27.2,92.7,11.8,19.9
+1199,Stalybridge and Hyde,E14001515,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,57.9144033,5.8,26.3,87.1,11.3,17.6
+1202,Stockport,E14001517,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,48.2080944,6.4,35.4,79.8,12.4,15.0
+1214,Stretford and Urmston,E14001528,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,48.9807016,12.5,35.7,67.8,11.600000000000001,16.1
+1226,Tatton,E14001539,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,44.0153955,1.7,45.0,88.9,8.1,23.7
+1251,Wallasey,E14001561,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,53.0934622,0.8,27.1,93.4,10.5,20.700000000000003
+1254,Warrington North,E14001564,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,57.7851101,1.4,28.2,88.7,11.2,19.1
+1255,Warrington South,E14001565,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,52.7055514,2.2,35.5,87.1,11.100000000000001,18.4
+1269,West Lancashire,E14001577,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,54.638695000000006,0.5,29.7,92.5,12.399999999999999,21.000000000000004
+1273,Westmorland and Lonsdale,E14001580,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,48.8422975,0.3,37.0,93.7,9.1,28.0
+1276,Whitehaven and Workington,E14001583,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,63.14094,0.4,25.1,96.9,10.8,22.400000000000002
+1277,Widnes and Halewood,E14001584,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,54.3486498,0.6,25.2,93.4,11.2,18.8
+1278,Wigan,E14001585,England,North West,True,True,True,True,True,False,False,True,False,False,0.0,61.6067268,1.5,26.7,90.8,11.8,19.0
+1282,Wirral West,E14001589,England,North West,True,True,True,True,True,False,False,False,False,False,0.0,39.8220644,0.5,40.7,93.9,8.0,28.2
+1291,Worsley and Eccles,E14001598,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,59.9522428,3.7,31.4,83.4,12.5,16.900000000000002
+1296,Wythenshawe and Sale East,E14001602,England,North West,True,True,True,True,True,False,False,True,False,True,0.0,47.6832017,5.3,33.4,73.0,11.5,14.700000000000001
+656,Aldershot,E14001063,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,57.8662357,2.2,29.9,73.2,13.0,16.1
+665,Arundel and South Downs,E14001067,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,48.7466869,0.3,37.4,92.4,7.6,28.799999999999997
+667,Ashford,E14001069,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,60.86468240000001,1.9,29.4,80.4,11.6,17.0
+669,Aylesbury,E14001071,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,50.9793311,8.7,34.6,70.5,11.6,15.5
+671,Banbury,E14001072,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.6675695,3.7,34.8,79.9,11.0,19.400000000000002
+678,Basingstoke,E14001078,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,55.1623832,2.0,32.3,77.9,12.4,15.600000000000001
+683,Beaconsfield,E14001082,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,49.717368,3.6,42.6,72.2,9.0,21.599999999999998
+694,Bexhill and Battle,E14001088,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,58.763969800000005,0.6,29.8,91.9,8.3,32.199999999999996
+696,Bicester and Woodstock,E14001090,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,49.0451212,1.6,38.9,80.2,10.8,18.5
+715,Bognor Regis and Littlehampton,E14001108,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,63.82915179999999,0.8,24.8,87.1,10.2,27.1
+724,Bracknell,E14001117,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,54.374023699999995,1.8,34.2,77.4,12.100000000000001,14.5
+738,Brighton Kemptown and Peacehaven,E14001129,England,South East,True,True,True,False,True,False,False,True,False,False,0.0,42.332033800000005,2.9,34.6,77.5,16.4,18.0
+739,Brighton Pavilion,E14001130,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,27.927798,2.6,47.7,73.1,21.6,11.6
+750,Buckingham and Bletchley,E14001141,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,56.2486847,4.9,34.8,72.8,10.7,16.9
+763,Canterbury,E14001151,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.8235089,2.4,36.3,78.0,18.2,19.8
+775,Chatham and Aylesford,E14001157,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,64.5667326,2.5,24.5,79.5,11.899999999999999,16.0
+780,Chesham and Amersham,E14001162,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,45.1964509,4.2,47.3,74.7,8.399999999999999,21.099999999999998
+784,Chichester,E14001166,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,54.7266182,0.7,33.9,89.1,11.3,26.699999999999996
+806,Crawley,E14001184,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,58.4136714,9.7,27.5,61.8,12.8,13.299999999999999
+814,Dartford,E14001191,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,64.00489499999999,3.7,32.8,65.9,11.7,13.100000000000001
+820,Didcot and Wantage,E14001197,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.8203092,1.0,41.6,85.1,10.9,17.6
+824,Dorking and Horley,E14001201,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,51.57090949999999,1.5,39.5,84.7,9.0,22.3
+825,Dover and Deal,E14001202,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,62.8722302,0.6,25.9,90.0,10.5,23.400000000000002
+838,Earley and Woodley,E14001210,England,South East,True,True,True,False,True,False,False,True,False,False,0.0,48.1210625,8.6,40.5,61.6,12.5,14.4
+841,East Grinstead and Uckfield,E14001212,England,South East,True,True,True,False,True,False,False,True,False,False,0.0,48.9877187,0.9,36.3,88.2,9.0,22.599999999999998
+843,East Hampshire,E14001214,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.9346434,0.5,40.1,91.7,8.7,24.299999999999997
+847,East Surrey,E14001215,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,53.14280300000001,1.5,37.3,82.6,9.3,20.0
+848,East Thanet,E14001216,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,63.0783819,1.7,26.6,85.9,10.7,22.0
+850,East Worthing and Shoreham,E14001218,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,53.8290422,1.4,29.8,87.6,9.4,22.3
+851,Eastbourne,E14001219,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,57.3349519,2.2,29.8,82.1,10.6,24.500000000000004
+852,Eastleigh,E14001220,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,52.0319426,1.3,34.2,86.4,10.600000000000001,19.8
+864,Epsom and Ewell,E14001227,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,46.747765,4.1,44.6,72.2,9.899999999999999,18.9
+867,Esher and Walton,E14001230,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,40.8286877,2.6,51.6,75.1,8.2,17.3
+871,Fareham and Waterlooville,E14001233,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,59.247706099999995,0.6,29.5,92.9,10.0,24.7
+872,Farnham and Bordon,E14001234,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,43.7053496,1.4,42.9,86.9,9.7,21.099999999999998
+873,Faversham and Mid Kent,E14001235,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,57.5029448,1.1,29.0,88.3,10.0,20.8
+878,Folkestone and Hythe,E14001239,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,63.4992834,1.1,26.7,87.1,10.5,25.099999999999998
+886,Gillingham and Rainham,E14001246,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,63.687857699999995,2.9,25.2,79.0,12.3,17.9
+896,Godalming and Ash,E14001249,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,46.3425503,0.9,44.2,86.9,8.4,21.9
+900,Gosport,E14001252,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,61.8624163,0.5,26.4,92.8,10.899999999999999,23.0
+903,Gravesham,E14001254,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,65.377208,3.1,26.7,68.3,11.399999999999999,17.3
+907,Guildford,E14001258,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,40.9819031,2.5,46.1,73.7,16.9,16.4
+912,Hamble Valley,E14001263,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,51.012579800000005,0.6,35.5,91.2,10.2,19.7
+924,Hastings and Rye,E14001274,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,55.7662544,1.7,28.6,86.1,10.399999999999999,22.1
+925,Havant,E14001275,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,61.741772,0.5,26.7,92.9,10.100000000000001,23.599999999999998
+930,Henley and Thame,E14001280,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,42.2971049,0.8,44.7,87.6,8.8,23.2
+932,Herne Bay and Sandwich,E14001282,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,61.269064799999995,0.7,27.0,92.0,9.3,27.3
+944,Horsham,E14001294,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,49.4073308,1.1,37.2,86.3,10.100000000000001,19.7
+946,Hove and Portslade,E14001296,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,32.124481599999996,3.4,46.5,74.1,13.0,15.299999999999999
+955,Isle of Wight East,E14001303,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,62.8340622,0.3,26.3,93.7,8.399999999999999,31.200000000000003
+956,Isle of Wight West,E14001304,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,61.0254176,0.5,28.6,93.8,9.600000000000001,27.3
+984,Lewes,E14001330,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,48.5901042,0.7,34.8,90.2,8.1,28.5
+1005,Maidenhead,E14001348,England,South East,True,True,True,False,True,False,False,True,False,False,0.0,46.602558,6.1,44.6,70.6,9.6,18.4
+1006,Maidstone and Malling,E14001349,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,56.9689094,2.3,31.1,78.6,12.3,16.900000000000002
+1019,Mid Buckinghamshire,E14001360,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.256447699999995,1.6,43.1,85.6,8.899999999999999,21.200000000000003
+1026,Mid Sussex,E14001366,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,45.0700721,1.2,40.4,85.5,9.2,20.1
+1031,Milton Keynes Central,E14001369,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.9393688,8.1,38.8,53.9,12.9,10.799999999999999
+1032,Milton Keynes North,E14001370,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,50.6921151,5.7,35.3,72.6,10.7,17.4
+1041,New Forest East,E14001373,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,60.5886976,0.3,29.7,93.5,9.0,25.7
+1042,New Forest West,E14001374,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,54.7917125,0.4,32.8,92.9,7.8,33.4
+1044,Newbury,E14001376,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,48.6179046,1.1,36.1,85.9,10.7,19.0
+1067,North East Hampshire,E14001392,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,45.4922944,0.7,43.3,87.7,9.100000000000001,19.6
+1078,North West Hampshire,E14001403,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,54.0841079,1.0,34.0,85.6,11.2,17.3
+1095,Oxford East,E14001419,England,South East,True,True,True,False,True,False,False,True,False,True,0.0,32.0879206,10.5,45.3,52.6,20.6,11.599999999999998
+1096,Oxford West and Abingdon,E14001420,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,36.054898699999995,2.9,49.7,68.2,18.9,16.9
+1111,Portsmouth North,E14001431,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,63.833464500000005,2.6,26.6,85.3,12.1,16.599999999999998
+1112,Portsmouth South,E14001432,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,51.3866767,7.0,33.0,70.7,21.6,13.100000000000001
+1118,Reading Central,E14001438,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,36.0542052,9.2,45.2,50.4,18.3,11.499999999999998
+1119,Reading West and Mid Berkshire,E14001439,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,49.3900816,3.1,36.0,78.8,9.600000000000001,18.8
+1122,Reigate,E14001442,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,47.821556,3.1,42.4,76.6,9.8,18.4
+1128,Rochester and Strood,E14001447,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,63.6449378,2.1,26.9,80.0,12.399999999999999,16.099999999999998
+1130,Romsey and Southampton North,E14001449,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,47.6503683,2.7,37.7,82.8,12.2,22.6
+1137,Runnymede and Weybridge,E14001456,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,50.0519635,2.4,40.9,74.0,10.9,18.4
+1147,Sevenoaks,E14001465,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,55.1059156,1.1,37.5,84.4,8.8,20.999999999999996
+1156,Sittingbourne and Sheppey,E14001474,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,66.20669529999999,1.2,21.0,87.7,11.9,18.099999999999998
+1159,Slough,E14001477,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,53.666557999999995,31.1,34.9,23.0,12.5,9.599999999999998
+1183,Southampton Itchen,E14001499,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,59.4574345,3.5,29.2,75.1,17.5,14.6
+1184,Southampton Test,E14001500,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,50.2024936,7.1,33.4,62.9,19.5,12.899999999999999
+1189,Spelthorne,E14001505,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,60.299599,4.0,33.6,69.2,10.7,18.0
+1218,Surrey Heath,E14001532,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,50.97508630000001,3.0,38.8,78.4,10.6,19.3
+1219,Sussex Weald,E14001533,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,54.2822308,0.4,32.7,92.0,9.2,25.5
+1236,Tonbridge,E14001549,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,53.1007347,1.0,35.3,88.0,9.1,21.5
+1243,Tunbridge Wells,E14001555,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,44.574839100000005,1.7,41.5,83.7,9.600000000000001,19.099999999999998
+1260,Weald of Kent,E14001570,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,56.0178619,0.5,32.6,90.9,8.6,25.2
+1280,Winchester,E14001587,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,39.6742098,0.8,46.4,87.5,11.6,21.2
+1281,Windsor,E14001588,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,48.6343046,6.6,41.5,61.3,11.7,16.3
+1284,Witney,E14001591,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,46.9897763,0.7,37.7,88.9,11.0,19.6
+1285,Woking,E14001592,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,43.8492603,9.4,44.7,67.3,10.9,16.6
+1286,Wokingham,E14001593,England,South East,True,True,True,True,True,False,False,False,False,False,0.0,40.9488641,2.4,47.8,79.2,9.1,18.5
+1292,Worthing West,E14001599,England,South East,True,True,True,True,True,False,False,True,False,False,0.0,54.7668283,1.4,30.8,86.9,9.6,26.5
+1294,Wycombe,E14001600,England,South East,True,True,True,True,True,False,False,True,False,True,0.0,48.1561466,18.2,38.3,55.1,12.5,14.200000000000001
+680,Bath,E14001080,England,South West,True,True,True,True,True,False,False,True,False,True,0.0,33.380603199999996,1.5,45.3,79.0,20.0,17.2
+722,Bournemouth East,E14001115,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,51.94594489999999,2.6,35.0,75.2,12.7,18.0
+723,Bournemouth West,E14001116,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,59.0165931,2.2,30.8,77.3,18.1,17.9
+735,Bridgwater,E14001126,England,South West,True,True,True,True,True,False,False,True,False,True,0.0,64.5383777,0.6,23.5,90.1,11.1,22.6
+740,Bristol Central,E14001131,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,17.7199594,6.1,56.3,66.2,35.6,8.200000000000001
+741,Bristol East,E14001132,England,South West,True,True,True,False,True,False,False,True,False,False,0.0,46.0822475,11.0,37.4,67.4,15.1,12.5
+742,Bristol North East,E14001133,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,51.2242976,8.3,32.0,71.4,15.1,15.3
+743,Bristol North West,E14001134,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,36.2613499,3.6,43.1,76.0,14.7,16.3
+744,Bristol South,E14001135,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,46.306733900000005,2.6,35.2,82.4,16.1,13.600000000000001
+760,Camborne and Redruth,E14001148,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,56.923625099999995,0.2,29.2,93.5,10.100000000000001,22.900000000000002
+772,Central Devon,E14001155,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,51.0382462,0.2,35.0,94.5,8.4,26.5
+779,Cheltenham,E14001161,England,South West,True,True,True,False,True,False,False,True,False,False,0.0,42.507271200000005,1.4,44.8,83.3,14.0,18.9
+786,Chippenham,E14001168,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,54.5643611,0.7,33.1,90.1,11.8,19.700000000000003
+789,Christchurch,E14001171,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,60.6896306,0.4,29.4,93.4,7.699999999999999,34.599999999999994
+849,East Wiltshire,E14001217,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,54.7071155,0.6,33.1,88.3,11.5,19.0
+868,Exeter,E14001231,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,44.6658943,2.3,34.2,81.2,21.7,15.9
+869,Exmouth and Exeter East,E14001232,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,50.475469100000005,0.7,35.1,92.1,10.4,24.0
+876,Filton and Bradley Stoke,E14001237,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,49.1196864,2.8,37.5,77.3,15.7,14.2
+879,Forest of Dean,E14001240,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,57.989936099999994,0.3,29.3,94.6,9.6,25.199999999999996
+881,Frome and East Somerset,E14001241,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,52.614799999999995,0.3,32.7,92.7,9.6,21.6
+893,Glastonbury and Somerton,E14001247,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,53.0665352,0.3,32.2,93.6,9.3,26.4
+895,Gloucester,E14001248,England,South West,True,True,True,True,True,False,False,True,False,True,0.0,58.9690459,5.1,26.9,76.7,13.5,15.999999999999998
+941,Honiton and Sidmouth,E14001291,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,55.5782848,0.4,32.4,94.2,8.0,31.799999999999997
+1013,Melksham and Devizes,E14001356,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,49.9511474,0.5,34.8,92.8,9.0,24.499999999999996
+1022,Mid Dorset and North Poole,E14001363,England,South West,True,True,True,False,True,False,False,True,False,False,0.0,56.9654293,0.5,31.4,93.8,8.8,26.500000000000004
+1052,Newton Abbot,E14001381,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,55.9426243,0.3,30.5,94.9,9.399999999999999,26.900000000000002
+1058,North Cornwall,E14001385,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,59.82372889999999,0.2,28.0,94.1,8.8,26.099999999999998
+1059,North Cotswolds,E14001386,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,47.3867828,0.3,39.8,91.1,8.9,24.499999999999996
+1060,North Devon,E14001387,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,57.0384794,0.4,28.5,94.3,9.399999999999999,25.8
+1061,North Dorset,E14001388,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,56.3929094,0.3,30.9,93.7,8.5,27.2
+1069,North East Somerset and Hanham,E14001394,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,52.357139399999994,0.5,32.2,92.6,10.8,22.1
+1074,North Somerset,E14001399,England,South West,True,True,True,True,True,False,False,True,False,True,0.0,46.8014724,0.5,39.6,91.9,7.8,25.699999999999996
+1105,Plymouth Moor View,E14001426,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,65.4602314,0.7,22.8,93.1,11.4,19.8
+1106,Plymouth Sutton and Devonport,E14001427,England,South West,True,True,True,True,True,False,False,True,False,True,0.0,53.45445960000001,2.4,30.9,82.8,20.9,14.4
+1109,Poole,E14001429,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,57.00909360000001,1.0,32.3,86.5,10.5,23.2
+1142,Salisbury,E14001460,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,47.6961392,0.9,38.4,89.4,9.399999999999999,24.299999999999997
+1165,South Cotswolds,E14001482,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,47.9737559,0.4,39.7,91.5,9.1,23.9
+1167,South Devon,E14001484,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,53.3256199,0.4,34.9,94.2,7.8,30.0
+1168,South Dorset,E14001485,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,60.0679221,0.5,28.1,93.7,9.5,27.3
+1170,South East Cornwall,E14001486,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,55.03701519999999,0.1,30.7,95.4,8.3,28.199999999999996
+1179,South West Devon,E14001495,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,54.6911776,0.3,33.3,95.6,9.0,24.799999999999997
+1182,South West Wiltshire,E14001498,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,57.31695690000001,0.9,28.6,89.4,10.600000000000001,22.1
+1192,St Austell and Newquay,E14001508,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,64.7851003,0.1,26.4,93.9,10.2,23.099999999999998
+1195,St Ives,E14001511,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,54.740460199999994,0.2,32.4,93.6,8.7,28.1
+1215,Stroud,E14001529,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,47.3116572,0.3,37.5,92.7,9.2,23.200000000000003
+1223,Swindon North,E14001536,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,57.4329404,1.9,26.4,80.3,11.1,15.8
+1224,Swindon South,E14001537,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,53.0807924,3.6,28.5,66.5,12.600000000000001,14.9
+1227,Taunton and Wellington,E14001540,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,53.7039996,0.8,32.9,88.4,10.5,22.6
+1229,Tewkesbury,E14001542,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,53.2797054,1.0,35.0,88.5,9.8,22.300000000000004
+1232,Thornbury and Yate,E14001545,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,51.2884396,0.6,33.2,92.5,10.5,22.599999999999998
+1235,Tiverton and Minehead,E14001548,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,56.47421500000001,0.2,30.7,94.6,8.5,28.799999999999997
+1238,Torbay,E14001551,England,South West,True,True,True,True,True,False,False,True,False,True,0.0,62.4977188,0.6,25.2,91.1,10.0,25.8
+1240,Torridge and Tavistock,E14001552,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,58.4372125,0.2,28.5,95.9,8.5,28.7
+1242,Truro and Falmouth,E14001554,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,46.899054,0.5,37.2,91.3,13.9,23.7
+1262,Wells and Mendip Hills,E14001572,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,48.4383757,0.2,36.0,93.3,8.7,26.7
+1266,West Dorset,E14001575,England,South West,True,True,True,False,True,False,False,True,False,False,0.0,50.1957306,0.5,36.2,93.5,7.7,32.2
+1274,Weston-super-Mare,E14001581,England,South West,True,True,True,True,True,False,False,False,False,False,0.0,59.7177767,0.8,27.3,88.1,11.3,21.6
+1297,Yeovil,E14001603,England,South West,True,True,True,True,True,False,False,True,False,False,0.0,59.5844904,0.5,27.5,89.9,10.8,24.3
+657,Aldridge-Brownhills,E14001064,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,67.89008949999999,2.2,27.2,83.2,10.5,22.8
+698,Birmingham Edgbaston,E14001092,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,47.272416699999994,16.2,39.2,46.7,15.3,14.6
+699,Birmingham Erdington,E14001093,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,59.414148,14.2,24.2,54.8,13.1,14.100000000000001
+700,Birmingham Hall Green and Moseley,E14001094,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,39.2578079,54.4,33.1,24.6,14.399999999999999,11.999999999999998
+701,Birmingham Hodge Hill and Solihull North,E14001095,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,59.69079430000001,37.5,20.4,46.0,13.4,12.6
+702,Birmingham Ladywood,E14001096,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,40.4038198,48.9,31.6,15.6,23.4,6.4
+703,Birmingham Northfield,E14001097,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,57.3571925,5.3,27.4,73.4,12.0,16.6
+704,Birmingham Perry Barr,E14001098,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,50.139435600000006,42.9,24.9,16.4,14.8,10.9
+705,Birmingham Selly Oak,E14001099,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,49.244186899999995,12.9,32.5,62.7,20.6,14.1
+706,Birmingham Yardley,E14001100,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,57.4954776,42.6,23.6,38.8,13.5,12.5
+747,Bromsgrove,E14001138,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,55.3651279,0.9,36.6,90.4,9.2,23.0
+752,Burton and Uttoxeter,E14001143,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,64.6554358,9.5,27.5,76.5,12.3,17.7
+762,Cannock Chase,E14001150,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,68.8603531,0.3,22.7,94.5,11.9,19.5
+801,Coventry East,E14001180,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,58.705675199999995,13.4,26.2,50.4,13.4,13.700000000000001
+802,Coventry North West,E14001181,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,58.4307062,7.3,29.6,65.4,13.9,16.8
+803,Coventry South,E14001182,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,49.7833653,10.1,35.5,51.0,21.2,13.6
+826,Droitwich and Evesham,E14001203,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,59.098558700000005,0.7,31.9,89.4,10.0,23.7
+827,Dudley,E14001204,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,71.35230059999999,7.6,22.7,77.0,12.2,17.8
+910,Halesowen,E14001261,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,66.7182225,7.8,24.9,80.2,11.7,19.9
+931,Hereford and South Herefordshire,E14001281,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,61.0682415,0.5,30.8,89.1,10.5,23.1
+961,Kenilworth and Southam,E14001309,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,46.348365,0.8,43.5,88.2,9.3,23.599999999999998
+969,Kingswinford and South Staffordshire,E14001316,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,63.5412051,0.5,30.3,92.9,9.4,26.900000000000002
+989,Lichfield,E14001335,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,57.7814693,0.5,34.2,93.3,9.7,24.099999999999998
+1015,Meriden and Solihull East,E14001358,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,56.14796749999999,3.5,34.8,81.7,10.3,21.400000000000002
+1048,Newcastle-under-Lyme,E14001380,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,61.6970026,2.2,28.5,88.2,13.3,20.599999999999998
+1070,North Herefordshire,E14001395,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,57.5838752,0.3,34.7,93.3,8.6,28.7
+1073,North Shropshire,E14001398,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,60.2255493,0.4,29.9,93.4,9.6,24.599999999999998
+1075,North Warwickshire and Bedworth,E14001400,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,68.0326115,0.7,23.6,88.4,10.7,21.200000000000003
+1088,Nuneaton,E14001413,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,64.1296592,3.5,25.5,82.4,12.2,18.0
+1121,Redditch,E14001441,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,61.1394054,3.7,27.1,83.8,11.3,19.5
+1134,Rugby,E14001453,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,58.869338000000006,1.9,33.5,74.7,11.3,18.4
+1155,Shrewsbury,E14001473,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,53.0267154,0.7,34.5,91.5,10.8,22.7
+1160,Smethwick,E14001478,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,62.7856762,19.8,24.8,41.9,12.8,13.4
+1161,Solihull West and Shirley,E14001479,England,West Midlands,True,True,True,True,True,False,False,True,True,False,0.0,52.9566915,7.5,39.9,72.4,10.399999999999999,21.1
+1177,South Shropshire,E14001493,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,56.7236944,0.3,33.2,95.5,8.2,30.200000000000003
+1197,Stafford,E14001513,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,56.5783056,1.3,34.0,88.3,10.8,22.099999999999998
+1198,Staffordshire Moorlands,E14001514,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,64.8250719,0.3,28.3,96.5,9.1,26.2
+1205,Stoke-on-Trent Central,E14001520,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,68.51387869999999,9.9,22.3,74.4,15.399999999999999,14.999999999999998
+1206,Stoke-on-Trent North,E14001521,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,71.8958796,7.7,20.8,83.5,11.8,19.0
+1207,Stoke-on-Trent South,E14001522,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,65.2789685,5.5,25.8,87.2,10.100000000000001,22.099999999999998
+1208,"Stone, Great Wyrley and Penkridge",E14001523,England,West Midlands,True,True,True,False,True,False,False,True,False,False,0.0,62.7128228,0.9,30.7,93.0,10.6,23.9
+1209,Stourbridge,E14001524,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,63.66746009999999,6.5,27.0,84.3,11.600000000000001,20.7
+1212,Stratford-on-Avon,E14001526,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,50.69437,0.5,39.3,89.3,8.7,26.4
+1221,Sutton Coldfield,E14001535,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,46.4608291,4.0,41.2,77.0,9.2,23.0
+1225,Tamworth,E14001538,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,65.6761849,0.6,24.7,90.3,11.7,20.2
+1228,Telford,E14001541,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,66.2608052,1.3,24.1,83.8,12.4,15.899999999999999
+1230,The Wrekin,E14001543,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,59.7864629,3.7,29.7,84.5,12.4,20.2
+1234,Tipton and Wednesbury,E14001547,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,70.7602466,7.7,18.9,65.8,12.3,15.0
+1252,Walsall and Bloxwich,E14001562,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,64.9534347,21.9,23.2,53.4,13.100000000000001,14.0
+1256,Warwick and Leamington,E14001566,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,41.9401769,1.7,44.5,72.1,15.399999999999999,16.799999999999997
+1265,West Bromwich,E14001574,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,67.8387242,11.7,24.0,49.2,12.4,15.5
+1272,West Worcestershire,E14001579,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,52.5676539,0.4,38.4,93.7,8.399999999999999,28.5
+1287,Wolverhampton North East,E14001594,England,West Midlands,True,True,True,True,True,False,False,False,False,False,0.0,69.7011945,3.1,22.0,67.8,12.2,16.8
+1288,Wolverhampton South East,E14001595,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,69.8652948,5.4,20.8,58.0,12.7,14.3
+1289,Wolverhampton West,E14001596,England,West Midlands,True,True,True,True,True,False,False,True,False,True,0.0,55.64926140000001,8.2,31.6,48.9,12.399999999999999,17.9
+1290,Worcester,E14001597,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,53.6772433,4.1,33.7,82.7,14.100000000000001,17.6
+1295,Wyre Forest,E14001601,England,West Midlands,True,True,True,True,True,False,False,True,False,False,0.0,63.1454747,1.0,26.1,92.5,9.899999999999999,25.3
+674,Barnsley North,E14001074,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,69.3087318,0.6,22.7,92.4,12.2,18.8
+675,Barnsley South,E14001075,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,71.34146919999999,0.6,20.2,91.7,12.4,18.4
+693,Beverley and Holderness,E14001087,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,57.74422620000001,0.4,31.7,96.1,8.8,27.099999999999998
+725,Bradford East,E14001118,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,55.7195706,44.2,21.9,40.7,13.4,11.100000000000001
+726,Bradford South,E14001119,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,63.9575996,20.1,22.6,65.8,12.0,14.200000000000001
+727,Bradford West,E14001120,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,49.2260026,58.7,25.3,23.9,15.700000000000001,10.4
+736,Bridlington and The Wolds,E14001127,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,65.0362998,0.5,25.9,96.2,8.7,30.0
+737,Brigg and Immingham,E14001128,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,68.472847,0.7,26.1,95.0,9.3,24.8
+759,Calder Valley,E14001147,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,51.4634119,1.8,35.6,92.2,9.5,21.099999999999998
+798,Colne Valley,E14001177,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,49.70991,3.6,37.2,88.3,9.8,20.3
+819,Dewsbury and Batley,E14001196,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,58.1540429,43.7,22.6,48.4,13.4,13.4
+821,Doncaster Central,E14001198,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,65.635671,4.8,24.4,76.6,12.2,18.3
+822,Doncaster East and the Isle of Axholme,E14001199,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,66.5071406,1.1,24.8,92.7,10.7,21.800000000000004
+823,Doncaster North,E14001200,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,False,0.0,71.5038555,0.5,21.0,92.8,11.8,19.8
+897,Goole and Pocklington,E14001250,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,59.988505800000006,0.6,32.2,92.3,9.7,23.0
+904,Great Grimsby and Cleethorpes,E14001255,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,69.8225077,1.3,19.6,91.8,11.8,18.9
+911,Halifax,E14001262,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,60.112899,16.7,26.3,74.0,11.7,17.1
+919,Harrogate and Knaresborough,E14001269,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,47.5318577,0.7,40.9,89.2,9.2,22.2
+947,Huddersfield,E14001297,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,52.604450199999995,21.6,30.1,56.7,14.7,16.0
+960,Keighley and Ilkley,E14001308,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,52.4427604,15.7,32.0,76.9,10.399999999999999,20.599999999999998
+966,Kingston upon Hull East,E14001313,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,70.945148,1.2,18.6,91.7,12.8,16.9
+967,Kingston upon Hull North and Cottingham,E14001314,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,59.810347500000006,4.6,26.7,80.3,15.9,15.700000000000001
+968,Kingston upon Hull West and Haltemprice,E14001315,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,65.9171244,3.2,25.6,85.6,12.8,19.099999999999998
+973,Leeds Central and Headingley,E14001319,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,42.7576976,9.9,39.1,63.8,40.4,7.800000000000001
+974,Leeds East,E14001320,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,57.835402,12.7,26.1,68.3,12.3,15.9
+975,Leeds North East,E14001321,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,35.736278,13.6,48.2,57.2,11.8,16.7
+976,Leeds North West,E14001322,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,42.7635803,2.1,43.1,88.5,9.5,21.6
+977,Leeds South,E14001323,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,True,0.0,54.1935882,12.1,28.5,58.8,17.3,10.700000000000001
+978,Leeds South West and Morley,E14001324,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,59.3650682,1.7,28.2,87.7,12.100000000000001,17.1
+979,Leeds West and Pudsey,E14001325,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,52.6822904,5.8,30.9,79.0,13.399999999999999,15.299999999999997
+1054,Normanton and Hemsworth,E14001383,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,69.6653114,0.6,22.0,92.0,11.6,19.400000000000002
+1094,Ossett and Denby Dale,E14001418,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,55.8883685,2.4,31.9,91.6,9.8,22.6
+1101,Penistone and Stocksbridge,E14001423,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,59.33166370000001,0.6,30.2,94.9,9.2,24.5
+1107,"Pontefract, Castleford and Knottingley",E14001428,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,71.3269911,0.5,21.6,92.6,12.5,18.0
+1116,Rawmarsh and Conisbrough,E14001436,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,70.4929167,0.8,21.3,94.3,11.2,19.7
+1125,Richmond and Northallerton,E14001444,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,54.059236600000006,0.3,35.0,94.1,10.100000000000001,26.2
+1132,Rother Valley,E14001451,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,66.6302755,1.9,25.5,93.6,10.5,22.6
+1133,Rotherham,E14001452,England,Yorkshire and The Humber,False,True,True,True,True,False,False,True,False,True,0.0,67.9062718,10.3,21.5,79.7,12.6,17.099999999999998
+1143,Scarborough and Whitby,E14001461,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,61.1243031,0.7,27.9,93.2,9.600000000000001,26.5
+1144,Scunthorpe,E14001462,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,67.6598711,3.7,21.9,84.2,11.2,20.4
+1146,Selby,E14001464,England,Yorkshire and The Humber,True,True,True,True,True,False,False,False,False,False,0.0,60.7427845,0.3,30.4,94.0,10.6,20.1
+1148,Sheffield Brightside and Hillsborough,E14001466,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,True,0.0,57.6350044,18.5,22.8,63.3,13.2,14.5
+1149,Sheffield Central,E14001467,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,True,0.0,29.8591225,14.6,45.6,59.7,37.9,8.7
+1150,Sheffield Hallam,E14001468,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,True,0.0,35.0749056,3.6,50.9,84.4,11.4,21.500000000000004
+1151,Sheffield Heeley,E14001469,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,True,0.0,51.9342671,6.4,30.9,76.8,13.100000000000001,17.0
+1152,Sheffield South East,E14001470,England,Yorkshire and The Humber,True,True,True,False,True,False,False,True,False,True,0.0,64.8006074,12.5,22.4,77.9,12.5,19.0
+1154,Shipley,E14001472,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,49.8271742,5.5,36.5,86.4,9.6,21.8
+1157,Skipton and Ripon,E14001475,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,52.6433007,0.8,37.6,94.0,8.4,26.900000000000002
+1190,Spen Valley,E14001506,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,59.9734262,7.4,27.8,86.2,10.7,20.3
+1231,Thirsk and Malton,E14001544,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,58.1079697,0.3,32.0,95.3,9.100000000000001,27.7
+1250,Wakefield and Rothwell,E14001560,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,True,0.0,61.737325600000005,7.7,27.1,79.9,12.0,17.400000000000002
+1275,Wetherby and Easingwold,E14001582,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,48.0328584,0.6,40.9,93.3,7.9,25.5
+1299,York Central,E14001604,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,39.1712309,1.6,38.5,83.0,22.6,13.8
+1300,York Outer,E14001605,England,Yorkshire and The Humber,True,True,True,True,True,False,False,True,False,False,0.0,44.4687418,0.8,39.2,92.3,9.2,25.3
+652,Aberdeen North,S14000060,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,43.9461847,2.9,31.863839285714285,76.5,13.8,18.1
+653,Aberdeen South,S14000061,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,34.2311034,2.9,44.173183890259715,73.9,18.5,16.1
+654,Aberdeenshire North and Moray East,S14000062,Scotland,Scotland,True,True,True,True,False,True,False,False,False,False,0.0,54.4472089,0.2,20.876533316895767,92.2,10.1,22.8
+655,Airdrie and Shotts,S14000063,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,39.3874353,1.6,21.262541040432183,93.2,11.7,17.5
+658,Alloa and Grangemouth,S14000064,Scotland,Scotland,True,True,True,True,True,True,False,True,False,True,0.0,44.0588745,1.2,24.71532883986928,93.4,10.9,19.8
+662,Angus and Perthshire Glens,S14000065,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,45.212960800000005,0.4,30.587508778727628,93.1,9.0,26.4
+663,Arbroath and Broughty Ferry,S14000066,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,36.636487,1.1,29.52534484012509,92.7,9.6,23.7
+664,"Argyll, Bute and South Lochaber",S14000067,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,39.5357456,0.4,34.10441725824465,93.3,8.3,27.1
+670,"Ayr, Carrick and Cumnock",S14000107,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,43.4877687,0.4,26.065791027541955,95.4,9.8,25.2
+681,Bathgate and Linlithgow,S14000068,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,41.0109646,0.9,28.456533055700156,90.5,10.399999999999999,18.4
+691,"Berwickshire, Roxburgh and Selkirk",S14000108,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,43.456215199999995,0.3,29.730027009520548,93.9,9.0,26.7
+758,"Caithness, Sutherland and Easter Ross",S14000069,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,47.9252595,0.4,28.632934636954687,94.2,8.8,25.299999999999997
+771,Central Ayrshire,S14000109,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,43.0603723,0.4,26.75582092807678,95.8,9.7,23.900000000000002
+796,Coatbridge and Bellshill,S14000070,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,39.7340236,1.4,21.297582484802916,93.0,12.0,17.400000000000002
+804,Cowdenbeath and Kirkcaldy,S14000071,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,39.1218315,1.3,28.092623356201734,90.2,10.3,21.999999999999996
+811,Cumbernauld and Kirkintilloch,S14000072,Scotland,Scotland,True,True,True,True,True,True,False,False,False,False,0.0,37.50268,1.2,26.40888360103113,93.6,11.3,19.3
+829,Dumfries and Galloway,S14000073,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,44.8318063,0.5,26.83134058194087,94.9,9.2,26.9
+830,"Dumfriesshire, Clydesdale and Tweeddale",S14000074,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,44.401082800000005,0.2,29.556656916910413,95.4,8.4,26.1
+831,Dundee Central,S14000075,Scotland,Scotland,True,True,True,True,False,True,False,True,False,True,0.0,45.5856899,5.1,31.625768570320723,80.1,20.0,16.599999999999998
+832,Dunfermline and Dollar,S14000076,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,36.9471405,1.2,31.580493537015276,90.8,10.4,19.2
+844,East Kilbride and Strathaven,S14000077,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,37.7207037,1.1,29.56722620497432,93.8,11.0,19.900000000000002
+846,East Renfrewshire,S14000021,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,25.681418900000004,5.5,44.583446299236996,83.9,8.5,21.7
+853,Edinburgh East and Musselburgh,S14000078,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,33.0383938,3.8,43.70411233701103,69.0,22.8,14.000000000000002
+854,Edinburgh North and Leith,S14000079,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,15.931685300000002,3.3,55.879341329878386,67.5,19.799999999999997,12.7
+855,Edinburgh South,S14000080,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,32.3069596,3.5,53.30843683893307,71.2,18.5,17.900000000000002
+856,Edinburgh South West,S14000081,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,24.831889,3.8,46.76092094896262,71.7,19.7,15.299999999999999
+857,Edinburgh West,S14000082,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,24.6355285,2.7,48.28601108033241,81.6,9.5,21.099999999999998
+870,Falkirk,S14000083,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,42.5263498,1.5,25.997236984579388,92.2,11.5,19.3
+887,Glasgow East,S14000084,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,38.1472405,9.1,30.570754660504544,71.0,18.1,13.799999999999999
+888,Glasgow North,S14000085,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,43.2933217,6.8,41.720100507751816,65.3,28.200000000000003,11.4
+889,Glasgow North East,S14000086,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,39.3382587,5.1,24.094142306062835,76.6,17.5,13.7
+890,Glasgow South,S14000087,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,23.9718109,7.7,40.87611030778765,77.3,15.600000000000001,15.700000000000001
+891,Glasgow South West,S14000088,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,32.1084035,14.3,30.736502901451356,69.3,15.2,14.200000000000001
+892,Glasgow West,S14000089,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,24.6439354,5.2,42.6345928130224,75.8,18.9,14.700000000000001
+894,Glenrothes and Mid Fife,S14000090,Scotland,Scotland,True,True,True,True,False,True,False,False,False,False,0.0,47.3344957,0.9,19.044316799036988,94.3,11.0,21.0
+898,Gordon and Buchan,S14000091,Scotland,Scotland,True,True,True,True,False,True,False,False,False,False,0.0,45.3405056,0.5,32.11457321212283,93.7,8.7,20.7
+913,Hamilton and Clyde Valley,S14000092,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,36.1529008,1.2,26.37578179934125,92.8,11.2,20.4
+952,Inverclyde and Renfrewshire West,S14000093,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,34.6155385,0.6,27.195963747497103,95.3,10.3,22.5
+953,"Inverness, Skye and West Ross-shire",S14000094,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,40.5834655,0.7,32.34579948259429,89.8,10.6,21.5
+964,Kilmarnock and Loudoun,S14000110,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,39.4412591,0.7,24.825245159668093,95.7,10.5,21.1
+996,Livingston,S14000095,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,43.0383505,2.1,26.746164908916587,87.0,11.100000000000001,17.1
+998,Lothian East,S14000096,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,34.569128,0.7,34.82709950599859,92.3,9.0,21.1
+1023,Mid Dunbartonshire,S14000097,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,27.2155223,1.4,45.51820728291317,89.6,8.1,24.6
+1030,Midlothian,S14000045,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,37.9409695,1.2,29.477635762350445,90.3,10.5,18.9
+1036,"Moray West, Nairn and Strathspey",S14000098,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,45.9766011,0.3,30.180136555130506,93.3,9.8,23.2
+1038,"Motherwell, Wishaw and Carluke",S14000099,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,36.1175705,1.9,24.795002924085757,91.1,11.600000000000001,18.700000000000003
+1039,Na h-Eileanan an Iar,S14000027,Scotland,Scotland,True,True,True,True,False,True,False,True,True,False,0.0,44.7627994,0.2,31.140073960494274,96.1,7.9,26.5
+1056,North Ayrshire and Arran,S14000048,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,41.6595248,0.4,25.944551901998707,95.9,9.7,25.200000000000003
+1066,North East Fife,S14000100,Scotland,Scotland,True,True,True,True,True,True,False,False,False,False,0.0,41.9262541,0.7,36.49465072372561,88.4,14.299999999999999,24.2
+1092,Orkney and Shetland,S14000051,Scotland,Scotland,True,True,True,True,True,True,False,False,False,False,0.0,40.2813083,0.2,30.75952425698714,94.8,9.4,23.299999999999997
+1097,Paisley and Renfrewshire North,S14000101,Scotland,Scotland,True,True,True,True,True,True,False,False,False,False,0.0,35.8241096,2.5,29.591546381085415,88.2,11.9,19.0
+1098,Paisley and Renfrewshire South,S14000102,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,36.4017689,1.2,28.345291254829156,90.9,12.7,19.400000000000002
+1103,Perth and Kinross-shire,S14000103,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,37.750993,0.8,35.96024389384274,89.4,10.0,23.300000000000004
+1139,Rutherglen,S14000104,Scotland,Scotland,True,True,True,True,False,True,False,True,False,False,0.0,37.3097484,2.6,29.190494016807158,90.3,10.899999999999999,19.5
+1201,Stirling and Strathallan,S14000105,Scotland,Scotland,True,True,True,True,True,True,False,False,False,False,0.0,32.6212626,1.0,39.666491749752204,89.5,13.0,20.8
+1264,West Aberdeenshire and Kincardine,S14000111,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,39.0842669,0.6,38.531900587392,91.4,7.4,20.8
+1267,West Dunbartonshire,S14000106,Scotland,Scotland,True,True,True,True,True,True,False,True,False,False,0.0,38.4407824,0.8,21.611084768979506,93.6,11.2,20.1
+651,Aberafan Maesteg,W07000081,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,61.4448799,0.8,23.7,95.3,11.2,20.6
+660,Alyn and Deeside,W07000082,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,60.2519743,0.6,27.4,91.7,11.100000000000001,19.700000000000003
+672,Bangor Aberconwy,W07000083,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,47.4667471,1.3,34.7,91.5,13.2,23.6
+712,Blaenau Gwent and Rhymney,W07000084,Wales,Wales,True,True,True,False,True,False,True,True,False,True,0.0,63.50811899999999,0.4,20.9,96.1,12.1,20.0
+729,"Brecon, Radnor and Cwm Tawe",W07000085,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,52.27196119999999,0.3,32.2,95.3,9.2,27.4
+734,Bridgend,W07000086,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,50.575282099999995,0.7,33.7,93.5,11.0,21.200000000000003
+756,Caerfyrddin,W07000087,Wales,Wales,True,True,True,True,True,False,True,True,False,True,0.0,52.0658165,0.6,33.3,94.5,9.4,25.9
+757,Caerphilly,W07000088,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,54.7159186,0.3,27.3,95.9,10.9,19.8
+764,Cardiff East,W07000089,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,43.201876299999995,9.8,37.1,71.0,18.299999999999997,14.3
+765,Cardiff North,W07000090,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,39.4344276,4.1,44.4,84.2,12.100000000000001,18.8
+766,Cardiff South and Penarth,W07000091,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,38.0189904,12.1,40.8,68.7,26.0,13.4
+767,Cardiff West,W07000092,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,39.2525038,6.7,40.1,79.5,12.3,16.4
+774,Ceredigion Preseli,W07000093,Wales,Wales,True,True,True,True,True,False,True,True,False,True,0.0,47.1812704,0.6,35.1,92.8,12.7,26.599999999999998
+794,Clwyd East,W07000094,Wales,Wales,True,True,True,True,True,False,True,True,True,False,0.0,51.269948,0.5,32.8,95.7,9.5,25.7
+795,Clwyd North,W07000095,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,57.035645599999995,1.0,29.0,93.6,10.0,25.1
+834,Dwyfor Meirionnydd,W07000096,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,43.5098799,0.3,33.9,95.9,9.8,25.6
+901,Gower,W07000097,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,48.3221673,1.2,37.4,93.4,9.399999999999999,24.7
+997,Llanelli,W07000098,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,55.645330699999995,0.5,29.3,93.6,10.600000000000001,22.500000000000004
+1016,Merthyr Tydfil and Aberdare,W07000099,Wales,Wales,True,True,True,True,True,False,True,True,False,True,0.0,55.4757709,0.5,25.4,94.5,11.8,19.8
+1017,Mid and South Pembrokeshire,W07000100,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,58.2735781,0.5,30.4,94.5,9.899999999999999,25.499999999999996
+1034,Monmouthshire,W07000101,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,49.5577926,0.5,39.4,94.2,9.0,25.900000000000002
+1035,Montgomeryshire and Glyndŵr,W07000102,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,58.708324899999994,0.4,28.6,94.9,10.1,24.200000000000003
+1040,Neath and Swansea East,W07000103,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,56.2880756,1.0,27.3,93.1,12.5,20.2
+1049,Newport East,W07000104,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,58.9735105,8.8,27.9,78.0,13.3,16.2
+1050,Newport West and Islwyn,W07000105,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,54.2802471,1.8,31.2,91.1,10.7,19.7
+1108,Pontypridd,W07000106,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,50.557420099999995,0.8,29.2,93.7,12.9,18.6
+1123,Rhondda and Ogmore,W07000107,Wales,Wales,True,True,True,True,True,False,True,False,False,False,0.0,61.0297096,0.4,21.9,96.6,12.100000000000001,19.7
+1222,Swansea West,W07000108,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,52.2010846,5.6,30.1,81.2,18.1,17.5
+1239,Torfaen,W07000109,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,59.781073500000005,0.4,26.8,95.2,11.399999999999999,20.8
+1248,Vale of Glamorgan,W07000110,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,52.8726889,0.8,34.3,93.0,10.5,21.099999999999998
+1293,Wrexham,W07000111,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,57.1979576,1.3,30.2,89.2,11.100000000000001,20.2
+1298,Ynys Môn,W07000112,Wales,Wales,True,True,True,True,True,False,True,True,False,False,0.0,50.9420042,0.5,32.3,96.3,9.2,26.5
