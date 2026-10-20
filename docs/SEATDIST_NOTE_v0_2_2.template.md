@@ -255,24 +255,29 @@ Subtracting the bias estimate gives a secondary table in which 16 of 18 interval
 others (LD ≥ 50, Ref ≥ 50) are not violations but intervals too wide to confirm the tolerance, because the bias
 estimate adds variance.
 
-The tolerance is absolute. For the two rarest events it is larger than the probability itself: Lab ≤ 250 (reference
-0.000460) and Oth ≥ 5 (0.000466). Both differences are about +4.3e-5, or 9% of the reference probability, and the upper
-ends of their intervals, 1.06e-4 and 9.8e-5, are 23% and 21% of it. For these two events the 18/18 result therefore
-does not establish high relative accuracy: relative errors of about 20% are compatible with the comparison (up to 28%
-for Oth ≥ 5 in the direct run of Table N7d below). For Con ≥ 250 (0.0045) the tolerance is 22% of the probability and
-the interval ends lie within 2.6% of it.
+The tolerance is absolute, and for the two rarest events it is larger than the probability itself: Lab ≤ 250
+(reference 0.000460) and Oth ≥ 5 (0.000466). In Table N7a both differences are about +4.3e-5, or 9% of the reference
+probability, and the upper ends of their intervals, 1.06e-4 and 9.8e-5, are 23% and 21% of it. For these two events
+the 18/18 result therefore does not establish high relative accuracy: relative errors of about 20% are compatible
+with the comparison (up to 28% for Oth ≥ 5 in the direct run of Table N7d below). For Con ≥ 250 (0.0045) the tolerance
+is 22% of the probability; the interval ends lie within 2.6% of it in Table N7a and within 2.9% in Table N7d. These
+ratios are taken relative to the reference estimate, not the true value, and are not bounds on the relative error.
 
 **Direct check at fresh outer points (v0.2.2).** The audited rule was chosen with information from the seed-0 outer
 points, which also supply the paired increment in Table N7a. After review, the rule was held fixed and run directly at
-new, independent outer points (2¹² × 8, seed 3000, not used before), without the increment, and compared with the same
-pooled reference. The design was written down before the run, with no pass/fail rule attached (Table N7d). All 18
-intervals again lie within [−1e-3, 1e-3], and 15 within [−5e-4, 5e-4]. Two exclude zero. For Grn ≥ 4 the difference
-is +2.4e-4, as in Table N7a. For Con ≥ 121 it is +4.9e-4 (+3.3e-4 in N7a), and the regional-bias estimate for this
-event (−4e-5 ± 2.0e-4, Appendix C) does not account for it. A residual difference of a few 1e-4 between the hybrid and
-the reference therefore cannot be excluded for Con ≥ 121; it lies inside the 1e-3 tolerance but not inside 5e-4. For
-Con ≥ 250 the direct run (0.004497) and the hybrid estimate of N7a (0.004597) differ by about three combined scramble
-standard errors, and the reference (0.004545) lies between them. With the seed-0 run (0.004478), the outer runs spread
-more than their scramble standard errors suggest, a milder case of the behaviour in Section 5.3.
+new outer points (2¹² × 8, seed 3000, not used before), without the increment, and compared with the same pooled
+reference. The design was written in the script before the run, with no pass/fail rule attached (Table N7d). Because
+the reference is shared, Tables N7a and N7d are not two independent audits. All 18 intervals again lie within
+[−1e-3, 1e-3], and 15 within [−5e-4, 5e-4]. Two exclude zero. For Grn ≥ 4 the difference is +2.4e-4, as in Table N7a.
+For Con ≥ 121 the difference is +4.9e-4 (+3.3e-4 in N7a), with a nominal 95% interval of [+2.1e-4, +7.6e-4]; the
+direct run and the hybrid estimate of N7a differ by 1.7 combined hybrid standard errors. The point estimate is below
+5e-4, but the interval is not wholly contained in [−5e-4, 5e-4]; it is wholly contained in [−1e-3, 1e-3]. The
+regional-bias point estimate (−4e-5 ± 2.0e-4 SE, Appendix C) does not remove the discrepancy, but is too uncertain to
+identify its source. A residual hybrid–reference difference of a few 1e-4 remains possible. For Con ≥ 250, the direct
+run (0.004497) and the hybrid estimate of N7a (0.004597) differ by 3.1 combined estimated hybrid standard errors; the
+common reference (0.004545) cancels from this comparison. This post-hoc contrast suggests possible instability of the
+outer-error estimate, but does not establish underestimated standard errors or the same mechanism as for Oth ≥ 5. The
+seed-0 estimate is 0.004478, although its design differs and it shares information with N7a.
 
 {{N7d}}
 
@@ -473,11 +478,12 @@ produced while the default was still dense; its PMF difference of 1.4e-14 is bet
 now names `pb_dense` explicitly and records each kernel's function name; re-running it also re-runs the N6 audit and
 overwrites the stored file, so `pb_kernel_bench_v0_1.py` re-runs the benchmark alone. On the machine used for this
 note it gave a maximum PMF difference of 1.37e-14, the stored value, and speed ratios of 2.3 (one λ) and 2.6 (two λ),
-against 2.4 and 2.4 stored. (iv) The replicate values behind two inputs of Table N7 were not stored in v0.2.1 (only
-means and standard errors). `r1_raw_reps_v0_1.py` re-runs both with their original seeds: the seed-1 level run (2¹² ×
-8, rule (3,3,3,3,3,3)) and the audited rule at the seed-0 points (2¹¹ × 4), paired with the stored (3,3,3,3,3,3)
-replicates. The means and standard errors reproduce the stored values exactly, and all replicate values and paired
-differences are now stored in `r1_raw_reps_v0_1.json`.
+against 2.4 and 2.4 stored. An independent run on Windows (two threads) gave the same PMF difference and ratios of 1.4
+and 1.3: the ratio depends on the machine and its load. (iv) The replicate values behind two inputs of Table N7 were
+not stored in v0.2.1 (only means and standard errors). `r1_raw_reps_v0_1.py` re-runs both with their original seeds:
+the seed-1 level run (2¹² × 8, rule (3,3,3,3,3,3)) and the audited rule at the seed-0 points (2¹¹ × 4), paired with
+the stored (3,3,3,3,3,3) replicates. The means and standard errors reproduce the stored values exactly, and all
+replicate values and paired differences are now stored in `r1_raw_reps_v0_1.json`.
 
 Code fix in v0.2.2. In v0.2.1, `QEngine2` and `FastEngine` inherited `ExactEngine.seat_marginals()` (seat-level win
 probabilities), which omits the seat-type term L·μ and, for these classes, evaluates the national factor at one node

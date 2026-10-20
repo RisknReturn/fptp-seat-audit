@@ -4,7 +4,8 @@ so the comparison does not depend on UKSEAT_PB. Same design as part (1) of r1_fo
 points (scrambled Sobol, seed default_rng([20261030, 0, 1])), model and full PMFs, one lambda and two lambdas (common
 random numbers), warm runs (JIT outside timing), median of 3. Records each kernel's function name.
 Writes out/pb_kernel_bench_v0_1.json; does not touch out/r1_followup_v02.json (whose part (2) is a separate audit).
-Timings depend on the machine and on other load; the speed ratio, not the seconds, is the quantity of interest."""
+Timings and their ratio depend on the machine and on other load (an independent Windows run gave ratios of
+1.3-1.4 against 2.3-2.6 here); report them with the machine, not as a general speed-up."""
 import os as _os
 _ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 import sys, json, time, platform, numpy as np
