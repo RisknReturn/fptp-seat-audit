@@ -5,9 +5,10 @@ that no placeholder is left anywhere in the repository.
 
 --concept is the concept DOI (all versions), --v022 the version DOI of release v0.2.2 (v0.2.3 cannot carry its own DOI)
 and --date the release date of v0.2.3. Placeholders: __CONCEPT_DOI__, __V022_DOI__, __V023_DATE__. CITATION.cff is left
-with exactly one top-level date-released line (the v0.2.3 date), also after a merge that brought in the v0.2.2 date.
-Running it again with the same values changes nothing; with other values it stops, because the files then carry
-DOIs that differ from the arguments. Exit status 0 only if every check passes."""
+with exactly one top-level date-released line (the v0.2.3 date), also after a merge that brought in the v0.2.2 date;
+files with unresolved merge conflicts are refused before anything is written. Running it again with the same values
+changes nothing; with other values it reports failure, because the files then carry DOIs that differ from the
+arguments (restore them with `git checkout -- .`). Exit status 0 only if every check passes."""
 import os, re, sys, json, shutil, argparse, datetime, subprocess
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FILES = ["CITATION.cff", "README.md", "README_ko.md", "docs/SEATDIST_NOTE_v0_2_3.template.md"]
@@ -54,6 +55,11 @@ def one_date_released(cff):
     lines.insert(iv[0] + 1, f'date-released: "{a.date}"')
     return nl.join(lines)
 
+
+# 0. refuse to touch files with unresolved merge conflicts (e.g. CITATION.cff after merging the v0.2.2 date line)
+for rel in FILES:
+    if re.search(r"^(<{7}|={7}|>{7})( |$)", read(rel), re.M):
+        sys.exit(f"{rel}: unresolved merge conflict markers; resolve them first (keep this branch's lines), then rerun")
 
 # 1. substitute
 for rel in FILES:
