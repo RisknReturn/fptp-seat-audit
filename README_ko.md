@@ -52,7 +52,7 @@ python scripts/build_seatdist_note_v0_2_2.py     # docs/SEATDIST_NOTE_v0_2_2.md
 python scripts/r1_note_tables_v02.py             # out/r1_note_tables_v02.json, 이어서 1단계
 ```
 
-**3. 실험 다시 돌리기 (2코어에서 몇 시간).** 스크립트와 순서는 노트 부록 F 에 표별로 있습니다. 두 가지를 주의하세요.
+**3. 실험 다시 돌리기 (2코어에서 몇 시간).** 스크립트와 순서는 노트 부록 F 에 표별로 있습니다. 세 가지를 주의하세요.
 - 저장된 지역 편향 실행은 난수열 수정 이전 것입니다. 수정된 스크립트는 새 파일에 쓰고 저장본을 덮어쓰지 않습니다(부록 C).
 - 저장된 조건부 실행은 dense 재귀 커널(`UKSEAT_PB=dense`)로 돌렸습니다. 지금 기본 커널과는 1.4e-14 까지 같습니다.
 - `scripts/r1_followup_v02.py` 는 커널 성능 비교와 Green 축 감사를 함께 다시 돌리고 저장 파일을 덮어씁니다. 성능 비교만 다시 확인하려면 `scripts/pb_kernel_bench_v0_1.py` 를 쓰세요.
@@ -93,7 +93,7 @@ python tests/test_engine2_v0_2.py
 
 ## 인용
 
-[`CITATION.cff`](CITATION.cff) 의 메타데이터로 인용해 주세요. Zenodo DOI 는 첫 보관 릴리스 때 추가합니다.
+[`CITATION.cff`](CITATION.cff) 의 메타데이터로 인용해 주세요. Zenodo DOI 는 첫 보관 릴리스 뒤에 추가합니다.
 
 > Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)*, version 0.2.2. Risk & Return Co., Ltd. https://github.com/RisknReturn/fptp-seat-audit
 
@@ -101,7 +101,7 @@ python tests/test_engine2_v0_2.py
 
 - **코드**(`ukseat/`, `scripts/`, `tests/`): MIT(`LICENSE`)
 - **노트와 이 프로젝트가 만든 저장 출력**(`docs/`, `out/`): CC BY 4.0(귀속 표시 Nari Han)
-- **자료:** 원 출처의 조건을 따릅니다. 영국 의회 선거 결과는 Open Parliament Licence, BES 2024 선거구 결과 파일은 CC BY 4.0 입니다. 자세한 내용은 [`DATA_LICENSES.md`](DATA_LICENSES.md) 에 있습니다.
+- **자료:** 원 출처의 조건을 따릅니다. 영국 의회 선거 결과는 Open Parliament Licence v3.0(귀속 문구: Contains Parliamentary information licensed under the Open Parliament Licence v3.0), BES 2024 선거구 결과 파일은 CC BY 4.0 입니다. 자세한 내용과 귀속 표시는 [`DATA_LICENSES.md`](DATA_LICENSES.md) 에 있습니다.
 
 ## AI 사용 공개
 
