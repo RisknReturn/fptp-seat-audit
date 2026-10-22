@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/__CONCEPT_DOI__.svg)](https://doi.org/__CONCEPT_DOI__)
 
 **요인 기반 FPTP 의석 분포의 수치 감사: 2024 영국 총선 사례.**
-계산 노트 [`docs/SEATDIST_NOTE_v0_2_2.md`](docs/SEATDIST_NOTE_v0_2_2.md)(초안 v0.2.2, 동료 심사 전)의 코드, 자료, 저장된 출력입니다. 노트는 영어로 썼고, 이 문서는 영문 README 의 한국어판입니다.
+계산 노트 [`docs/SEATDIST_NOTE_v0_2_3.md`](docs/SEATDIST_NOTE_v0_2_3.md)(초안 v0.2.3, 동료 심사 전)의 코드, 자료, 저장된 출력입니다. 노트는 영어로 썼고, 이 문서는 영문 README 의 한국어판입니다.
 
 > **범위.** 여기 모형은 고정된 계산 사례입니다(모형 v0.2.1, 2024 최종 여론조사). 예측 상품이 아니며, 2024 년 노동당의 의석 효율을 크게 잘못 봤습니다. 다루는 것은 주어진 요인 모형이 함의하는 의석 분포를 어떻게 계산하고 어떻게 점검하는가입니다.
 
@@ -43,10 +43,10 @@ Windows 에서는 UTF-8 모드로 실행하세요(`python -X utf8 ...` 또는 `s
 ```
 python scripts/seatdist_note_tables_v0_2.py      # out/seatdist_note_tables_v0_2.md (표 M1, N1-N9)
 python scripts/seatdist_note_tables_v0_2_2.py    # out/seatdist_note_tables_v0_2_2.md (표 N7d)
-python scripts/build_seatdist_note_v0_2_2.py     # docs/SEATDIST_NOTE_v0_2_2.md
+python scripts/build_seatdist_note_v0_2_3.py     # docs/SEATDIST_NOTE_v0_2_3.md
 ```
 
-`scripts/build_seatdist_note_v0_2_1.py` 는 이전 판 `docs/SEATDIST_NOTE_v0_2_1.md` 를 그대로 다시 만듭니다.
+`scripts/build_seatdist_note_v0_2_2.py` 와 `scripts/build_seatdist_note_v0_2_1.py` 는 이전 판 `docs/SEATDIST_NOTE_v0_2_2.md`, `docs/SEATDIST_NOTE_v0_2_1.md` 를 그대로 다시 만듭니다.
 
 **2. 저장된 감사 결과를 다시 집계하기 (몇 초).** 최종 비교(표 N7a–c)를 저장된 실행에서 다시 계산합니다.
 
@@ -86,7 +86,7 @@ python tests/test_engine2_v0_2.py
 
 | 경로 | 내용 |
 |---|---|
-| `docs/SEATDIST_NOTE_v0_2_2.md` | 노트(현재 판)와 템플릿. `v0_1`, `v0_2`, `v0_2_1` 은 이전 판으로 보관 |
+| `docs/SEATDIST_NOTE_v0_2_3.md` | 노트(현재 판)와 템플릿. `v0_1`, `v0_2`, `v0_2_1`, `v0_2_2` 는 이전 판으로 보관 |
 | `ukseat/` | 모형(`model.py`, `model2.py`), 엔진(`engine.py`, `engine2.py`, Numba 핵심 `core.py`), 구적, 2024 입력(`config_2024.py`), 사건(`report.py`) |
 | `scripts/` | 자료 준비, 실험, 표와 노트 생성 |
 | `data/` | 입력(출처와 라이선스는 `DATA_LICENSES.md`) |

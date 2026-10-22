@@ -3,8 +3,8 @@
 [![DOI](https://zenodo.org/badge/DOI/__CONCEPT_DOI__.svg)](https://doi.org/__CONCEPT_DOI__)
 
 **A numerical audit of factor-based FPTP seat distributions: a Great Britain 2024 case study.**
-Code, data and stored outputs for the computation note [`docs/SEATDIST_NOTE_v0_2_2.md`](docs/SEATDIST_NOTE_v0_2_2.md)
-(draft v0.2.2, not peer reviewed).
+Code, data and stored outputs for the computation note [`docs/SEATDIST_NOTE_v0_2_3.md`](docs/SEATDIST_NOTE_v0_2_3.md)
+(draft v0.2.3, not peer reviewed).
 
 > **Scope.** The model here is a fixed computational case (model v0.2.1, final 2024 polls). It is not a forecasting product,
 > and it misjudged Labour's 2024 seat efficiency badly. The subject is how to compute, and how to check, the seat
@@ -60,10 +60,11 @@ from the stored files only in line endings (CRLF), and generated JSON in the las
 ```
 python scripts/seatdist_note_tables_v0_2.py      # out/seatdist_note_tables_v0_2.md (Tables M1, N1-N9)
 python scripts/seatdist_note_tables_v0_2_2.py    # out/seatdist_note_tables_v0_2_2.md (Table N7d)
-python scripts/build_seatdist_note_v0_2_2.py     # docs/SEATDIST_NOTE_v0_2_2.md
+python scripts/build_seatdist_note_v0_2_3.py     # docs/SEATDIST_NOTE_v0_2_3.md
 ```
 
-`scripts/build_seatdist_note_v0_2_1.py` still rebuilds the previous version, `docs/SEATDIST_NOTE_v0_2_1.md`.
+`scripts/build_seatdist_note_v0_2_2.py` and `scripts/build_seatdist_note_v0_2_1.py` still rebuild the previous versions,
+`docs/SEATDIST_NOTE_v0_2_2.md` and `docs/SEATDIST_NOTE_v0_2_1.md`.
 
 **2. Re-aggregate the stored audit (seconds).** This recomputes the final comparison (Tables N7a–c) from the stored
 runs.
@@ -118,7 +119,7 @@ seats of `run()` with the same arguments.
 
 | path | content |
 |---|---|
-| `docs/SEATDIST_NOTE_v0_2_2.md` | the note (current version) and its template. `v0_1`, `v0_2` and `v0_2_1` are earlier versions, kept as history |
+| `docs/SEATDIST_NOTE_v0_2_3.md` | the note (current version) and its template. `v0_1`, `v0_2`, `v0_2_1` and `v0_2_2` are earlier versions, kept as history |
 | `ukseat/` | model (`model.py`, `model2.py`), engines (`engine.py`, `engine2.py`, Numba core `core.py`), quadrature, 2024 inputs (`config_2024.py`), events (`report.py`) |
 | `scripts/` | data preparation, experiments, table and note generation |
 | `data/` | inputs (sources and licences in `DATA_LICENSES.md`) |

@@ -2,7 +2,7 @@
 
 Nari Han (Risk & Return Co., Ltd.; ORCID 0009-0008-7228-8740)
 
-Draft v0.2.2, 2026-10-21. Not peer reviewed. Comments welcome. Table numbers N1–N9 are kept from v0.1 for cross-reference.
+Draft v0.2.3, 2026-10-21. Not peer reviewed. Comments welcome. Table numbers N1–N9 are kept from v0.1 for cross-reference.
 v0.2.2 adds a direct run of the audited rule at fresh outer points (Table N7d), a note on relative accuracy for the two
 rarest events (Section 5.4) and two code fixes that change no reported number (Appendix F).
 
