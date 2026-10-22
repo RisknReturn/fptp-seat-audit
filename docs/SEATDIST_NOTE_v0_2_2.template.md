@@ -503,7 +503,9 @@ rules; largest difference 1.8e-12 seats).
 
 Data: UK Parliament / House of Commons Library election results (psephology datasette, notional 2019 results on 2024
 boundaries and 2024 results; Open Parliament Licence); the BES 2024 constituency results file (Perrett et al. 2025,
-doi:10.48420/28430672; CC BY 4.0 according to the University of Manchester record), from which the 2021 census shares
-and Chris Hanretty's EU referendum estimates (Hanretty 2017) on 2024 boundaries are taken; British Polling Council
+doi:10.48420/28430672; CC BY 4.0 according to the University of Manchester record), from which the census shares
+(2021 Census for England and Wales; for Scottish constituencies, Scotland's Census 2022, as compiled in the BES file,
+whose codebook notes that the Scottish census was fielded in 2022 and that not all census information is available for
+Scotland) and Chris Hanretty's EU referendum estimates (Hanretty 2017) on 2024 boundaries are taken; British Polling Council
 summary of final 2024 polls. v0.1 of this note gave the BES file a DOI that belongs to another dataset. Licences of all
 bundled files are listed in `DATA_LICENSES.md`.

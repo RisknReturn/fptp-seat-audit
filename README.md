@@ -71,7 +71,7 @@ python scripts/r1_note_tables_v02.py             # out/r1_note_tables_v02.json, 
 ```
 
 **3. Re-run the experiments (hours on two cores).** The scripts and their order are listed table by table in
-Appendix F of the note. Two caveats:
+Appendix F of the note. Three caveats:
 - The stored regional-bias run predates a random-stream fix. The corrected script writes a new file and does not
   overwrite the stored one (Appendix C).
 - The stored conditional runs used the dense recursion kernel (`UKSEAT_PB=dense`). The current default kernel agrees
@@ -125,7 +125,7 @@ seats of `run()` with the same arguments.
 
 ## Citation
 
-Please cite with the metadata in [`CITATION.cff`](CITATION.cff). A Zenodo DOI will be added with the first archived
+Please cite with the metadata in [`CITATION.cff`](CITATION.cff). A Zenodo DOI will be added after the first archived
 release.
 
 > Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024
@@ -136,8 +136,8 @@ release.
 - **Code** (`ukseat/`, `scripts/`, `tests/`): MIT licence (`LICENSE`).
 - **The note and the project's own stored outputs** (`docs/`, `out/`): CC BY 4.0 (attribution: Nari Han).
 - **Data:** files keep the terms of their sources. UK Parliament election results are under the Open Parliament
-  Licence; the BES 2024 constituency results file is under CC BY 4.0. Details are in
-  [`DATA_LICENSES.md`](DATA_LICENSES.md).
+  Licence v3.0 (Contains Parliamentary information licensed under the Open Parliament Licence v3.0); the BES 2024
+  constituency results file is under CC BY 4.0. Details and attribution are in [`DATA_LICENSES.md`](DATA_LICENSES.md).
 
 ## AI usage disclosure
 

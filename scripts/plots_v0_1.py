@@ -10,6 +10,7 @@ from ukseat.model import CATS
 from ukseat import config_2024 as C
 
 OUT = f"{_ROOT}/out"; FIG = f"{_ROOT}/figs"
+_os.makedirs(FIG, exist_ok=True)
 S1, S2, S3 = "#2a78d6", "#eb6834", "#1baf7a"     # categorical slots 1-3 (reference palette)
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
 plt.rcParams.update({"font.size": 9, "axes.edgecolor": INK2, "axes.labelcolor": INK2, "xtick.color": INK2,
