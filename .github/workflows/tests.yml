@@ -30,5 +30,6 @@ jobs:
           python scripts/build_seatdist_note_v0_2_1.py
           python scripts/seatdist_note_tables_v0_2_2.py
           python scripts/build_seatdist_note_v0_2_2.py
+          python scripts/build_seatdist_note_v0_2_3.py
       - name: Generated Markdown must match the committed files
-        run: git diff --exit-code -- docs/SEATDIST_NOTE_v0_2_1.md docs/SEATDIST_NOTE_v0_2_2.md out/seatdist_note_tables_v0_2.md out/seatdist_note_tables_v0_2_2.md out/r1_note_tables_v02.md
+        run: git diff --exit-code -- docs/SEATDIST_NOTE_v0_2_1.md docs/SEATDIST_NOTE_v0_2_2.md docs/SEATDIST_NOTE_v0_2_3.md out/seatdist_note_tables_v0_2.md out/seatdist_note_tables_v0_2_2.md out/r1_note_tables_v02.md

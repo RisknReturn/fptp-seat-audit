@@ -1,8 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this code or the note, please cite it as below."
 title: "fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)"
-version: 0.2.2
+version: 0.2.3
+date-released: "2026-11-02"
 license: MIT
+doi: 10.5281/zenodo.23887748
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23887748
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23887749
+    description: "Version 0.2.2"
 type: software
 repository-code: "https://github.com/RisknReturn/fptp-seat-audit"
 url: "https://github.com/RisknReturn/fptp-seat-audit"
@@ -41,6 +50,23 @@ references:
     end: 1910
     year: 1997
     doi: 10.1137/S0036142994277468
+  - type: conference-paper
+    authors:
+      - family-names: Owen
+        given-names: Art B.
+    title: "On Dropping the First Sobol' Point"
+    collection-title: "Monte Carlo and Quasi-Monte Carlo Methods (MCQMC 2020)"
+    collection-type: proceedings
+    editors:
+      - family-names: Keller
+        given-names: Alexander
+    publisher:
+      name: Springer
+    notes: "Springer Proceedings in Mathematics & Statistics 387"
+    start: 71
+    end: 86
+    year: 2022
+    doi: 10.1007/978-3-030-98319-2_4
   - type: data
     authors:
       - family-names: Perrett

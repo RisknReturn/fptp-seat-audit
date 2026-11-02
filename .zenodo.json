@@ -1,7 +1,7 @@
 {
   "title": "fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)",
   "upload_type": "software",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "creators": [
     {
