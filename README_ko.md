@@ -1,6 +1,6 @@
 # fptp-seat-audit
 
-[![DOI](https://zenodo.org/badge/DOI/__CONCEPT_DOI__.svg)](https://doi.org/__CONCEPT_DOI__)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23887748.svg)](https://doi.org/10.5281/zenodo.23887748)
 
 **요인 기반 FPTP 의석 분포의 수치 감사: 2024 영국 총선 사례.**
 계산 노트 [`docs/SEATDIST_NOTE_v0_2_3.md`](docs/SEATDIST_NOTE_v0_2_3.md)(초안 v0.2.3, 동료 심사 전)의 코드, 자료, 저장된 출력입니다. 노트는 영어로 썼고, 이 문서는 영문 README 의 한국어판입니다.
@@ -95,9 +95,9 @@ python tests/test_engine2_v0_2.py
 
 ## 인용
 
-모든 판을 인용할 때는 concept DOI [__CONCEPT_DOI__](https://doi.org/__CONCEPT_DOI__) 를 쓰세요. 이 DOI 는 늘 최신 판으로 연결됩니다. v0.2.2 는 [__V022_DOI__](https://doi.org/__V022_DOI__) 이고, 이 판(v0.2.3)의 DOI 는 Zenodo 기록에 있습니다. GitHub 의 "Cite this repository" 버튼은 [`CITATION.cff`](CITATION.cff) 를 씁니다.
+모든 판을 인용할 때는 concept DOI [10.5281/zenodo.23887748](https://doi.org/10.5281/zenodo.23887748) 를 쓰세요. 이 DOI 는 늘 최신 판으로 연결됩니다. v0.2.2 는 [10.5281/zenodo.23887749](https://doi.org/10.5281/zenodo.23887749) 이고, 이 판(v0.2.3)의 DOI 는 Zenodo 기록에 있습니다. GitHub 의 "Cite this repository" 버튼은 [`CITATION.cff`](CITATION.cff) 를 씁니다.
 
-> Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)*, version 0.2.3. Risk & Return Co., Ltd. Zenodo. https://doi.org/__CONCEPT_DOI__
+> Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)*, version 0.2.3. Risk & Return Co., Ltd. Zenodo. https://doi.org/10.5281/zenodo.23887748
 
 ## 라이선스
 

@@ -334,9 +334,9 @@ history is in Appendix C, and run lineage and re-running caveats are in Appendix
 4.0 (attribution: Nari Han); bundled data keep their original licences (`DATA_LICENSES.md`).
 
 The code, data, stored outputs and this note are archived on Zenodo. Cite all versions with the concept DOI
-https://doi.org/__CONCEPT_DOI__, which resolves to the latest version; version 0.2.2 is https://doi.org/__V022_DOI__,
+https://doi.org/10.5281/zenodo.23887748, which resolves to the latest version; version 0.2.2 is https://doi.org/10.5281/zenodo.23887749,
 and the DOI of version 0.2.3 is listed on its Zenodo record. Han, N. (2026). *fptp-seat-audit: a numerical audit of
-factor-based FPTP seat distributions (Great Britain 2024 case study)*. Zenodo. https://doi.org/__CONCEPT_DOI__
+factor-based FPTP seat distributions (Great Britain 2024 case study)*. Zenodo. https://doi.org/10.5281/zenodo.23887748
 
 ## 9. AI usage disclosure
 

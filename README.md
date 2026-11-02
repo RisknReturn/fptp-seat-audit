@@ -1,6 +1,6 @@
 # fptp-seat-audit
 
-[![DOI](https://zenodo.org/badge/DOI/__CONCEPT_DOI__.svg)](https://doi.org/__CONCEPT_DOI__)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23887748.svg)](https://doi.org/10.5281/zenodo.23887748)
 
 **A numerical audit of factor-based FPTP seat distributions: a Great Britain 2024 case study.**
 Code, data and stored outputs for the computation note [`docs/SEATDIST_NOTE_v0_2_3.md`](docs/SEATDIST_NOTE_v0_2_3.md)
@@ -128,12 +128,12 @@ seats of `run()` with the same arguments.
 
 ## Citation
 
-Cite all versions with the concept DOI [__CONCEPT_DOI__](https://doi.org/__CONCEPT_DOI__), which resolves to the
-latest version; version 0.2.2 is [__V022_DOI__](https://doi.org/__V022_DOI__), and the DOI of this version (0.2.3) is
+Cite all versions with the concept DOI [10.5281/zenodo.23887748](https://doi.org/10.5281/zenodo.23887748), which resolves to the
+latest version; version 0.2.2 is [10.5281/zenodo.23887749](https://doi.org/10.5281/zenodo.23887749), and the DOI of this version (0.2.3) is
 listed on its Zenodo record. GitHub's "Cite this repository" button uses [`CITATION.cff`](CITATION.cff).
 
 > Han, N. (2026). *fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024
-> case study)*, version 0.2.3. Risk & Return Co., Ltd. Zenodo. https://doi.org/__CONCEPT_DOI__
+> case study)*, version 0.2.3. Risk & Return Co., Ltd. Zenodo. https://doi.org/10.5281/zenodo.23887748
 
 ## Licences
 

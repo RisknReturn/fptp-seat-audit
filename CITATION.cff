@@ -2,15 +2,15 @@ cff-version: 1.2.0
 message: "If you use this code or the note, please cite it as below."
 title: "fptp-seat-audit: a numerical audit of factor-based FPTP seat distributions (Great Britain 2024 case study)"
 version: 0.2.3
-date-released: "__V023_DATE__"
+date-released: "2026-11-02"
 license: MIT
-doi: __CONCEPT_DOI__
+doi: 10.5281/zenodo.23887748
 identifiers:
   - type: doi
-    value: __CONCEPT_DOI__
+    value: 10.5281/zenodo.23887748
     description: "Concept DOI (all versions)"
   - type: doi
-    value: __V022_DOI__
+    value: 10.5281/zenodo.23887749
     description: "Version 0.2.2"
 type: software
 repository-code: "https://github.com/RisknReturn/fptp-seat-audit"
